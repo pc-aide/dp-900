@@ -14,3 +14,4 @@
 |7|Azure Synapse Analytics|Formerly SQL Data **Warehouse**, Azure Synapse Analytics is an analytics service that brings together big data and data warehousing. It gives you the freedom to query data on your terms, using serverless on-demand or provisioned resources.|
 |8|Azure SQL Server|
 |9|Azure SQL Managed Instance||<img src="https://i.imgur.com/Dw63q1Q.png">|
+|10|Azure SQL Edge|zure SQL Edge is an optimized relational database engine geared toward Internet of Things (**IoT**) and edge computing scenarios. It offers a small footprint that can run a variety of devices from low-power edge devices to high-performance edge servers|<img src="https://i.imgur.com/MX0T3wY.png">|
