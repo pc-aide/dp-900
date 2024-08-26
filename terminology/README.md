@@ -16,3 +16,4 @@ e# terminology
 |9|Azure SQL Managed Instance|PaaS|<img src="https://i.imgur.com/Dw63q1Q.png"><br/>what is sql managed instance:<br/><img src="https://i.imgur.com/mpHp82h.png">|
 |10|Azure SQL Edge|zure SQL Edge is an optimized relational database engine geared toward Internet of Things (**IoT**) and edge computing scenarios. It offers a small footprint that can run a variety of devices from low-power edge devices to high-performance edge servers|<img src="https://i.imgur.com/MX0T3wY.png">|
 |11|Azure SQL Database|PaaS|
+|12|Azure Database for MySQL||
