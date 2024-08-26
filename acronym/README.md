@@ -11,3 +11,4 @@
 |4|DCL|Data Control Language<br/><br/>DCL to create **roles**, permissions, & refential integrity;<br/>it is also used to control access databases by securing them.Common statements are:<br/>* GRANT<br/>* REVOKE<br/>* DENY|
 |5|TCL|Transaction Control Language<br/><br/>They include:<br/>* COMMIT<br/>* ROLLBACK<br/>* SAVEPOINT|
 |6|SSAS|SQL Server Analysis Services|
+|7|MPP|massive parallel processing|
