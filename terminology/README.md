@@ -17,3 +17,4 @@ e# terminology
 |10|Azure SQL Edge|zure SQL Edge is an optimized relational database engine geared toward Internet of Things (**IoT**) and edge computing scenarios. It offers a small footprint that can run a variety of devices from low-power edge devices to high-performance edge servers|<img src="https://i.imgur.com/MX0T3wY.png">|
 |11|Azure SQL Database|PaaS|
 |12|Azure Database for MySQL||
+|13|NoSQL|NoSQL in Azure refers to a category of database management systems that do not use a traditional relational database model. Instead of relying on fixed schema tables and rows, NoSQL databases use flexible schemas, allowing them to handle large volumes of diverse data types such as structured, semi-structured, and unstructured data. These databases are designed for scalability, high performance, and to support large-scale, distributed applications.<br/><br/><ins>Azure Cosmos DB</ins><br/><br/><ins>Azure Table Storage</ins><br/><br/><ins>Azure Cache for Redis</ins><br/>|
