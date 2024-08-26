@@ -1,4 +1,4 @@
-e# terminology
+# terminology
 
 ---
 
@@ -17,4 +17,4 @@ e# terminology
 |10|Azure SQL Edge|zure SQL Edge is an optimized relational database engine geared toward Internet of Things (**IoT**) and edge computing scenarios. It offers a small footprint that can run a variety of devices from low-power edge devices to high-performance edge servers|<img src="https://i.imgur.com/MX0T3wY.png">|
 |11|Azure SQL Database|PaaS|
 |12|Azure Database for MySQL||
-|13|NoSQL|NoSQL in Azure refers to a category of database management systems that do not use a traditional relational database model. Instead of relying on fixed schema tables and rows, NoSQL databases use flexible schemas, allowing them to handle large volumes of diverse data types such as structured, semi-structured, and unstructured data. These databases are designed for scalability, high performance, and to support large-scale, distributed applications.<br/><br/><ins>Azure Cosmos DB</ins><br/><br/><ins>Azure Table Storage</ins><br/><br/><ins>Azure Cache for Redis</ins><br/>|
+|13|NoSQL|NoSQL in Azure refers to a category of database management systems that do not use a traditional relational database model. Instead of relying on fixed schema tables and rows, NoSQL databases use flexible schemas, allowing them to handle large volumes of diverse data types such as structured, semi-structured, and unstructured data. These databases are designed for scalability, high performance, and to support large-scale, distributed applications.<br/><br/><ins>Azure Cosmos DB</ins><br/>A fully managed, globally distributed NoSQL database service that supports multiple data models, including document, key-value, graph, and column-family. Cosmos DB offers multi-master replication, guara<br/><br/><ins>Azure Table Storage</ins><br/>A NoSQL key-value store that provides a simple and cost-effective solution for storing large amounts of structured, non-relational data. It is often used for applications that require scalable storage, like web applications, configuration settings, or user session data.<br/><br/><ins>Azure Cache for Redis</ins><br/>Although primarily a caching solution, Redis on Azure can also serve as a NoSQL key-value store. It supports a variety of data structures such as strings, hashes, lists, sets, and more, offering in-memory storage for high-speed access|
