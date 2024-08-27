@@ -12,3 +12,4 @@
 |5|TCL|Transaction Control Language<br/><br/>They include:<br/>* COMMIT<br/>* ROLLBACK<br/>* SAVEPOINT|
 |6|SSAS|SQL Server Analysis Services|
 |7|MPP|massive parallel processing|
+|8|SAS|Shared access signatures|
