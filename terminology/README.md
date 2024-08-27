@@ -23,3 +23,4 @@
 |16|POSIX-compliant ACLs|
 |17|Azure Databricks|
 |18|Azure Data Factory|
+|19|Azure File Sync|
