@@ -21,3 +21,4 @@
 |14|azure data lake storage gen2|
 |15|storage account||options:<br/><img src="https://i.imgur.com/bp1A4bv.png"><br/>flowchart of the security features:<br/><img src="https://i.imgur.com/6cZFcpx.png"><br/>Scalability potential of azure storage account:<br/><img src="https://i.imgur.com/ZrJ5eKq.png">|
 |16|POSIX-compliant ACLs|
+|17|Azure Databricks|
