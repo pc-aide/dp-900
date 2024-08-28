@@ -28,3 +28,4 @@
 |21|Gremlin API|
 |22|Azure HDInsight|
 |23|MongoDB API|
+|24|Table API|
