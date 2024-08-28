@@ -24,3 +24,4 @@
 |17|Azure Databricks|
 |18|Azure Data Factory|
 |19|Azure File Sync|
+|20|Cassandra API|
