@@ -39,3 +39,4 @@
 |32|Microsoft Fabric|SaaS|
 |33|Batch data|
 |34|Streaming data|
+|35|Azure Data Explorer (ADX) Cluster|
