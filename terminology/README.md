@@ -32,3 +32,4 @@
 |25|Turnkey Global Distribution|
 |26|Power BI||Data journey from Azure data sources to visualization to Power BI:<br/><img src="https://i.imgur.com/gUPpfVh.png">|
 |27|Azure Analysis Services|
+|28|data types||<img src="https://i.imgur.com/PkCsvSR.png">|
