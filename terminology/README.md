@@ -37,3 +37,4 @@
 |30|ELT||<img src="https://i.imgur.com/lRKSOpl.png">|
 |31|Data Pipeline|
 |32|Microsoft Fabric|SaaS|
+|33|Batch data|
