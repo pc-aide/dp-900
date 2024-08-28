@@ -35,3 +35,4 @@
 |28|data types||<img src="https://i.imgur.com/PkCsvSR.png">|
 |29|ETL||<img src="https://i.imgur.com/lB45r9y.png">|
 |30|ELT||<img src="https://i.imgur.com/lRKSOpl.png">|
+|31|Data Pipeline|
