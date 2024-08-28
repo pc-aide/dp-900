@@ -33,4 +33,5 @@
 |26|Power BI||Data journey from Azure data sources to visualization to Power BI:<br/><img src="https://i.imgur.com/gUPpfVh.png">|
 |27|Azure Analysis Services|
 |28|data types||<img src="https://i.imgur.com/PkCsvSR.png">|
-|ETL||<img src="https://i.imgur.com/lRKSOpl.png">|
+|29|ETL||<img src="https://i.imgur.com/lB45r9y.png">|
+|30|ELT||<img src="https://i.imgur.com/lRKSOpl.png">|
