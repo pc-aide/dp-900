@@ -14,3 +14,4 @@
 |7|MPP|massive parallel processing|
 |8|SAS|Shared access signatures|
 |9|SSE|Storage Service Encryption|
+|10|KQL|Kusto Query Language|
