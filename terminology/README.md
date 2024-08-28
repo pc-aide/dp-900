@@ -26,3 +26,4 @@
 |19|Azure File Sync|
 |20|Cassandra API|
 |21|Gremlin API|
+|22|Azure HDInsight|
