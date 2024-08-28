@@ -30,3 +30,4 @@
 |23|MongoDB API|
 |24|Table API|
 |25|Turnkey Global Distribution|
+|26|Power BI|
