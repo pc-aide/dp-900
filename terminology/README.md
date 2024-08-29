@@ -41,4 +41,5 @@
 |34|Streaming data|
 |35|Azure Data Explorer (ADX) Cluster|
 |36|Spark Structured Streaming|
-|37|Start SChema||<img src="https://i.imgur.com/bPK2fK9.png">|
+|37|Start Schema||<img src="https://i.imgur.com/bPK2fK9.png">|
+|38|Snowflake schema||<img src="https://i.imgur.com/PTQzCKn.png">|
