@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 2</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form id="question2Form">
+      <div class="question-row">
+          <label for="question2_statement1_yes">Normalization involves eliminating relationships between database tables:</label><br>
+          <input type="radio" name="question2_statement1" id="question2_statement1_yes" value="yes"> Yes
+          <input type="radio" name="question2_statement1" id="question2_statement1_no" value="no"> No
+      </div>
+      <div class="question-row">
+          <label for="question2_statement2_yes">Normalizing a database reduces data redundancy:</label><br>
+          <input type="radio" name="question2_statement2" id="question2_statement2_yes" value="yes"> Yes
+          <input type="radio" name="question2_statement2" id="question2_statement2_no" value="no"> No
+      </div>
+      <div class="question-row">
+          <label for="question2_statement3_yes">Normalization improves data integrity:</label><br>
+          <input type="radio" name="question2_statement3" id="question2_statement3_yes" value="yes"> Yes
+          <input type="radio" name="question2_statement3" id="question2_statement3_no" value="no"> No
+      </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question2">Solution</button>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.</p>
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://www.sqlshack.com/what-is-database-normalization-in-sql-server/" target="_blank">What is Database Normalization in SQL Server?</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description#:~:text=Normalization%20is%20the%20process%20of,eliminating%20redundancy%20and%20inconsistent%20dependency" target="_blank">Database Normalization Description</a></li>
+      </ul>
+      <p id="correctAnswers_question2" style="display: none;">
+          <strong>Correct Answer:</strong><br>
+          Normalization involves eliminating relationships between database tables: No<br>
+          Normalizing a database reduces data redundancy: Yes<br>
+          Normalization improves data integrity: Yes
+      </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

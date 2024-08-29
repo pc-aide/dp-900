@@ -1,0 +1,32 @@
+<div>
+  <h2>Question 3</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+
+  <form>
+    <label>
+      <select name="question3_etl_process" id="question3_etl_process">
+        <option value="a matching schema in the data soure & the data target">a matching schema in the data soure & the data target</option>
+        <option value="a target data store powerfull enough to transform data">a target data store powerfull enough to transform data</option>
+        <option value="data that is fully processed before being loaded to the target data store">data that is fully processed before being loaded to the target data store</option>
+        <option value="that the data target be a relational database">that the data target be a relational database</option>
+      </select>
+    </label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question3">Solution</button>
+
+  <div id="solutionInfo_question3" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>ETL process, note the order EXTRACT, TRANSFORM, LOAD. Data should be TRANSFORMED (processed) before it is loaded.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl" target="_blank">ETL Process in Azure Architecture</a></li>
+    </ul>
+    <p id="correctAnswers_question3" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      <strong>data that is fully processed before being loaded to the target data store</strong>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer3.js"></script>
