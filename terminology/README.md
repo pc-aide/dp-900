@@ -43,3 +43,4 @@
 |36|Spark Structured Streaming|
 |37|Start Schema||<img src="https://i.imgur.com/bPK2fK9.png">|
 |38|Snowflake schema||<img src="https://i.imgur.com/PTQzCKn.png">|
+|39|transactional model||pending img to insert here ...|
