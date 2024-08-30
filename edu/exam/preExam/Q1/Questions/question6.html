@@ -1,0 +1,48 @@
+<div>
+  <h2>Question 6</h2>
+  <p>Match the types of analytics that can be used to answer the business questions. To answer, drag the appropriate analytics type from the column on the left to its question on the right. Each analytics type may be used once, more than once, or not at all.</p>
+  
+  <form>
+    <label>Analytics Types:</label>
+    <div id="analyticsTypes">
+      <div id="6_1" draggable="true" class="draggable">Cognitive</div>
+      <div id="6_2" draggable="true" class="draggable">Diagnostic</div>
+      <div id="6_3" draggable="true" class="draggable">Descriptive</div>
+      <div id="6_4" draggable="true" class="draggable">Predictive</div>
+      <div id="6_5" draggable="true" class="draggable">Prescriptive</div>
+    </div>
+
+    <label>Questions:</label>
+    <div id="questions">
+      <div class="questionLabel">Why did sales increase last month?</div>
+      <div id="6_step1" class="dropzone"></div>
+
+      <div class="questionLabel">How do I allocate my budget to buy different inventory items?</div>
+      <div id="6_step2" class="dropzone"></div>
+
+      <div class="questionLabel">Which people are mentioned in a company's business document?</div>
+      <div id="6_step3" class="dropzone"></div>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question6">Solution</button>
+
+  <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>1. Diagnostic: It answers the question "Why did it happen?"</p>
+    <p>2. Prescriptive: It answers the question "How can we make it happen?"</p>
+    <p>The third scenario doesn't look into "what happened": It's asking for text analytics, which is not a descriptive function but a cognitive one.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/named-entity-recognition/overview" target="_blank">Named Entity Recognition Overview</a></li>
+    </ul>
+    <p id="correctAnswers_question6" style="display: none;">
+      <strong>Correct Order:</strong><br>
+      <strong>Question 1:</strong> Diagnostic<br>
+      <strong>Question 2:</strong> Prescriptive<br>
+      <strong>Question 3:</strong> Cognitive
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>

@@ -1,0 +1,64 @@
+<div>
+  <h2>Question 8</h2>
+  <p>You are reviewing the data model shown in the following exhibit:</p>
+  <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q1/img/q8.png" alt="Data Model" style="max-width: 100%; height: auto;">
+
+  <p>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic:</p>
+
+  <form>
+    <div>
+      <label for="dataModel_8">The data model is:</label>
+      <select id="dataModel_8">
+        <option value="transactionalModel">transactional model</option>
+        <option value="starSchema">star schema</option>
+        <option value="snowflakeSchema">snowflake schema</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="customer_8">Customer is a:</label>
+      <select id="customer_8">
+        <option value="fact">fact</option>
+        <option value="dimension">dimension</option>
+        <option value="bridge">bridge</option>
+      </select>
+      <span>table</span>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question8">Solution</button>
+
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>
+      1. Star Schema in data warehouse, in which the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema as its structure resembles a star.
+    </p>
+    <p>
+      2. Dimension tables describe business entities—the things you model. Entities can include products, people, places, and concepts including time itself. Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key columns that relate to dimension tables, and numeric measure columns.
+    </p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview" target="_blank">Azure Synapse Analytics - Tables Overview</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Star_schema" target="_blank">Star Schema - Wikipedia</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Snowflake_schema" target="_blank">Snowflake Schema - Wikipedia</a></li>
+      <li><a href="https://azure.microsoft.com/en-us/blog/data-models-within-azure-analysis-services-and-power-bi/" target="_blank">Data Models in Azure Analysis Services and Power BI</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#column-family-databases" target="_blank">Azure Data Store Overview</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/power-bi/guidance/star-schema" target="_blank">Power BI - Star Schema</a></li>
+    </ul>
+
+    <p id="correctAnswers_question8" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>The data model is:</strong> star schema<br>
+      <strong>Customer is:</strong> dimension
+    </p>
+    
+    <p id="yourAnswer_question8" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerDataModel_8"></span><br>
+      <span id="yourAnswerCustomer_8"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer8.js"></script>

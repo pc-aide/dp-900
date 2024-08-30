@@ -1,0 +1,87 @@
+<div>
+  <h2>Question 7</h2>
+  <p>You have the following JSON document:</p>
+  <pre>
+    {
+      "customer" : {
+        "first name" : "Ben",
+        "last name" : "Smith",
+        "address" : {
+          "line 1" : "161 Azure Ln",
+          "line 2" : "Palo Alto",
+          "ZIP code" : "54762"
+        },
+        "social media" : [
+          {
+            "service" : "twitter",
+            "handle" : "@bensmith"
+          },
+          {
+            "service" : "linkedin",
+            "handle" : "bensmith"
+          }
+        ],
+        "phone numbers" : [
+          {
+            "type" : "mobile",
+            "number" : "555o-555-555"
+          }
+        ]
+      }
+    }
+  </pre>
+
+  <p>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the JSON document:</p>
+
+  <form>
+    <div>
+      <label for="customer">Customer is:</label>
+      <select id="customer">
+        <option value="nestedArray">a nested array</option>
+        <option value="nestedObject">a nested object</option>
+        <option value="rootObject">a root object</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="address">Address is:</label>
+      <select id="address">
+        <option value="nestedArray">a nested array</option>
+        <option value="nestedObject">a nested object</option>
+        <option value="rootObject">a root object</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="socialMedia">Social media is:</label>
+      <select id="socialMedia">
+        <option value="nestedArray">a nested array</option>
+        <option value="nestedObject">a nested object</option>
+        <option value="rootObject">a root object</option>
+      </select>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question7">Solution</button>
+
+  <div id="solutionInfo_question7" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>
+      The customer is a root object, address is a nested object, and social media is a nested array. The customer object is the main root object in the JSON, the address is an object nested within the customer, and social media is an array within the customer object.
+    </p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.w3schools.com/js/js_json_arrays.asp" target="_blank">JSON Arrays</a></li>
+      <li><a href="https://www.w3schools.com/js/js_json_objects.asp" target="_blank">JSON Objects</a></li>
+      <li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-json" target="_blank">Introduction to JSON</a></li>
+    </ul>
+    <p id="correctAnswers_question7" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>Customer is:</strong> a root object<br>
+      <strong>Address is:</strong> a nested object<br>
+      <strong>Social media is:</strong> a nested array
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer7.js"></script>
