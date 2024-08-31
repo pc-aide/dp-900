@@ -1,0 +1,60 @@
+<div>
+  <h2>Question 17</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form id="question17">
+    <div>
+      <p>1. Each Azure SQL managed instance supports multiple databases that can be accessed by using cross-database queries:</p>
+      <input type="radio" id="crossDbYes" name="crossDbQueries" value="Yes">
+      <label for="crossDbYes">Yes</label>
+      <input type="radio" id="crossDbNo" name="crossDbQueries" value="No">
+      <label for="crossDbNo">No</label>
+    </div>
+
+    <div>
+      <p>2. Elastic pools are used to share resources across multiple instances of SQL Server on Azure Virtual Machines:</p>
+      <input type="radio" id="elasticPoolsYes" name="elasticPools" value="Yes">
+      <label for="elasticPoolsYes">Yes</label>
+      <input type="radio" id="elasticPoolsNo" name="elasticPools" value="No">
+      <label for="elasticPoolsNo">No</label>
+    </div>
+
+    <div>
+      <p>3. Azure SQL Database is fully compatible with both on-premises physical instances & virtualized instance of Microsoft SQL Server:</p>
+      <input type="radio" id="sqlDbYes" name="sqlDbCompatibility" value="Yes">
+      <label for="sqlDbYes">Yes</label>
+      <input type="radio" id="sqlDbNo" name="sqlDbCompatibility" value="No">
+      <label for="sqlDbNo">No</label>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question17">Solution</button>
+
+  <div id="solutionInfo_question17" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q17.png">
+    <ol>
+      <li>Azure SQL Managed support cross-DB queries using three-part name queries.</li>
+      <li>Elastic pools are used to manage and scale multiple databases with varying workloads on Azure SQL Database, not SQL Server on Azure Virtual Machines.</li>
+      <li>Azure SQL Database is not fully compatible with on-premises physical instances & virtualized instances of Microsoft SQL Server.</li>
+    </ol>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql" target="_blank">Azure SQL Elastic Pool Overview</a></li>
+    </ul>
+
+    <p id="correctAnswers_question17" style="display: none;">
+      <strong>Correct Answers:</strong> Yes, No, No
+    </p>
+
+    <p id="yourAnswer_question17" style="display: none;">
+      <strong>Your Answers:</strong> 
+      <span id="yourAnswerCrossDbQueries"></span>, 
+      <span id="yourAnswerElasticPools"></span>, 
+      <span id="yourAnswerSqlDbCompatibility"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer17.js"></script>
