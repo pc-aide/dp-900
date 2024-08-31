@@ -1,0 +1,54 @@
+<div>
+  <h2>Question 12</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+  
+  <form>
+    <div>
+      <label>Batch processing can output data to a file store:</label><br>
+      <input type="radio" name="outputToFileStore" value="Yes" id="fileStoreYes_12"> Yes<br>
+      <input type="radio" name="outputToFileStore" value="No" id="fileStoreNo_12"> No
+    </div>
+    <div>
+      <label>Batch processing can output data to a relational database:</label><br>
+      <input type="radio" name="outputToRelationalDB" value="Yes" id="relationalDBYes_12"> Yes<br>
+      <input type="radio" name="outputToRelationalDB" value="No" id="relationalDBNo_12"> No
+    </div>
+    <div>
+      <label>Batch processing can output data to a NoSQL database:</label><br>
+      <input type="radio" name="outputToNoSQLDB" value="Yes" id="noSQLDBYes_12"> Yes<br>
+      <input type="radio" name="outputToNoSQLDB" value="No" id="noSQLDBNo_12"> No
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Batch processing can have output to SQL Database, Hive, HBase, Spark SQL.</p>
+    <p>
+      1. Batch processing can indeed output data to a file store. This is commonly used for storing large volumes of data in files, such as logs, reports, or backups.<br>
+      2. Batch processing can also output data to a relational database. This is useful for scenarios where structured data needs to be stored and queried efficiently.<br>
+      3. Batch processing can also output data to a NoSQL database. NoSQL databases are designed to handle unstructured or semi-structured data, making them suitable for various use cases.
+    </p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/batch-processing" target="_blank">Batch Processing - Microsoft Docs</a></li>
+    </ul>
+
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Batch processing can output data to a file store: Yes<br>
+      Batch processing can output data to a relational database: Yes<br>
+      Batch processing can output data to a NoSQL database: Yes
+    </p>
+    
+    <p id="yourAnswer_question12" style="display: none;">
+      <strong>Your Answers:</strong><br>
+      <span id="yourAnswerFileStore_12"></span><br>
+      <span id="yourAnswerRelationalDB_12"></span><br>
+      <span id="yourAnswerNoSQLDB_12"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

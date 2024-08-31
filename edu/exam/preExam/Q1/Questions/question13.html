@@ -1,0 +1,51 @@
+<div>
+  <h2>Question 13</h2>
+  <p>You need to create an Azure Storage account. Data in the account must replicate outside the Azure region automatically. Which two types of replication can you use for the storage account? Each correct answer presents a complete solution.</p>
+  
+  <form>
+    <div>
+      <input type="checkbox" name="replicationOption" value="A" id="optionA_13"> 
+      <label for="optionA_13">A. zone-redundant storage (ZRS)</label><br>
+      
+      <input type="checkbox" name="replicationOption" value="B" id="optionB_13"> 
+      <label for="optionB_13">B. read-access geo-redundant storage (RA-GRS)</label><br>
+      
+      <input type="checkbox" name="replicationOption" value="C" id="optionC_13"> 
+      <label for="optionC_13">C. locally-redundant storage (LRS)</label><br>
+      
+      <input type="checkbox" name="replicationOption" value="D" id="optionD_13"> 
+      <label for="optionD_13">D. geo-redundant storage (GRS)</label>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Azure Storage offers two options for copying your data to a secondary region:</p>
+    <ul>
+      <li>Geo-redundant storage (GRS)</li>
+      <li>Geo-zone-redundant storage (GZRS)</li>
+    </ul>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy#redundancy-in-a-secondary-region" target="_blank">Redundancy in a Secondary Region - Microsoft Docs</a></li>
+    </ul>
+    
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      B. read-access geo-redundant storage (RA-GRS)<br>
+      D. geo-redundant storage (GRS)
+    </p>
+    
+    <p id="yourAnswer_question13" style="display: none;">
+      <strong>Your Answers:</strong><br>
+      <span id="yourAnswerOptionA_13"></span><br>
+      <span id="yourAnswerOptionB_13"></span><br>
+      <span id="yourAnswerOptionC_13"></span><br>
+      <span id="yourAnswerOptionD_13"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

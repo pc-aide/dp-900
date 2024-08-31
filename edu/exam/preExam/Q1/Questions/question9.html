@@ -1,0 +1,39 @@
+<div>
+  <h2>Question 9</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+  The massively parallel processing (MPP) engine of Azure Synapse Analytics:
+  <form>
+    <div>
+      <select id="mppEngine_9">
+        <option value="distributesProcessingAcrossComputeNodes">distributes processing across compute nodes</option>
+        <option value="distributesProcessingAcrossControlNodes">distributes processing across control nodes</option>
+        <option value="redirectsClientConnectionsAcrossComputeNodes">redirects client connections across compute nodes</option>
+        <option value="redirectsClientConnectionsAcrossControlNodes">redirects client connections across control nodes</option>
+      </select>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question9">Solution</button>
+
+  <div id="solutionInfo_question9" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Distributions map to Compute nodes for processing. As you pay for more compute resources, distributions are remapped to available Compute nodes.</p>
+    <p><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q1/img/q9.png" alt="Massively Parallel Processing (MPP) Engine" style="max-width: 100%; height: auto;"></p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture" target="_blank">Massively Parallel Processing (MPP) Architecture - Azure Synapse Analytics</a></li>
+    </ul>
+
+    <p id="correctAnswers_question9" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      <strong>The massively parallel processing (MPP) engine of Azure Synapse Analytics:</strong> distributes processing across compute nodes
+    </p>
+    
+    <p id="yourAnswer_question9" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerMppEngine_9"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer9.js"></script>

@@ -1,0 +1,40 @@
+<div>
+  <h2>Question 10</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area:</p>
+
+  <form>
+    <div style="display: flex; align-items: center;">
+      <select id="index_10">
+        <option value="clusteredIndex">A clustered index</option>
+        <option value="fileTable">A FileTable</option>
+        <option value="foreignKey">A foreign key</option>
+        <option value="storedProcedure">A stored procedure</option>
+      </select>
+      <span style="margin-left: 10px;">is an object associated with a table that sorts & stores the data rows in the table based on their key values</span>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question10">Solution</button>
+
+  <div id="solutionInfo_question10" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>These are the columns included in the index definition. There can be only one clustered index per table, because the data rows themselves can be stored in only one order. Nonclustered indexes have a structure separate from the data rows. A nonclustered index contains the nonclustered index key values and each key value entry has a pointer to the data row that contains the key value.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15" target="_blank">Clustered and Nonclustered Indexes - Microsoft Docs</a></li>
+    </ul>
+
+    <p id="correctAnswers_question10" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      <strong>To complete the sentence:</strong> A clustered index
+    </p>
+    
+    <p id="yourAnswer_question10" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerIndex_10"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer10.js"></script>

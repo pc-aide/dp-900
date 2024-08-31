@@ -1,0 +1,39 @@
+<div>
+  <h2>Question 11</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+  A relational database is appropriate for scenarios that involve a high volume of:
+  <form>
+    <div>
+      <select id="transactional_11">
+        <option value="changesToRelationships">changes to relationships between entities</option>
+        <option value="geographicallyDistributedWrites">geographically distributed writes</option>
+        <option value="transactionalWrites">transactional writes</option>
+        <option value="writesWithVaryingStructures">writes that have varying data structures</option>
+      </select>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question11">Solution</button>
+
+  <div id="solutionInfo_question11" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Transactional writes. OLTP (Online Transaction Processing) systems are designed for transactional operations, which are typically managed by relational databases (RDBMS).</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data" target="_blank">Relational vs NoSQL Data - Microsoft Docs</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/ef/core/saving/transactions" target="_blank">Saving Data and Transactions - Microsoft Docs</a></li>
+    </ul>
+
+    <p id="correctAnswers_question11" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      <strong>A relational database is appropriate for scenarios that involve a high volume of:</strong> transactional writes
+    </p>
+    
+    <p id="yourAnswer_question11" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerTransactional_11"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer11.js"></script>

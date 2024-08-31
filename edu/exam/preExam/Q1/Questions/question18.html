@@ -1,0 +1,49 @@
+<div>
+  <h2>Question 18</h2>
+  <p>Match the Azure Data Lake Storage Gen2 terms to the appropriate levels in the hierarchy.</p>
+  <p>To answer, drag the appropriate data type from the column on the left to its service on the right. Each data type may be used once, more than once, or not at all.</p>
+  
+  <form>
+    <label>Data Types:</label>
+    <div id="dataTypes">
+      <div id="imageFiles" draggable="true" class="draggable">Image files</div>
+      <div id="keyValuePairs" draggable="true" class="draggable">Key/value pairs</div>
+      <div id="relationships" draggable="true" class="draggable">Relationships between employees</div>
+    </div>
+
+    <label>Data Services:</label>
+    <div id="dataServices">
+      <div class="serviceLabel">Azure Blob storage</div>
+      <div id="dropzoneBlobStorage" class="dropzone"></div>
+
+      <div class="serviceLabel">Azure Table storage</div>
+      <div id="dropzoneTableStorage" class="dropzone"></div>
+
+      <div class="serviceLabel">Azure Cosmos DB Gremlin API</div>
+      <div id="dropzoneGremlinAPI" class="dropzone"></div>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question18">Solution</button>
+
+  <div id="solutionInfo_question18" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>1. Azure Blob storage is ideal for storing large amounts of unstructured data such as image files.</p>
+    <p>2. Azure Table storage is designed for key-value storage, making it suitable for key/value pairs.</p>
+    <p>3. Azure Cosmos DB Gremlin API is optimized for managing graph data, which is useful for modeling relationships between entities.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-overview" target="_blank">Azure Blob Storage Overview</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/tables/table-storage-design-modeling" target="_blank">Azure Table Storage Design & Modeling</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-overview" target="_blank">Azure Cosmos DB Gremlin API Overview</a></li>
+    </ul>
+    <p id="correctAnswers_question18" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>Image files:</strong> Azure Blob storage<br>
+      <strong>Key/value pairs:</strong> Azure Table storage<br>
+      <strong>Relationships between employees:</strong> Azure Cosmos DB Gremlin API
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer18.js"></script>

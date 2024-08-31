@@ -1,0 +1,47 @@
+<div>
+  <h2>Question 16</h2>
+  <p>You have a SQL query that combines customer data and order data. The query includes calculated columns. You need to create a database object that would allow other users to rerun the same SQL query. What should you create?</p>
+
+  <form>
+    <div>
+      <input type="radio" name="sqlQueryObject" value="A" id="optionA_16"> 
+      <label for="optionA_16">A. an index</label>
+    </div>
+    <div>
+      <input type="radio" name="sqlQueryObject" value="B" id="optionB_16"> 
+      <label for="optionB_16">B. a view</label>
+    </div>
+    <div>
+      <input type="radio" name="sqlQueryObject" value="C" id="optionC_16"> 
+      <label for="optionC_16">C. a scalar function</label>
+    </div>
+    <div>
+      <input type="radio" name="sqlQueryObject" value="D" id="optionD_16"> 
+      <label for="optionD_16">D. a table</label>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question16">Solution</button>
+
+  <div id="solutionInfo_question16" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>A view is a virtual table whose contents are defined by a query. A view acts as a filter on the underlying tables referenced in the view. The query that defines the view can be from one or more tables or from other views in the current or other databases. It provides a way to save the query logic so that users can rerun the query easily.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views" target="_blank">Views - SQL Server</a></li>
+    </ul>
+
+    <p id="correctAnswers_question16" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      B. a view
+    </p>
+
+    <p id="yourAnswer_question16" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerOption_16"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer16.js"></script>
