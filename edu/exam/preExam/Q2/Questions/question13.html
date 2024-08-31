@@ -1,0 +1,52 @@
+<div>
+  <h2>Question 13</h2>
+  <p>You plan to deploy a PostgreSQL database to Azure. Which hosting model corresponds to the available deployment options? To answer, select the appropriate options in the answer area.</p>
+
+  <form>
+    <div>
+      <label for="postgresqlVM_13">PostgreSQL on Azure VMs:</label>
+      <select id="postgresqlVM_13">
+        <option value="iaas">IaaS</option>
+        <option value="paas">PaaS</option>
+        <option value="saas">SaaS</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="azureDBPostgreSQL_13">Azure Database for PostgreSQL:</label>
+      <select id="azureDBPostgreSQL_13">
+        <option value="iaas">IaaS</option>
+        <option value="paas">PaaS</option>
+        <option value="saas">SaaS</option>
+      </select>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>
+      With Azure, your PostgreSQL workloads can run in a hosted virtual machine infrastructure as a service (IaaS) or as a hosted platform as a service (PaaS).
+    </p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/postgresql/overview-postgres-choose-server-options" target="_blank">Azure PostgreSQL Deployment Options</a></li>
+    </ul>
+
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>PostgreSQL on Azure VMs:</strong> IaaS<br>
+      <strong>Azure Database for PostgreSQL:</strong> PaaS
+    </p>
+    
+    <p id="yourAnswer_question13" style="display: none;">
+      <strong>Your Answer:</strong><br>
+      <span id="yourAnswerPostgreSQLVM_13"></span><br>
+      <span id="yourAnswerAzureDBPostgreSQL_13"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

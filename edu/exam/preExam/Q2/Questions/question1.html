@@ -1,0 +1,49 @@
+<div>
+  <h2>Question 01</h2>
+  <p>Match the Azure Data Factory components to the appropriate descriptions. To answer, drag the appropriate component from the column on the left to its description on the right. Each component may be used once, more than once, or not at all.</p>
+  
+  <form>
+    <label>Azure Data Factory Components:</label>
+    <div id="adfComponents">
+      <div id="1_1" draggable="true" class="draggable">Dataset</div>
+      <div id="1_2" draggable="true" class="draggable">Linked service</div>
+      <div id="1_3" draggable="true" class="draggable">Mapping data flow</div>
+      <div id="1_4" draggable="true" class="draggable">Pipeline</div>
+    </div>
+
+    <label>Descriptions:</label>
+    <div id="descriptions">
+      <div class="descriptionLabel">A representation of data structures within data stores</div>
+      <div id="1_step1" class="dropzone"></div>
+
+      <div class="descriptionLabel">The information used to connect to external resources</div>
+      <div id="1_step2" class="dropzone"></div>
+
+      <div class="descriptionLabel">A logical grouping of activities that performs a unit of work & can be scheduled</div>
+      <div id="1_step3" class="dropzone"></div>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question1">Solution</button>
+
+  <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q1.png">
+    <p>1. Dataset: A data set (or dataset) is a collection of data. In the case of tabular data, a data set corresponds to one or more database tables, where every column of a table represents a particular variable, and each row corresponds to a given record of the data set in question</p>
+    <p>2. Linked service: The information used to connect to external resources.</p>
+    <p>3. Pipeline: A logical grouping of activities that performs a unit of work and can be scheduled.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-linked-services#overview" target="_blank">Linked Services Overview</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities" target="_blank">Pipelines and Activities</a></li>
+    </ul>
+    <p id="correctAnswers_question1" style="display: none;">
+      <strong>Correct Order:</strong><br>
+      <strong>Description 1:</strong> Dataset<br>
+      <strong>Description 2:</strong> Linked service<br>
+      <strong>Description 3:</strong> Pipeline
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

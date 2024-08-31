@@ -1,0 +1,55 @@
+<div>
+  <h2>Question 12</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+  
+  <form id="question12">
+    <div>
+      <p>Extract, transform, & load (ETL) can reduce the transfer of sensitive data to destination systems:</p>
+      <input type="radio" id="question12_1_yes" name="question12_1" value="Yes">
+      <label for="question12_1_yes">Yes</label><br>
+      <input type="radio" id="question12_1_no" name="question12_1" value="No">
+      <label for="question12_1_no">No</label>
+    </div>
+    
+    <div>
+      <p>Extract, load, & transform (ELT) transforms data by using a compute resource independent of the source system & destination system:</p>
+      <input type="radio" id="question12_2_yes" name="question12_2" value="Yes">
+      <label for="question12_2_yes">Yes</label><br>
+      <input type="radio" id="question12_2_no" name="question12_2" value="No">
+      <label for="question12_2_no">No</label>
+    </div>
+    
+    <div>
+      <p>Extract, load, & transform (ELT) minimizes the time it takes to copy large volumes of data to destination systems:</p>
+      <input type="radio" id="question12_3_yes" name="question12_3" value="Yes">
+      <label for="question12_3_yes">Yes</label><br>
+      <input type="radio" id="question12_3_no" name="question12_3" value="No">
+      <label for="question12_3_no">No</label>
+    </div>
+  </form>
+  
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+  
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q12.png">
+    <ul>
+      <li>1 - You can reduce transfer sensitive data with transformations on data source. Data transformation that takes place usually involves various operations, such as filtering.</li>
+      <li>2 - ELT uses the compute resource from the destination system, not from a separate compute resource.</li>
+      <li>3 - ELT minimizes time as transformations are realized on target data destination systems. ELT processes skip the data copy step present in ETL, which can be a time-consuming operation for large data sets.</li>
+    </ul>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl" target="_blank">ETL vs ELT - Microsoft Docs</a></li>
+      <li><a href="https://www.striim.com/blog/etl-vs-elt-differences/" target="_blank">ETL vs ELT Differences - Striim</a></li>
+    </ul>
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>Statement 1:</strong> Yes<br>
+      <strong>Statement 2:</strong> No<br>
+      <strong>Statement 3:</strong> Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

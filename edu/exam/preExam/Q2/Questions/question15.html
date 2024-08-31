@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 15</h2>
+  <p>Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?</p>
+
+  <form id="question15">
+    <div>
+      <input type="radio" id="AzureTableStorage" name="storageService" value="AzureTableStorage">
+      <label for="AzureTableStorage">A. Azure Table storage</label><br>
+
+      <input type="radio" id="AzureDataLakeStorage" name="storageService" value="AzureDataLakeStorage">
+      <label for="AzureDataLakeStorage">B. Azure Data Lake Storage</label><br>
+
+      <input type="radio" id="AzureQueueStorage" name="storageService" value="AzureQueueStorage">
+      <label for="AzureQueueStorage">C. Azure Queue storage</label><br>
+
+      <input type="radio" id="AzureFiles" name="storageService" value="AzureFiles">
+      <label for="AzureFiles">D. Azure Files</label><br>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question15">Solution</button>
+
+  <div id="solutionInfo_question15" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Azure Data Lake Storage Gen2 implements an access control model that supports both Azure role-based access control (Azure RBAC) and POSIX-like access control lists (ACLs).</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control" target="_blank">Azure Data Lake Storage Access Control</a></li>
+    </ul>
+
+    <p id="correctAnswers_question15" style="display: none;">
+      <strong>Correct Answer:</strong> B. Azure Data Lake Storage
+    </p>
+
+    <p id="yourAnswer_question15" style="display: none;">
+      <strong>Your Answer:</strong> <span id="yourAnswerStorageService"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer15.js"></script>

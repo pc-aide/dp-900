@@ -1,0 +1,47 @@
+<div>
+  <h2>Question 3</h2>
+  <p>Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? To answer, drag the appropriate locations to the correct stages. Each location may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.</p>
+
+  <form>
+    <label>Locations:</label>
+    <div id="locations">
+      <div id="3_1" draggable="true" class="draggable" data-original="A standalone data analysis tool">A standalone data analysis tool</div>
+      <div id="3_2" draggable="true" class="draggable" data-original="The CRM system">The CRM system</div>
+      <div id="3_3" draggable="true" class="draggable" data-original="The data warehouse">The data warehouse</div>
+    </div>
+
+    <label>ELT Stages:</label>
+    <div id="eltStages">
+      <div class="descriptionLabel">Extract</div>
+      <div id="3_step1" class="dropzone"></div>
+
+      <div class="descriptionLabel">Load</div>
+      <div id="3_step2" class="dropzone"></div>
+
+      <div class="descriptionLabel">Transform</div>
+      <div id="3_step3" class="dropzone"></div>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question3">Solution</button>
+
+  <div id="solutionInfo_question3" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q3.png">
+    <p>Box1 - Data is extracted from the CRM system.</p>
+    <p>Box2 - Data is loaded to the data warehouse.</p>
+    <p>Box3 - ELT, where your loading and transformation both happen in the Data Warehouse.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl" target="_blank">ETL and ELT in Azure</a></li>
+    </ul>
+    <p id="correctAnswers_question3" style="display: none;">
+      <strong>Correct Order:</strong><br>
+      <strong>Extract:</strong> The CRM system<br>
+      <strong>Load:</strong> The data warehouse<br>
+      <strong>Transform:</strong> The data warehouse
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer3.js"></script>

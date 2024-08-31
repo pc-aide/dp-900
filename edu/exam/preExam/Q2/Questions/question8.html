@@ -1,0 +1,65 @@
+<div>
+  <h2>Question 8</h2>
+  <p>You have the following data.</p>
+
+  <pre>
+{
+	"firstName" : "John",
+	"lastName" : "Doe",
+	"address" :
+	{
+		"streetAddress" : "1 Main St.",
+		"city" : "New York",
+		"state" : "NY",
+		"postalCode" : "10099"
+	}
+},
+{
+	"firstName" : "Jane",
+	"lastName" : "Doe",
+	"address" :
+	{
+		"streetAddress" : "1 Main St.",
+		"city" : "New York",
+		"state" : "NY",
+		"postalCode" : "10099"
+	},
+	"contact" :
+	[
+		{
+			"type" : "email",
+			"address" : "jane.doe@contoso.com"
+		}
+	]
+}
+  </pre>
+
+  <p>Which type of data is this?</p>
+
+  <form id="form_question8">
+    <input type="radio" id="8_a" name="question8" value="unstructured">
+    <label for="8_a">A. unstructured</label><br>
+    
+    <input type="radio" id="8_b" name="question8" value="semi-structured">
+    <label for="8_b">B. semi-structured</label><br>
+    
+    <input type="radio" id="8_c" name="question8" value="structured">
+    <label for="8_c">C. structured</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question8">Solution</button>
+
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Semi-structured data is found in a wide range of forms, from web data like HTML and other markup languages to configuration and log files, and it makes up the backbone of big data processing frameworks like Hadoop. Its lack of predefined schema allows a greater degree of flexibility for integrating data across sources and diverse data structures like JSON and XML extensions.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.datamation.com/big-data/semi-structured-data/" target="_blank">What is Semi-Structured Data?</a></li>
+    </ul>
+    <p id="correctAnswers_question8" style="display: none;">
+      <strong>Correct Answer:</strong> B. semi-structured
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer8.js"></script>

@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 14</h2>
+  <p>You need to implement an Azure platform as a service (PaaS) service that will host a relational database. The solution must support built-in autoscaling.</p>
+
+  <form id="question14">
+    <div>
+      <input type="radio" id="AzureSQLDatabase" name="paasService" value="AzureSQLDatabase">
+      <label for="AzureSQLDatabase">A. Azure SQL Database</label><br>
+
+      <input type="radio" id="SQLServerVM" name="paasService" value="SQLServerVM">
+      <label for="SQLServerVM">B. SQL Server on Azure Virtual Machines</label><br>
+
+      <input type="radio" id="AzureSQLManagedInstance" name="paasService" value="AzureSQLManagedInstance">
+      <label for="AzureSQLManagedInstance">C. Azure SQL Managed Instance</label><br>
+
+      <input type="radio" id="AzureSQLEdge" name="paasService" value="AzureSQLEdge">
+      <label for="AzureSQLEdge">D. Azure SQL Edge</label><br>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question14">Solution</button>
+
+  <div id="solutionInfo_question14" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Azure SQL Database is the correct answer. PaaS + Relational DBaaS = Azure SQL Database.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-auto-scale-azure-sql-databases/ba-p/2235441" target="_blank">How to auto-scale Azure SQL Databases</a></li>
+    </ul>
+
+    <p id="correctAnswers_question14" style="display: none;">
+      <strong>Correct Answer:</strong> A. Azure SQL Database
+    </p>
+    
+    <p id="yourAnswer_question14" style="display: none;">
+      <strong>Your Answer:</strong> <span id="yourAnswerPaasService"></span>
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer14.js"></script>
