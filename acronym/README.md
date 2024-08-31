@@ -15,3 +15,5 @@
 |8|SAS|Shared access signatures|
 |9|SSE|Storage Service Encryption|
 |10|KQL|Kusto Query Language|
+|11|CRM|customer relationship management|
+|12|ELT|extract, load, and transform
