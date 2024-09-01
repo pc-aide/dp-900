@@ -1,44 +1,53 @@
 <div>
   <h2>Question 2</h2>
-  <p>Match the types of workloads to the appropriate scenarios. To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.</p>
+  <p>Match the types of workloads to the appropriate scenarios.</p>
+  <p>To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.</p>
 
-  <form>
-    <label>Workload Types:</label>
-    <div id="workloadTypes">
-      <div id="2_1" draggable="true" class="draggable" data-original="Batch">Batch</div>
-      <div id="2_2" draggable="true" class="draggable" data-original="Streaming">Streaming</div>
-    </div>
-
-    <label>Scenarios:</label>
-    <div id="scenarios">
-      <div class="descriptionLabel">Data for a product catalog will be loaded every 12 hours to a data warehouse</div>
-      <div id="2_step1" class="dropzone"></div>
-
-      <div class="descriptionLabel">Thousands of data sets per second for online purchases will be loaded into a data warehouse in real time</div>
-      <div id="2_step2" class="dropzone"></div>
-
-      <div class="descriptionLabel">Updates to inventory data will be loaded to a data warehouse every 1 million transactions</div>
-      <div id="2_step3" class="dropzone"></div>
-    </div>
-  </form>
+  <div class="container">
+      <div class="actions">
+          <p>Workload Types:</p>
+          <div class="draggable" id="item2-1" draggable="true" data-action="Batch">Batch</div>
+          <div class="draggable" id="item2-2" draggable="true" data-action="Streaming">Streaming</div>
+      </div>
+      <div class="answers">
+          <p>Scenarios:</p>
+          <div>
+              <label for="dropZone2-1">Scenario 1: Data for a product catalog will be loaded every 12 hours to a data warehouse</label>
+              <div class="dropzone" id="dropZone2-1"></div>
+          </div>
+          <div>
+              <label for="dropZone2-2">Scenario 2: Thousands of data sets per second for online purchases will be loaded into a data warehouse in real time</label>
+              <div class="dropzone" id="dropZone2-2"></div>
+          </div>
+          <div>
+              <label for="dropZone2-3">Scenario 3: Updates to inventory data will be loaded to a data warehouse every 1 million transactions</label>
+              <div class="dropzone" id="dropZone2-3"></div>
+          </div>
+      </div>
+  </div>
 
   <button class="solutionButton" data-answer-name="question2">Solution</button>
 
   <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
-    <p><strong>Explanation:</strong></p>
-    <p>Batch processing refers to the processing of blocks of data that have already been stored over a period of time.</p>
-    <p>Stream processing is a big data technology that allows us to process data in real-time as they arrive and detect conditions within a small period of time from the point of receiving the data. It allows us to feed data into analytics tools as soon as they get generated and get instant analytics results.</p>
-    <p><strong>References:</strong></p>
-    <ul>
-      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing" target="_blank">Batch Processing in Azure</a></li>
-    </ul>
-    <p id="correctAnswers_question2" style="display: none;">
-      <strong>Correct Order:</strong><br>
-      <strong>Scenario 1:</strong> Batch<br>
-      <strong>Scenario 2:</strong> Streaming<br>
-      <strong>Scenario 3:</strong> Batch
-    </p>
+      <p><strong>Explanation:</strong></p>
+      <ul>
+          <li>Batch processing refers to the processing of blocks of data that have already been stored over a period of time.</li>
+          <li>Stream processing is a big data technology that allows us to process data in real-time as they arrive and detect conditions within a small period of time from the point of receiving the data.</li>
+      </ul>
+
+      <div id="correctAnswers_question2" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Batch</li>
+              <li>Streaming</li>
+              <li>Batch</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing" target="_blank">Batch Processing in Azure</a></li>
+      </ul>
   </div>
 </div>
-
 <script src="../Scripts/answer2.js"></script>

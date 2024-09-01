@@ -1,49 +1,60 @@
 <div>
   <h2>Question 01</h2>
-  <p>Match the Azure Data Factory components to the appropriate descriptions. To answer, drag the appropriate component from the column on the left to its description on the right. Each component may be used once, more than once, or not at all.</p>
-  
-  <form>
-    <label>Azure Data Factory Components:</label>
-    <div id="adfComponents">
-      <div id="1_1" draggable="true" class="draggable">Dataset</div>
-      <div id="1_2" draggable="true" class="draggable">Linked service</div>
-      <div id="1_3" draggable="true" class="draggable">Mapping data flow</div>
-      <div id="1_4" draggable="true" class="draggable">Pipeline</div>
-    </div>
+  <p>Match the Azure Data Factory components to the appropriate descriptions.</p>
+  <p>To answer, drag the appropriate component from the column on the left to its description on the right. Each component may be used once, more than once, or not at all.</p>
 
-    <label>Descriptions:</label>
-    <div id="descriptions">
-      <div class="descriptionLabel">A representation of data structures within data stores</div>
-      <div id="1_step1" class="dropzone"></div>
-
-      <div class="descriptionLabel">The information used to connect to external resources</div>
-      <div id="1_step2" class="dropzone"></div>
-
-      <div class="descriptionLabel">A logical grouping of activities that performs a unit of work & can be scheduled</div>
-      <div id="1_step3" class="dropzone"></div>
-    </div>
-  </form>
+  <div class="container">
+      <div class="actions">
+          <p>Components:</p>
+          <div class="draggable" id="item1-1" draggable="true" data-action="Dataset">Dataset</div>
+          <div class="draggable" id="item1-2" draggable="true" data-action="Linked service">Linked service</div>
+          <div class="draggable" id="item1-3" draggable="true" data-action="Mapping data flow">Mapping data flow</div>
+          <div class="draggable" id="item1-4" draggable="true" data-action="Pipeline">Pipeline</div>
+      </div>
+      <div class="answers">
+          <p>Descriptions:</p>
+          <div>
+              <label for="dropZone1-1">A representation of data structure within data stores:</label>
+              <div class="dropzone" id="dropZone1-1"></div>
+          </div>
+          <div>
+              <label for="dropZone1-2">The information used to connect to external resources:</label>
+              <div class="dropzone" id="dropZone1-2"></div>
+          </div>
+          <div>
+              <label for="dropZone1-3">A logical grouping of activities that performs a unit of work & can be scheduled:</label>
+              <div class="dropzone" id="dropZone1-3"></div>
+          </div>
+      </div>
+  </div>
 
   <button class="solutionButton" data-answer-name="question1">Solution</button>
 
   <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
-    <p><strong>Explanation:</strong></p>
-    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q1.png">
-    <p>1. Dataset: A data set (or dataset) is a collection of data. In the case of tabular data, a data set corresponds to one or more database tables, where every column of a table represents a particular variable, and each row corresponds to a given record of the data set in question</p>
-    <p>2. Linked service: The information used to connect to external resources.</p>
-    <p>3. Pipeline: A logical grouping of activities that performs a unit of work and can be scheduled.</p>
-    <p><strong>References:</strong></p>
-    <ul>
-      <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-linked-services#overview" target="_blank">Linked Services Overview</a></li>
-      <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities" target="_blank">Pipelines and Activities</a></li>
-    </ul>
-    <p id="correctAnswers_question1" style="display: none;">
-      <strong>Correct Order:</strong><br>
-      <strong>Description 1:</strong> Dataset<br>
-      <strong>Description 2:</strong> Linked service<br>
-      <strong>Description 3:</strong> Pipeline
-    </p>
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q1.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q2/img/q1_2.png">
+      <ul>
+          <li>Datasets must be created from paths in Azure datastores or public web URLs, for the data to be accessible by Azure Machine Learning.</li>
+          <li>Linked services are much like connection strings, which define the connection information needed for Data Factory to connect to external resources.</li>
+          <li>A pipeline is a logical grouping of activities that together perform a task.</li>
+      </ul>
+
+      <div id="correctAnswers_question1" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Dataset</li>
+              <li>Linked service</li>
+              <li>Pipeline</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://k21academy.com/microsoft-azure/dp-100/datastores-and-datasets-in-azure/" target="_blank">Datastores and Datasets in Azure</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-linked-services" target="_blank">Azure Data Factory - Linked Services</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities" target="_blank">Azure Data Factory - Pipelines and Activities</a></li>
+      </ul>
   </div>
 </div>
-
 <script src="../Scripts/answer1.js"></script>
