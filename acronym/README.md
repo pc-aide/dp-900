@@ -17,3 +17,6 @@
 |10|KQL|Kusto Query Language|
 |11|CRM|customer relationship management|
 |12|ELT|extract, load, and transform
+|13|1NF|First Normal Form|
+|14|2NF|Second Normal Form|
+|15|3NF|Third Normal Form|
