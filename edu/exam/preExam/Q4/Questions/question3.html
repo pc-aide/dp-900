@@ -1,0 +1,34 @@
+<div>
+  <h2>Question 3</h2>
+  <p>Select the answer that correctly completes the sentence.</p>
+  <p>You have an e-commerce application that reads and writes data to an Azure SQL database. Which type of processing does the application use?</p>
+
+  <form id="form_question3">
+      <input type="radio" id="streamProcessing" name="question3" value="stream processing">
+      <label for="streamProcessing">A. Stream processing</label><br>
+      <input type="radio" id="batchProcessing" name="question3" value="batch processing">
+      <label for="batchProcessing">B. Batch processing</label><br>
+      <input type="radio" id="olap" name="question3" value="Online Analytical Processing (OLAP)">
+      <label for="olap">C. Online Analytical Processing (OLAP)</label><br>
+      <input type="radio" id="oltp" name="question3" value="Online Transaction Processing (OLTP)">
+      <label for="oltp">D. Online Transaction Processing (OLTP)</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question3">Solution</button>
+
+  <div id="solutionInfo_question3" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong> 
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q4/img/q3.png">
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q4/img/q3_2.png">
+        OLTP (Online Transaction Processing) is designed to handle day-to-day transactions of an organization. It is suitable for applications that require high concurrency and quick response times for reading and writing data, such as e-commerce applications.</p>
+      <p id="correctAnswers_question3" style="display: none;"><strong>Correct Answer:</strong> D. Online Transaction Processing (OLTP)</p>
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://sqlwizard.blog/2020/03/15/sql-server-oltp-vs-olap/" target="_blank">SQL Server OLTP vs OLAP</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts" target="_blank">Transactional Data Processing</a></li>
+          <li><a href="https://k21academy.com/microsoft-azure/data-engineer/batch-processing-vs-stream-processing/" target="_blank">Batch Processing vs Stream Processing</a></li>
+      </ul>
+  </div>
+</div>
+
+<script src="../Scripts/answer3.js"></script>

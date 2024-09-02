@@ -1,0 +1,31 @@
+<div>
+  <h2>Question 5</h2>
+  <p>Select the answer that correctly completes the sentence.</p>
+  <p>You have an Azure SQL database that you access directly from the Internet. You recently changed the public IP address of your computer. After changing the IP address, you can no longer access the database. You can connect to other resources in Azure. What is a possible cause of the issue?</p>
+
+  <form id="form_question5">
+      <input type="radio" id="rbac" name="question5" value="role-based access control (RBAC)">
+      <label for="rbac">A. Role-based access control (RBAC)</label><br>
+      <input type="radio" id="dhcp" name="question5" value="Dynamic Host Configuration Protocol (DHCP)">
+      <label for="dhcp">B. Dynamic Host Configuration Protocol (DHCP)</label><br>
+      <input type="radio" id="dns" name="question5" value="Domain Name Service (DNS)">
+      <label for="dns">C. Domain Name Service (DNS)</label><br>
+      <input type="radio" id="firewall" name="question5" value="a database-level firewall">
+      <label for="firewall">D. A database-level firewall</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question5">Solution</button>
+
+  <div id="solutionInfo_question5" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong>
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q4/img/q5.png">
+        When you change the public IP address of your computer, the new IP address needs to be updated in the Azure SQL database's firewall rules. If the new IP address is not allowed in the firewall rules, you will be unable to access the database, even though you can connect to other Azure resources.</p>
+      <p id="correctAnswers_question5" style="display: none;"><strong>Correct Answer:</strong> D. A database-level firewall</p>
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://www.sqlshack.com/configuring-the-azure-sql-database-firewall/" target="_blank">Configuring the Azure SQL Database Firewall</a></li>
+      </ul>
+  </div>
+</div>
+
+<script src="../Scripts/answer5.js"></script>
