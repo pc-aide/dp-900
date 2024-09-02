@@ -1,0 +1,44 @@
+<h2>Question 19</h2>
+<p>Select the answer that correctly completes the sentence.</p>
+<p>You have an inventory management database that contains the following table:</p>
+<table border="1">
+    <tr>
+        <th>ProductName</th>
+        <th>Quantity</th>
+    </tr>
+    <tr>
+        <td>Product1</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Product2</td>
+        <td>129</td>
+    </tr>
+    <tr>
+        <td>Product3</td>
+        <td>176</td>
+    </tr>
+</table>
+<p>Which statement should you use in a SQL query to change the inventory quantity of Product1 to 270?</p>
+
+<form id="form_question19">
+    <input type="radio" id="insert" name="question19" value="INSERT">
+    <label for="insert">A. INSERT</label><br>
+    <input type="radio" id="merge" name="question19" value="MERGE">
+    <label for="merge">B. MERGE</label><br>
+    <input type="radio" id="update" name="question19" value="UPDATE">
+    <label for="update">C. UPDATE</label><br>
+    <input type="radio" id="create" name="question19" value="CREATE">
+    <label for="create">D. CREATE</label><br>
+</form>
+
+<button class="solutionButton" data-answer-name="question19">Solution</button>
+
+<div id="solutionInfo_question19" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong> The <code>UPDATE</code> statement is the simplest way to modify existing data in a table. It is used to change the value in an existing row. While a <code>MERGE</code> statement can also perform updates, it is more complex and requires two datasets to merge. Since the task is to update a specific value in an existing row, <code>UPDATE</code> is the appropriate choice.</p>
+    <p id="correctAnswers_question19" style="display: none;"><strong>Correct Answer:</strong> C. UPDATE</p>
+    <p><strong>References:</strong></p>
+    <p><a href="https://learn.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15" target="_blank">UPDATE (Transact-SQL)</a></p>
+</div>
+
+<script src="../Scripts/answer19.js"></script>
