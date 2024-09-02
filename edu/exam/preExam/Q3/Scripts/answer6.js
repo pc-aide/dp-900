@@ -3,53 +3,51 @@ function attachSolutionButtonListeners_question6(button) {
   button.addEventListener('click', function() {
     // Define correct answers for each statement
     const correctAnswers = {
-      'statement1': 'Yes',
-      'statement2': 'Yes',
-      'statement3': 'No'
+      'question6_1': 'Yes',
+      'question6_2': 'Yes',
+      'question6_3': 'No'
     };
     
     // Get selected answers from radio buttons
-    const selectedStatement1 = document.querySelector('input[name="statement1"]:checked')?.value;
-    const selectedStatement2 = document.querySelector('input[name="statement2"]:checked')?.value;
-    const selectedStatement3 = document.querySelector('input[name="statement3"]:checked')?.value;
+    const selectedStatement1 = document.querySelector('input[name="question6_1"]:checked')?.value;
+    const selectedStatement2 = document.querySelector('input[name="question6_2"]:checked')?.value;
+    const selectedStatement3 = document.querySelector('input[name="question6_3"]:checked')?.value;
     
     // Get radio button elements for each statement
-    const statement1Radios = document.getElementsByName('statement1');
-    const statement2Radios = document.getElementsByName('statement2');
-    const statement3Radios = document.getElementsByName('statement3');
+    const statement1Radios = document.getElementsByName('question6_1');
+    const statement2Radios = document.getElementsByName('question6_2');
+    const statement3Radios = document.getElementsByName('question6_3');
     
-    // Show correct/incorrect styling for statement 1
+    // Show correct/incorrect styling
     statement1Radios.forEach(radio => {
-      if (radio.value === correctAnswers['statement1']) {
+      if (radio.value === correctAnswers['question6_1']) {
         radio.parentElement.classList.add('highlight');
-      } else if (radio.checked && radio.value !== correctAnswers['statement1']) {
+      } else if (radio.checked && radio.value !== correctAnswers['question6_1']) {
         radio.parentElement.classList.add('incorrect');
       }
     });
     
-    // Show correct/incorrect styling for statement 2
     statement2Radios.forEach(radio => {
-      if (radio.value === correctAnswers['statement2']) {
+      if (radio.value === correctAnswers['question6_2']) {
         radio.parentElement.classList.add('highlight');
-      } else if (radio.checked && radio.value !== correctAnswers['statement2']) {
+      } else if (radio.checked && radio.value !== correctAnswers['question6_2']) {
         radio.parentElement.classList.add('incorrect');
       }
     });
     
-    // Show correct/incorrect styling for statement 3
     statement3Radios.forEach(radio => {
-      if (radio.value === correctAnswers['statement3']) {
+      if (radio.value === correctAnswers['question6_3']) {
         radio.parentElement.classList.add('highlight');
-      } else if (radio.checked && radio.value !== correctAnswers['statement3']) {
+      } else if (radio.checked && radio.value !== correctAnswers['question6_3']) {
         radio.parentElement.classList.add('incorrect');
       }
     });
     
     // Determine if all answers are correct
     const allAnswersCorrect = (
-      selectedStatement1 === correctAnswers['statement1'] &&
-      selectedStatement2 === correctAnswers['statement2'] &&
-      selectedStatement3 === correctAnswers['statement3']
+      selectedStatement1 === correctAnswers['question6_1'] &&
+      selectedStatement2 === correctAnswers['question6_2'] &&
+      selectedStatement3 === correctAnswers['question6_3']
     );
     
     // Show solution information
@@ -58,7 +56,7 @@ function attachSolutionButtonListeners_question6(button) {
       if (allAnswersCorrect) {
         solutionInfoElement.classList.add('highlight');
         solutionInfoElement.classList.remove('incorrect');
-        window.score++; // Increment the score if all answers are correct
+        window.score++; // Increment the score if the answers are correct
       } else {
         solutionInfoElement.classList.add('incorrect');
         solutionInfoElement.classList.remove('highlight');
@@ -69,7 +67,17 @@ function attachSolutionButtonListeners_question6(button) {
       }
       solutionInfoElement.style.display = 'block';
     }
-
+    
+    // Show explanation and references
+    const explanationElement = document.getElementById('solutionInfo_question6');
+    if (explanationElement) {
+      explanationElement.style.display = 'block';
+    }
+    const referencesElement = document.getElementById('solutionInfo_question6');
+    if (referencesElement) {
+      referencesElement.style.display = 'block';
+    }
+    
     // Display final score using the function from constants.js
     if (typeof showFinalScore === 'function') {
       showFinalScore();
