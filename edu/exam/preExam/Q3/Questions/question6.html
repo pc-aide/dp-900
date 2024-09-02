@@ -1,43 +1,52 @@
 <div>
   <h2>Question 6</h2>
   <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
-
-  <form id="question6_form">
+  
+  <form id="question6">
     <div>
       <p>A job that processes sales data once daily is an example of a batch workload:</p>
-      <label><input type="radio" name="statement1" value="Yes"> Yes</label>
-      <label><input type="radio" name="statement1" value="No"> No</label>
+      <input type="radio" id="question6_1_yes" name="question6_1" value="Yes">
+      <label for="question6_1_yes">Yes</label><br>
+      <input type="radio" id="question6_1_no" name="question6_1" value="No">
+      <label for="question6_1_no">No</label>
     </div>
-
+    
     <div>
       <p>A job that calculates a rolling average temperature reading is an example of a streaming workload:</p>
-      <label><input type="radio" name="statement2" value="Yes"> Yes</label>
-      <label><input type="radio" name="statement2" value="No"> No</label>
+      <input type="radio" id="question6_2_yes" name="question6_2" value="Yes">
+      <label for="question6_2_yes">Yes</label><br>
+      <input type="radio" id="question6_2_no" name="question6_2" value="No">
+      <label for="question6_2_no">No</label>
     </div>
-
+    
     <div>
       <p>A job that calculates average revenue per product for the last month is an example of a streaming workload:</p>
-      <label><input type="radio" name="statement3" value="Yes"> Yes</label>
-      <label><input type="radio" name="statement3" value="No"> No</label>
+      <input type="radio" id="question6_3_yes" name="question6_3" value="Yes">
+      <label for="question6_3_yes">Yes</label><br>
+      <input type="radio" id="question6_3_no" name="question6_3" value="No">
+      <label for="question6_3_no">No</label>
     </div>
   </form>
-
+  
   <button class="solutionButton" data-answer-name="question6">Solution</button>
-
+  
   <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
     <p><strong>Explanation:</strong></p>
-    <p>
-      - <strong>Box 1:</strong> Yes - Batch processing refers to the processing of high volumes of data in batches within a specific time span. It processes large volumes of data all at once. Batch processing is used when data size is known and finite, taking a longer time to process data.<br>
-      - <strong>Box 2:</strong> Yes - Stream processing refers to the processing of a continuous stream of data immediately as it is produced. It analyzes streaming data in real-time. Stream processing is used when the data size is unknown, infinite, and continuous.<br>
-      - <strong>Box 3:</strong> No - Calculating the average revenue per product for the last month involves past data only, so this is a batch job.
-    </p>
+    <ul>
+      <li>1 - Yes - Batch processing refers to processing large volumes of data in a batch, typically scheduled at specific intervals. Processing sales data once daily fits this definition.</li>
+      <li>2 - Yes - Stream processing involves analyzing continuous data in real-time. Calculating a rolling average temperature reading is an example of processing a continuous stream of data.</li>
+      <li>3 - No - Calculating average revenue per product for the last month uses past data and is thus considered batch processing, not streaming.</li>
+    </ul>
     <p><strong>References:</strong></p>
     <ul>
-      <li><a href="https://www.geeksforgeeks.org/difference-between-batch-processing-and-stream-processing/" target="_blank">Difference between Batch Processing and Stream Processing</a></li>
-      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/data/stream-processing-stream-analytics" target="_blank">Stream Processing and Analytics</a></li>
+      <li><a href="https://www.geeksforgeeks.org/difference-between-batch-processing-and-stream-processing/" target="_blank">Difference Between Batch Processing and Stream Processing - GeeksforGeeks</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/data/stream-processing-stream-analytics" target="_blank">Stream Processing - Microsoft Docs</a></li>
     </ul>
     <p id="correctAnswers_question6" style="display: none;">
-      <strong>Correct Answers:</strong> Yes, Yes, No
+      <strong>Correct Answers:</strong><br>
+      <strong>Statement 1:</strong> Yes<br>
+      <strong>Statement 2:</strong> Yes<br>
+      <strong>Statement 3:</strong> No
     </p>
   </div>
 </div>
