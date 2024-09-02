@@ -1,0 +1,27 @@
+<div>
+  <h2>Question 2</h2>
+  <p>Which storage solution supports access control lists (ACLs) at the file and folder level?</p>
+
+  <form>
+    <label><input type="radio" name="question2_radio" value="A"> A. Azure Data Lake Storage</label><br>
+    <label><input type="radio" name="question2_radio" value="B"> B. Azure Queue storage</label><br>
+    <label><input type="radio" name="question2_radio" value="C"> C. Azure Blob storage</label><br>
+    <label><input type="radio" name="question2_radio" value="D"> D. Azure Cosmos DB</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question2">Solution</button>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Azure Data Lake Storage Gen2 implements an access control model that supports both Azure role-based access control (Azure RBAC) and POSIX-like access control lists (ACLs). This is a trick question as both Azure Blob Storage & Azure Data Lake support ACLs at the file and directory level leveraging Security principal (user, group, service principal, or managed identity). Additionally, Azure Data Lake storage system is based on Azure Blob Storage system. However, Azure Data Lake Gen2 implements ACLs differently in comparison to Azure Blob Storage, with the former supporting Azure RBAC & POSIX ACLs. Azure Blob Storage implements access control using SAS and AAD authentication.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-access-control#about-acls" target="_blank">Azure Data Lake Storage - Access Control Lists</a></li>
+    </ul>
+    <p id="correctAnswers_question2" style="display: none;">
+      <strong>Correct Answer:</strong> A. Azure Data Lake Storage
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

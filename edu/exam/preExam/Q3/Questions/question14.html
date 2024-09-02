@@ -1,0 +1,28 @@
+<h2>Question 14</h2>
+<p>Select the answer that correctly completes the sentence.</p>
+<p>Which property of a transactional workload guarantees that each transaction is treated as a single unit that either succeeds completely or fails completely?</p>
+
+<form id="form_question14">
+    <input type="radio" id="atomicity" name="question14" value="atomicity">
+    <label for="atomicity">A. atomicity</label><br>
+    <input type="radio" id="isolation" name="question14" value="isolation">
+    <label for="isolation">B. isolation</label><br>
+    <input type="radio" id="durability" name="question14" value="durability">
+    <label for="durability">C. durability</label><br>
+    <input type="radio" id="consistency" name="question14" value="consistency">
+    <label for="consistency">D. consistency</label><br>
+</form>
+
+<button class="solutionButton" data-answer-name="question14">Solution</button>
+
+<div id="solutionInfo_question14" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q3/img/q14.png">
+      All operations must be successfully completed for the transaction to complete: atomicity. Atomicity means that each statement in a transaction (to read, write, update, or delete data) is treated as a single unit. Either the entire statement is executed, or none of it is executed. This property prevents data loss and corruption, for example, if your streaming data source fails mid-stream.</p>
+    <p id="correctAnswers_question14" style="display: none;"><strong>Correct Answer:</strong> A. atomicity</p>
+    <p><strong>References:</strong></p>
+    <p><a href="https://www.databricks.com/glossary/acid-transactions" target="_blank">ACID Transactions</a></p>
+    <p><a href="https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-core-data-concepts" target="_blank">Transactional Data Processing</a></p>
+</div>
+
+<script src="../Scripts/answer14.js"></script>

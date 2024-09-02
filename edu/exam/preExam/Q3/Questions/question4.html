@@ -1,0 +1,28 @@
+<div>
+  <h2>Question 4</h2>
+  <p>What is a characteristic of batch processing?</p>
+
+  <form>
+    <label><input type="radio" name="question4_radio" value="A"> A. The data ingested during batch processing must be processed as soon as the data is received.</label><br>
+    <label><input type="radio" name="question4_radio" value="B"> B. Large datasets must be split into batches of less than 1 GB before the data can be processed.</label><br>
+    <label><input type="radio" name="question4_radio" value="C"> C. There is a noticeable time delay between ingesting data and obtaining the data processing results.</label><br>
+    <label><input type="radio" name="question4_radio" value="D"> D. Batch processing can only process data that is structured.</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question4">Solution</button>
+
+  <div id="solutionInfo_question4" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q3/img/q4.png">
+    <p>The fundamental requirement of such batch processing engines is to scale out computations to handle a large volume of data. Unlike real-time processing, batch processing is expected to have latencies (the time between data ingestion and computing a result) that measure in minutes to hours.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/2-batch-stream" target="_blank">Explore Fundamentals of Stream Processing - Batch vs. Stream</a></li>
+    </ul>
+    <p id="correctAnswers_question4" style="display: none;">
+      <strong>Correct Answer:</strong> C. There is a noticeable time delay between ingesting data and obtaining the data processing results.
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer4.js"></script>

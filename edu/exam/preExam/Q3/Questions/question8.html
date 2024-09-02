@@ -1,0 +1,47 @@
+<h2>Question 8</h2>
+<p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+<p>Normalizing a database increases the throughput of writing transactions:</p>
+<label>
+    <input type="radio" name="statement1" value="Yes"> Yes
+</label>
+<label>
+    <input type="radio" name="statement1" value="No"> No
+</label>
+
+<p>Analytics systems are more normalized than transactional systems:</p>
+<label>
+    <input type="radio" name="statement2" value="Yes"> Yes
+</label>
+<label>
+    <input type="radio" name="statement2" value="No"> No
+</label>
+
+<p>Normalizing a database results in queries that require more joins:</p>
+<label>
+    <input type="radio" name="statement3" value="Yes"> Yes
+</label>
+<label>
+    <input type="radio" name="statement3" value="No"> No
+</label>
+
+<button class="solutionButton" data-answer-name="question8">Solution</button>
+
+<div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p>Explanation:</p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q3/img/q8.jpg">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q3/img/q8_2.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q3/img/q8_3.png">
+    <ul>
+        <li>Box 1 - Yes: Normalizing a database typically involves organizing the data to reduce redundancy and improve data integrity. While normalization can make the database more efficient for read operations and reduce data anomalies, it often leads to more complex data structures with multiple related tables. As a result, writing transactions can become more complex and slower because they may require more operations, such as inserting data into multiple tables and maintaining foreign key relationships.</li>
+        <li>Box 2 - No: Analytic systems are less normalized; they have more aggregate data, which makes them different from transactional systems that tend to have higher normalization.</li>
+        <li>Box 3 - Yes: Queries on normalized tables require more table joins (full, inner, left, right joins) to access data spread across multiple tables.</li>
+    </ul>
+    <p id="correctAnswers_question8" style="display: none;">Correct Answers: Yes, No, Yes</p>
+    <p><strong>References:</strong></p>
+    <p><a href="https://dzone.com/articles/pros-and-cons-of-database-normalization" target="_blank">Pros and Cons of Database Normalization</a></p>
+    <p><a href="https://www.techwalla.com/articles/advantages-disadvantages-of-normalizing-a-database" target="_blank">Advantages and Disadvantages of Normalizing a Database</a></p>
+    <p><a href="https://www.sqlshack.com/what-is-database-normalization-in-sql-server" target="_blank">What is Database Normalization in SQL Server</a></p>
+</div>
+
+<script src="../Scripts/answer8.js"></script>
