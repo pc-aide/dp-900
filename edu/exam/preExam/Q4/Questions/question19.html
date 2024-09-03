@@ -1,0 +1,102 @@
+<div>
+  <h2>Question 19</h2>
+  <p>You have a table named Sales that contains the following data:</p>
+
+  <table border="1">
+      <tr>
+          <th>SalesDate</th>
+          <th>SalesAmount</th>
+          <th>ProductID</th>
+      </tr>
+      <tr>
+          <td>4-Apr-20</td>
+          <td>$2,000</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>5-Apr-20</td>
+          <td>$40</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>5-Apr-20</td>
+          <td>$2,300</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>6-Apr-20</td>
+          <td>$40</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>6-Apr-20</td>
+          <td>$200</td>
+          <td>4</td>
+      </tr>
+  </table>
+
+  <p>You need to query the table to return the average sales amount per day. The output must produce the following results:</p>
+
+  <table border="1">
+      <tr>
+          <th>SalesDate</th>
+          <th>AVG(SalesAmount)</th>
+      </tr>
+      <tr>
+          <td>4-Apr-20</td>
+          <td>$2,000</td>
+      </tr>
+      <tr>
+          <td>5-Apr-20</td>
+          <td>$1,170</td>
+      </tr>
+      <tr>
+          <td>6-Apr-20</td>
+          <td>$120</td>
+      </tr>
+  </table>
+
+  <p>How should you complete the query? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Terms:</p>
+          <div class="draggable" id="item19-1" draggable="true" data-action="SELECT">SELECT</div>
+          <div class="draggable" id="item19-2" draggable="true" data-action="ORDER BY">ORDER BY</div>
+          <div class="draggable" id="item19-3" draggable="true" data-action="GROUP BY">GROUP BY</div>
+          <div class="draggable" id="item19-4" draggable="true" data-action="CREATE">CREATE</div>
+      </div>
+      <div class="answers">
+          <p>Descriptions:</p>
+          <div>
+              <label for="dropZone19-1">______ SalesDate, AVG(SalesAmount) FROM Sales:</label>
+              <div class="dropzone" id="dropZone19-1"></div>
+          </div>
+          <div>
+              <label for="dropZone19-2">______ SalesDate ORDER BY SalesDate:</label>
+              <div class="dropzone" id="dropZone19-2"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question19">Solution</button>
+
+  <div id="solutionInfo_question19" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://github.com/pc-aide/dp-900/blob/main/edu/exam/preExam/Q4/img/q19.png?raw=true">
+    
+      <div id="correctAnswers_question19" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>SELECT</li>
+              <li>GROUP BY</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/sql/t-sql/functions/avg-transact-sql" target="_blank">AVG (Transact-SQL) - Microsoft Docs</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer19.js"></script>

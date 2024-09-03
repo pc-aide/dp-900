@@ -1,0 +1,53 @@
+<div>
+  <h2>Question 18</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+  
+  <form id="question18">
+    <div>
+      <p>If you have a PaaS database in Azure, you're responsible for applying OS updates:</p>
+      <input type="radio" id="question18_1_yes" name="question18_1" value="Yes">
+      <label for="question18_1_yes">Yes</label><br>
+      <input type="radio" id="question18_1_no" name="question18_1" value="No">
+      <label for="question18_1_no">No</label>
+    </div>
+    
+    <div>
+      <p>If you have a PaaS database in Azure, backups are performed automatically:</p>
+      <input type="radio" id="question18_2_yes" name="question18_2" value="Yes">
+      <label for="question18_2_yes">Yes</label><br>
+      <input type="radio" id="question18_2_no" name="question18_2" value="No">
+      <label for="question18_2_no">No</label>
+    </div>
+    
+    <div>
+      <p>If you have a PaaS database in Azure, you're responsible for installation of the database engine:</p>
+      <input type="radio" id="question18_3_yes" name="question18_3" value="Yes">
+      <label for="question18_3_yes">Yes</label><br>
+      <input type="radio" id="question18_3_no" name="question18_3" value="No">
+      <label for="question18_3_no">No</label>
+    </div>
+  </form>
+  
+  <button class="solutionButton" data-answer-name="question18">Solution</button>
+  
+  <div id="solutionInfo_question18" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <ul>
+      <li>1 - No - Microsoft handles all patching and updating of the SQL and operating system code. You don't have to manage the underlying infrastructure.</li>
+      <li>2 - Yes - SQL Database is a fully managed service that has built-in high availability, backups, and other common maintenance operations.</li>
+      <li>3 - No - Installation and management of the database engine is handled by Microsoft in a PaaS offering.</li>
+    </ul>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview" target="_blank">Azure SQL Database PaaS Overview - Microsoft Docs</a></li>
+    </ul>
+    <p id="correctAnswers_question18" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>Statement 1:</strong> No<br>
+      <strong>Statement 2:</strong> Yes<br>
+      <strong>Statement 3:</strong> No
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer18.js"></script>
