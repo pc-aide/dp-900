@@ -1,0 +1,55 @@
+<div>
+  <h2>Question 7</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+  
+  <form id="question7">
+    <div>
+      <p>Relational database tables contain columns & rows:</p>
+      <input type="radio" id="question7_1_yes" name="question7_1" value="Yes">
+      <label for="question7_1_yes">Yes</label><br>
+      <input type="radio" id="question7_1_no" name="question7_1" value="No">
+      <label for="question7_1_no">No</label>
+    </div>
+    
+    <div>
+      <p>Indexes in a relational database describe the data types in a table:</p>
+      <input type="radio" id="question7_2_yes" name="question7_2" value="Yes">
+      <label for="question7_2_yes">Yes</label><br>
+      <input type="radio" id="question7_2_no" name="question7_2" value="No">
+      <label for="question7_2_no">No</label>
+    </div>
+    
+    <div>
+      <p>A database view is a virtual table whose content is defined by a query:</p>
+      <input type="radio" id="question7_3_yes" name="question7_3" value="Yes">
+      <label for="question7_3_yes">Yes</label><br>
+      <input type="radio" id="question7_3_no" name="question7_3" value="No">
+      <label for="question7_3_no">No</label>
+    </div>
+  </form>
+  
+  <button class="solutionButton" data-answer-name="question7">Solution</button>
+  
+  <div id="solutionInfo_question7" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <ul>
+      <li>1 - Yes - Tables are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column format similar to a spreadsheet. Each row represents a unique record, and each column represents a field in the record.</li>
+      <li>2 - No - An index is an on-disk structure associated with a table or view that speeds retrieval of rows from the table or view. It does not describe data types.</li>
+      <li>3 - Yes - A view is a virtual table whose contents are defined by a query. Like a table, a view consists of a set of named columns and rows of data.</li>
+    </ul>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/tables" target="_blank">Tables - Microsoft Docs</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described" target="_blank">Indexes - Microsoft Docs</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-ver15" target="_blank">Views - Microsoft Docs</a></li>
+    </ul>
+    <p id="correctAnswers_question7" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      <strong>Statement 1:</strong> Yes<br>
+      <strong>Statement 2:</strong> No<br>
+      <strong>Statement 3:</strong> Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer7.js"></script>

@@ -1,0 +1,43 @@
+<div>
+  <h2>Question 8</h2>
+  <p>Which command-line tool can you use to query Azure SQL databases?</p>
+  
+  <form id="question8">
+    <div>
+      <input type="radio" id="question8_a" name="question8" value="A. sqlcmd">
+      <label for="question8_a">A. sqlcmd</label><br>
+      
+      <input type="radio" id="question8_b" name="question8" value="B. bcp">
+      <label for="question8_b">B. bcp</label><br>
+      
+      <input type="radio" id="question8_c" name="question8" value="C. azdata">
+      <label for="question8_c">C. azdata</label><br>
+      
+      <input type="radio" id="question8_d" name="question8" value="D. Azure CLI">
+      <label for="question8_d">D. Azure CLI</label>
+    </div>
+  </form>
+  
+  <button class="solutionButton" data-answer-name="question8">Solution</button>
+  
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <ul>
+      <li>A. <strong>sqlcmd</strong> - The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, making it the correct tool for querying Azure SQL databases.</li>
+      <li>B. <strong>bcp</strong> - The bulk copy program utility is used for bulk copying data between an instance of Microsoft SQL Server and a data file in a user-specified format, not for querying databases directly.</li>
+      <li>C. <strong>azdata</strong> - This tool is used for managing and querying data on Azure Data services, including SQL Server on Azure Arc and SQL Managed Instance. However, `sqlcmd` is more specifically associated with querying Azure SQL databases.</li>
+      <li>D. <strong>Azure CLI</strong> - The Azure CLI is a cross-platform command-line tool used for managing Azure resources but is not primarily designed for directly querying SQL databases.</li>
+    </ul>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/sql/tools/overview-sql-tools?view=sql-server-ver15#command-line-tools" target="_blank">SQL Tools Overview - Microsoft Docs</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-connect-sqlcmd" target="_blank">Connect to Azure SQL Database using sqlcmd - Microsoft Docs</a></li>
+    </ul>
+    <p id="correctAnswers_question8" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      A. sqlcmd
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer8.js"></script>
