@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 18</h2>
+  <p>Select the answer that correctly completes the sentence.</p>
+
+  <form>
+    <select id="question18_dropdown" name="question18_dropdown">
+      <option value="A view">A view</option>
+      <option value="A clustered index">A clustered index</option>
+      <option value="A stored procedure">A stored procedure</option>
+      <option value="A nonclustered index">A nonclustered index</option>
+    </select>
+    <span>physically sorts the data in a table based on the values in a specified column.</span>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question18">Solution</button>
+
+  <div id="solutionInfo_question18" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>If you have a table with a clustered index on a column called "id", all the rows with the lowest "id" value will be stored together physically on disk, followed by all the rows with the next lowest "id" value, and so on. This physical sorting allows the database to quickly locate and retrieve specific rows of data based on their indexed column values, improving query performance.</p>
+    <p>Clustered indexes sort and store the data rows in the table or view based on their key values. These are the columns included in the index definition.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver16" target="_blank">Clustered and Nonclustered Indexes - SQL Server</a></li>
+      <li><a href="https://sqlwithmanoj.com/2013/06/02/clustered-index-do-not-guarantee-physically-ordering-or-sorting-of-rows/" target="_blank">Clustered Index Physical Ordering</a></li>
+    </ul>
+    <p id="correctAnswers_question18" style="display: none;">
+      <strong>Correct Answer:</strong> A clustered index
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer18.js"></script>

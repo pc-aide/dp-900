@@ -1,0 +1,46 @@
+<div>
+  <h2>Question 12</h2>
+  <p>You need to query a table named Products in an Azure SQL database. Which three requirements must be met to query the table from the internet?</p>
+
+  <form id="question12">
+    <div>
+      <input type="checkbox" id="question12_a" name="question12" value="A">
+      <label for="question12_a">A. You must be assigned the Reader role for the resource group that contains the database.</label><br>
+      
+      <input type="checkbox" id="question12_b" name="question12" value="B">
+      <label for="question12_b">B. You must have SELECT access to the Products table.</label><br>
+      
+      <input type="checkbox" id="question12_c" name="question12" value="C">
+      <label for="question12_c">C. You must have a user in the database.</label><br>
+      
+      <input type="checkbox" id="question12_d" name="question12" value="D">
+      <label for="question12_d">D. You must be assigned the Contributor role for the resource group that contains the database.</label><br>
+      
+      <input type="checkbox" id="question12_e" name="question12" value="E">
+      <label for="question12_e">E. Your IP address must be allowed to connect to the database.</label>
+    </div>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q12.png">
+    <p>
+      A, D: Resource group permissions are not required to query an Azure SQL database table.<br>
+      B, C, E: Your IP must be allowed in the database firewall, and you need a database user with SELECT privileges on the desired table.
+    </p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/getting-started-with-database-engine-permissions?view=sql-server-ver15" target="_blank">Getting Started with Database Engine Permissions</a></li>
+    </ul>
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      B. You must have SELECT access to the Products table.<br>
+      C. You must have a user in the database.<br>
+      E. Your IP address must be allowed to connect to the database.
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

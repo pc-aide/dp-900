@@ -1,0 +1,29 @@
+<div>
+  <h2>Question 14</h2>
+  <p>Your company needs to ensure that an Azure virtual machine can connect to Azure SQL databases without exposing the databases to the internet. What should you use?</p>
+
+  <form>
+    <label><input type="radio" name="question14_radio" value="A"> A. Azure Application Gateway</label><br>
+    <label><input type="radio" name="question14_radio" value="B"> B. Azure Traffic Manager</label><br>
+    <label><input type="radio" name="question14_radio" value="C"> C. Azure DNS</label><br>
+    <label><input type="radio" name="question14_radio" value="D"> D. Azure Private Link</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question14">Solution</button>
+
+  <div id="solutionInfo_question14" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Azure Private Link (Endpoint)</p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q14.png">
+    <p>Azure Private Link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a private endpoint in your virtual network. Traffic between your virtual network and the service travels the Microsoft backbone network, eliminating the need to expose your service to the public internet.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://techcommunity.microsoft.com/t5/azure-database-support-blog/azure-sql-db-private-link-private-endpoint-connectivity/ba-p/1235573" target="_blank">Azure SQL DB Private Link - Private Endpoint Connectivity</a></li>
+    </ul>
+    <p id="correctAnswers_question14" style="display: none;">
+      <strong>Correct Answer:</strong> D. Azure Private Link
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer14.js"></script>

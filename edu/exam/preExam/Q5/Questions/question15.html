@@ -1,0 +1,53 @@
+<div>
+  <h2>Question 15</h2>
+  <p>Match the Azure SQL services to the appropriate use cases.</p>
+  <p>To answer, drag the appropriate service from the column on the left to its use case on the right. Each service may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Azure SQL Services:</p>
+          <div class="draggable" id="item15-1" draggable="true" data-action="Azure SQL Database elastic pool">Azure SQL Database elastic pool</div>
+          <div class="draggable" id="item15-2" draggable="true" data-action="Azure SQL Database single database">Azure SQL Database single database</div>
+          <div class="draggable" id="item15-3" draggable="true" data-action="Azure SQL Managed instance">Azure SQL Managed instance</div>
+      </div>
+      <div class="answers">
+          <p>Use Cases:</p>
+          <div>
+              <label for="dropZone15-1">A serverless configuration:</label>
+              <div class="dropzone" id="dropZone15-1"></div>
+          </div>
+          <div>
+              <label for="dropZone15-2">A database that has the highest compatibility with on-premises Microsoft SQL Server:</label>
+              <div class="dropzone" id="dropZone15-2"></div>
+          </div>
+          <div>
+              <label for="dropZone15-3">A low-cost, low-maintenance database:</label>
+              <div class="dropzone" id="dropZone15-3"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question15">Solution</button>
+
+  <div id="solutionInfo_question15" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>First option is single because MS: Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier also automatically pauses databases during inactive periods when only storage is billed and automatically resumes databases when activity returns. Elastic Pool is not serverless. So for first one it will be Single.</p>
+      <p>Second one is MI. Whereas the 3rd one should be MI because we are talking about a single database, not databases. If you have multiple databases, then mostly Elastic Pool will be cheaper as all will share the same resources. Elastic pool uses shared resources on a server, but you don't manage the server itself, nor the OS. You do manage scaling, which makes it PaaS and not Serverless. Single database can dynamically scale up and down, making it a Serverless solution. Single, MI, single use correct, but not for the reasons you gave.</p>
+
+      <div id="correctAnswers_question15" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>A serverless configuration: Azure SQL Database single database</li>
+              <li>A database that has the highest compatibility with on-premises Microsoft SQL Server: Azure SQL Managed instance</li>
+              <li>A low-cost, low-maintenance database: Azure SQL Database single database</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal" target="_blank">Azure SQL Database Single Database Overview</a></li>
+          <li><a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-overview?view=azuresql" target="_blank">Azure SQL Database Single Database Overview</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer15.js"></script>

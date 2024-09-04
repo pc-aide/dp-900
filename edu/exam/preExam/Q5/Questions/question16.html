@@ -1,0 +1,61 @@
+<div>
+  <h2>Question 16</h2>
+  <p>Which T-SQL statement should be used to instruct a database management system to use an index instead of performing a full table scan?</p>
+
+  <div class="container">
+      <div class="actions">
+          <div>
+              <input type="radio" id="answer16-A" name="question16" value="SELECT">
+              <label for="answer16-A">A. SELECT</label>
+          </div>
+          <div>
+              <input type="radio" id="answer16-B" name="question16" value="WHERE">
+              <label for="answer16-B">B. WHERE</label>
+          </div>
+          <div>
+              <input type="radio" id="answer16-C" name="question16" value="JOIN">
+              <label for="answer16-C">C. JOIN</label>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question16">Solution</button>
+
+  <div id="solutionInfo_question16" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q16.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q16_2.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q16_3.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q16_4.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q16_5.png">
+      <p>Select * From Countries where CountryName = "USA"</p>
+      <p>This is a full table scan because CountryName is not a key; the engine needs to compare every row.</p>
+      <p>Select * From Countries where CountryID = 33</p>
+      <p>This is not a full table scan; it becomes an index scan because CountryID is a key, so the engine knows it can skip to that ID.</p>
+      <p>Select * From Countries</p>
+      <p>This is a full table scan but with no criteria, so it extracts everything out.</p>
+      <p>WHERE clause tells a SELECT statement to 'streamline' the query execution based on the search criteria (the PREDICATE) specified in the WHERE clause.</p>
+      <p>To use an index in a query, if the index is defined on the column specified in the WHERE clause, the query makes use of the specified index:</p>
+      <pre><code>CREATE TABLE person(
+id INT NOT NULL,
+first_name VARCHAR(15) NOT NULL,
+last_name VARCHAR(15) NOT NULL,
+age INT NOT NULL,
+PRIMARY KEY(id)
+);
+/* Index on First Name */
+CREATE INDEX person_fname ON person (first_name);
+
+/* This next query shows whether the query uses the intended index */
+EXPLAIN SELECT * FROM person WHERE first_name = "Donald";
+      </code></pre>
+      <p>The correct answer is WHERE, as this is a search condition of the statement and can be used to target one or more indexes. SELECT is incorrect as this doesn’t influence what indexes may or may not be used.</p>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/sql/t-sql/queries/hints-transact-sql-table" target="_blank">T-SQL Table Hints</a></li>
+          <li><a href="https://www.mssqltips.com/sqlservertutorial/277/index-scans-and-table-scans/" target="_blank">Index Scans and Table Scans</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer16.js"></script>
