@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 2</h2>
+  <p>A team of developers has computers that run Windows 10 and Ubuntu Desktop.
+  The developers need to connect to and query an Azure SQL database from each of their computers. The developers require code assistance features such as IntelliSense.
+  What should the developers use?</p>
+
+  <form>
+    <label><input type="radio" name="question2_radio" value="A"> A. sqlcmd</label><br>
+    <label><input type="radio" name="question2_radio" value="B"> B. Microsoft SQL Server Management Studio (SSMS)</label><br>
+    <label><input type="radio" name="question2_radio" value="C"> C. Azure Data Studio</label><br>
+    <label><input type="radio" name="question2_radio" value="D"> D. Azure Data Explorer</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question2">Solution</button>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q2.png">
+    <p>SSMS can run queries with intelisense, but it does not work on Ubuntu.</p>
+    <p>Azure Data Studio is a cross-platform database tool for data professionals who use on-premises and cloud data platforms on Windows, macOS, and Linux.
+    Azure Data Studio offers a modern editor experience with IntelliSense, code snippets, source control integration, and an integrated terminal. 
+    SSMS doesn't run queries, it handles configuration and management.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio" target="_blank">Download Azure Data Studio</a></li>
+    </ul>
+    <p id="correctAnswers_question2" style="display: none;">
+      <strong>Correct Answer:</strong> C. Azure Data Studio
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

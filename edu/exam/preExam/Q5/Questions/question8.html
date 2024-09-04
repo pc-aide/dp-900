@@ -1,0 +1,35 @@
+<div>
+  <h2>Question 8</h2>
+  <p>You have a transactional application that stores data in an Azure SQL managed instance.</p>
+  <p>When should you implement a read-only database replica?</p>
+
+  <form>
+      <input type="radio" id="q8-a" name="q8" value="A">
+      <label for="q8-a">A. You need to generate reports without affecting the transactional workload.</label><br>
+      <input type="radio" id="q8-b" name="q8" value="B">
+      <label for="q8-b">B. You need to audit the transactional application.</label><br>
+      <input type="radio" id="q8-c" name="q8" value="C">
+      <label for="q8-c">C. You need to implement high availability in the event of a regional outage.</label><br>
+      <input type="radio" id="q8-d" name="q8" value="D">
+      <label for="q8-d">D. You need to improve the recovery point objective (RPO).</label><br><br>
+
+      <button type="button" class="solutionButton" data-answer-name="question8">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>Use read-only replicas to offload read-only query workloads.</p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q8.png" alt="Explanation Image 1" width="100%">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q8_2.png" alt="Explanation Image 2" width="100%">
+
+      <div id="correctAnswer_question8" style="display: none;">
+          <p><strong>Correct Answer:</strong> A. You need to generate reports without affecting the transactional workload.</p>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/azure-sql/database/read-scale-out" target="_blank">Read-Scale Out - Azure SQL Database</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer8.js"></script>

@@ -1,0 +1,36 @@
+<div>
+  <h2>Question 9</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+
+  A relational database must be used when:
+
+  <form>
+      <select id="q9-dropdown">
+          <option value="a">a dynamic schema is required</option>
+          <option value="b">data will be stored as key/value pairs</option>
+          <option value="c">storing large images & videos</option>
+          <option value="d">strong consistency guarantees are required</option>
+      </select><br><br>
+
+      <button type="button" class="solutionButton" data-answer-name="question9">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question9" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>1. Relational databases are static schema, so option A is wrong.</p>
+      <p>2. Data stored as key/value pairs is JSON (semi-structured data); relational databases are structured data. Option B is wrong.</p>
+      <p>3. Storing large images and videos is unstructured data. Option C is wrong.</p>
+      <p>You do not have to resort to a relational database if you want to enforce ACID. There are many tools that can enforce ACID in other NoSQL databases; it does not make relational databases the only way.</p>
+      <p>Relational databases are used for strong consistency guarantees, emphasizing the atomic nature of RDBMS.</p>
+
+      <div id="correctAnswer_question9" style="display: none;">
+          <p><strong>Correct Answer:</strong> strong consistency guarantees are required</p>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://learn.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15" target="_blank">Clustered and Nonclustered Indexes - SQL Server</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer9.js"></script>

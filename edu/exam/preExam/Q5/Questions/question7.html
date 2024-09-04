@@ -1,0 +1,61 @@
+<div>
+  <h2>Question 7</h2>
+  <p>Match the security components to the appropriate scenarios.</p>
+  <p>To answer, drag the appropriate component from the column on the left to its scenario on the right. Each component may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Components:</p>
+          <div class="draggable" id="item7-1" draggable="true" data-action="Firewall">Firewall</div>
+          <div class="draggable" id="item7-2" draggable="true" data-action="Authentication">Authentication</div>
+          <div class="draggable" id="item7-3" draggable="true" data-action="Encryption">Encryption</div>
+      </div>
+      <div class="answers">
+          <p>Scenarios:</p>
+          <div>
+              <label for="dropZone7-1">Prevent access to an Azure SQL database from another network:</label>
+              <div class="dropzone" id="dropZone7-1"></div>
+          </div>
+          <div>
+              <label for="dropZone7-2">Support AAD sign-ins to an Azure SQL database:</label>
+              <div class="dropzone" id="dropZone7-2"></div>
+          </div>
+          <div>
+              <label for="dropZone7-3">Ensure the sensitive data never appears as plain text in an Azure SQL database:</label>
+              <div class="dropzone" id="dropZone7-3"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question7">Solution</button>
+
+  <div id="solutionInfo_question7" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q7.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q7_2.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q7_3.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q5/img/q7_4.png">
+      <ul>
+          <li><strong>Firewall:</strong> Example: Someone from outside cannot log in to your company domain because of different IP address.</li>
+          <li><strong>Authentication:</strong> Authentication is always used to check who is authorized to log in.</li>
+          <li><strong>Encryption:</strong> Encryption ensures that sensitive data never appears as plain text.</li>
+      </ul>
+
+      <div id="correctAnswers_question7" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Firewall</li>
+              <li>Authentication</li>
+              <li>Encryption</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-certificate-store-configure" target="_blank">Always Encrypted Certificate Store - Configure</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access?view=sql-server-ver15" target="_blank">Configure a Windows Firewall for Database Engine Access</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-overview" target="_blank">Authentication - AAD Overview</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer7.js"></script>
