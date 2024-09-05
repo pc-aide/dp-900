@@ -1,0 +1,31 @@
+<div>
+  <h2>Question 11</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+  To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation,
+
+  <form>
+    <select id="question11_dropdown" name="question11_dropdown">    
+      <option value="A">Enable the hierarchical namespace</option>
+      <option value="B">Set Account kind to BlobStorage</option>
+      <option value="C">Set Performance to Premium</option>
+      <option value="D">Set Replication to Read-access geo-redundant storage (RA-GRS)</option>
+    </select>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question11">Solution</button>
+
+  <div id="solutionInfo_question11" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Security at the folder level: With hierarchical namespace enabled, you can set different security permissions (e.g., read, write, delete) on different folders within the storage account, allowing better control over access to your data.</p>
+    <p>Atomic directory manipulation: With hierarchical namespace enabled, you can perform atomic operations on directories, such as renaming or moving a directory and all its contents in one single operation. This ensures that the entire operation is completed or rolled back as a whole, avoiding partial changes to the data.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace#the-benefits-of-a-hierarchical-namespace" target="_blank">The benefits of a hierarchical namespace</a></li>
+    </ul>
+    <p id="correctAnswers_question11" style="display: none;">
+      <strong>Correct Answer:</strong> Enable the hierarchical namespace
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer11.js"></script>

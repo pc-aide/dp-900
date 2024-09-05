@@ -1,0 +1,52 @@
+<div>
+  <h2>Question 17</h2>
+  <p>Match the datastore services to the appropriate descriptions.</p>
+  <p>To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Services:</p>
+          <div class="draggable" id="item17-1" draggable="true" data-action="Azure Blob storage">Azure Blob storage</div>
+          <div class="draggable" id="item17-2" draggable="true" data-action="Azure Cosmos DB">Azure Cosmos DB</div>
+          <div class="draggable" id="item17-3" draggable="true" data-action="Azure Files">Azure Files</div>
+          <div class="draggable" id="item17-4" draggable="true" data-action="Azure Table storage">Azure Table storage</div>
+      </div>
+      <div class="answers">
+          <p>Descriptions:</p>
+          <div>
+              <label for="dropZone17-1">Enables the use of SQL queries against data stored in JSON documents:</label>
+              <div class="dropzone" id="dropZone17-1"></div>
+          </div>
+          <div>
+              <label for="dropZone17-2">Enables users to access data by using the Server Message Block (SMB) version 3 protocol:</label>
+              <div class="dropzone" id="dropZone17-2"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question17">Solution</button>
+
+  <div id="solutionInfo_question17" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <ul>
+          <li>In Azure Cosmos DB's SQL (Core) API, items are stored as JSON. The type system and expressions are restricted to deal only with JSON types.</li>
+          <li>Azure Files offers native cloud file sharing services based on the SMB protocol.</li>
+      </ul>
+
+      <div id="correctAnswers_question17" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Azure Cosmos DB</li>
+              <li>Azure Files</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-working-with-json" target="_blank">Azure Cosmos DB SQL API - Working with JSON</a></li>
+          <li><a href="https://cloud.netapp.com/blog/azure-smb-server-message-block-in-the-cloud-for-azure-files" target="_blank">Azure Files and SMB</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows" target="_blank">Using Azure Files with Windows</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer17.js"></script>

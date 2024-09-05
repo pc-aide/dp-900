@@ -1,0 +1,32 @@
+<div>
+  <h2>Question 12</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+  You can query a graph database in Azure Cosmos DB
+  <form>
+    <select id="question12_dropdown" name="question12_dropdown">
+      <option value="A">as a JSON document by using a SQL-like language</option>
+      <option value="B">as a partitioned row store by using Cassandra Query Language (CQL)</option>
+      <option value="C">as a partitioned row store by using Language-Integrated Query (LINQ)</option>
+      <option value="D">as nodes & edges by using the Gremlin language</option>
+    </select>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Gremlin language is not a SQL-like language. It is based on the Gremlin API. Example: <code>g.V().hasLabel('person').has('age', gt(40))</code> --- filter query.</p>
+    <p>I work with Cosmos DB and Gremlin every day. You CAN access the underlying documents with the SQL API, but you can only query by nodes and edges with the Gremlin API.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/graph/tutorial-query-graph" target="_blank">Azure Cosmos DB - Graph Query</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction" target="_blank">Azure Cosmos DB - Introduction</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/cosmos-db/gremlin/tutorial-query" target="_blank">Azure Cosmos DB - Gremlin API Tutorial</a></li>
+    </ul>
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answer:</strong> as nodes & edges by using the Gremlin language
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

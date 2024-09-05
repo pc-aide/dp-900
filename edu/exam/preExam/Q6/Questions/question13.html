@@ -1,0 +1,28 @@
+<div>
+  <h2>Question 13</h2>
+  <p>When provisioning an Azure Cosmos DB account, which feature provides redundancy within an Azure region?</p>
+
+  <form>
+    <label><input type="radio" name="question13_radio" value="A"> A. multi-master replication</label><br>
+    <label><input type="radio" name="question13_radio" value="B"> B. Availability Zones</label><br>
+    <label><input type="radio" name="question13_radio" value="C"> C. the strong consistency level</label><br>
+    <label><input type="radio" name="question13_radio" value="D"> D. automatic failover</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>With Availability Zone (AZ) support, Azure Cosmos DB will ensure replicas are placed across multiple zones within a given region to provide high availability and resiliency to zonal failures.
+    Note: Azure Cosmos DB provides high availability in two primary ways. First, Azure Cosmos DB replicates data across regions configured within a Cosmos account. Second, Azure Cosmos DB maintains 4 replicas of data within a region.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability" target="_blank">High Availability in Azure Cosmos DB</a></li>
+    </ul>
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answer:</strong> B. Availability Zones
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

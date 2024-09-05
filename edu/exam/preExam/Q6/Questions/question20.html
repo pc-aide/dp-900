@@ -1,0 +1,38 @@
+<div>
+  <h2>Question 20</h2>
+  <p>You need to recommend a data store service that meets the following requirements:
+    <br>✑ Native SQL API access
+    <br>✑ Configurable indexes
+    What should you recommend?</p>
+
+  <form>
+    <input type="radio" id="q20_optionA" name="question20_radio" value="A">
+    <label for="q20_optionA">A. Azure Files</label><br>
+
+    <input type="radio" id="q20_optionB" name="question20_radio" value="B">
+    <label for="q20_optionB">B. Azure Blob storage</label><br>
+
+    <input type="radio" id="q20_optionC" name="question20_radio" value="C">
+    <label for="q20_optionC">C. Azure Table storage</label><br>
+
+    <input type="radio" id="q20_optionD" name="question20_radio" value="D">
+    <label for="q20_optionD">D. Azure Cosmos DB</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question20">Solution</button>
+
+  <div id="solutionInfo_question20" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Native SQL = Cosmos.<br>
+    Azure Cosmos DB comes with native Core (SQL) API support. In Azure Cosmos DB, data is indexed following indexing policies that are defined for each container. The default indexing policy for newly created containers enforces range indexes for any string or number. This policy can be overridden with your own custom indexing policy.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql/how-to-manage-indexing-policy" target="_blank">Managing Indexing Policies in Azure Cosmos DB</a></li>
+    </ul>
+    <p id="correctAnswers_question20" style="display: none;">
+      <strong>Correct Answer:</strong> D. Azure Cosmos DB
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer20.js"></script>
