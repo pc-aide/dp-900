@@ -1,0 +1,49 @@
+<div>
+  <h2>Question 10</h2>
+  <p>Match the Azure Cosmos DB APIs to the appropriate data structures.</p>
+  <p>To answer, drag the appropriate API from the column on the left to its data structure on the right. Each API may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+    <div class="actions">
+      <p>APIs:</p>
+      <div class="draggable" id="item10-1" draggable="true" data-action="Cassandra API">Cassandra API</div>
+      <div class="draggable" id="item10-2" draggable="true" data-action="Gremlin API">Gremlin API</div>
+      <div class="draggable" id="item10-3" draggable="true" data-action="MongoDB API">MongoDB API</div>
+      <div class="draggable" id="item10-4" draggable="true" data-action="Table API">Table API</div>
+    </div>
+    <div class="answers">
+      <p>Data Structures:</p>
+      <div>
+        <label for="dropZone10-1">Graph data:</label>
+        <div class="dropzone" id="dropZone10-1"></div>
+      </div>
+      <div>
+        <label for="dropZone10-2">JSON document:</label>
+        <div class="dropzone" id="dropZone10-2"></div>
+      </div>
+      <div>
+        <label for="dropZone10-3">Key/value data:</label>
+        <div class="dropzone" id="dropZone10-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question10">Solution</button>
+
+  <div id="solutionInfo_question10" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q10.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q10_2.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q10_3.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q10_4.png">
+    <p>Apache Cassandra uses a specific query language of its own called CQL (Cassandra Query Language). Although its syntax resembles SQL, both are not that similar. MongoDB, contrary to that, does not support a query language. Instead, it utilizes JSON fragments and a query API called MQL to support querying.</p>
+    <p>The Gremlin API is used for graph databases. The MongoDB API stores data in the BSON format. The Table API is used to retrieve key/value pairs. The Cassandra API is used to retrieve tabular data.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/faq" target="_blank">Azure Cosmos DB FAQ</a></li>
+      <li><a href="https://royalcyberinc.medium.com/apache-cassandra-vs-mongodb-database-which-ones-for-you-22ed293f9348" target="_blank">Apache Cassandra vs MongoDB</a></li>
+    </ul>
+  </div>
+</div>
+<script src="../Scripts/answer10.js"></script>

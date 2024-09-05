@@ -1,0 +1,60 @@
+<div>
+  <h2>Question 6</h2>
+  <p>Your company is designing a data store that will contain student data. The data has the following format:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>StudentNumber</th>
+        <th>StudentInformation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>7634634</td>
+        <td>First name: Ben<br/>Last: Smith<br/>Preferred Name: Benjamin</td>
+      </tr>
+      <tr>
+        <td>7634634</td>
+        <td>First name: Dominik<br/>Last: Paiha<br/>Email Address: dpaiha@contoso.com<br/>MCP ID: 931817</td>
+      </tr>
+      <tr>
+        <td>7634636</td>
+        <td>First name: Reshma<br/>Last: Patel<br/>Phone number: 514-555-1101</td>
+      </tr>
+      <tr>
+        <td>7634637</td>
+        <td>First Name : Yun-Feng<br/>Last Name: Peng</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Which type of data store should you use?</p>
+
+  <form>
+    <label><input type="radio" name="question6_radio" value="A"> A. graph</label><br>
+    <label><input type="radio" name="question6_radio" value="B"> B. key/value</label><br>
+    <label><input type="radio" name="question6_radio" value="C"> C. object</label><br>
+    <label><input type="radio" name="question6_radio" value="D"> D. columnar</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question6">Solution</button>
+
+  <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q6_3.png" alt="Explanation Image 1">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q6.png" alt="Explanation Image 2">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q6_2.png" alt="Explanation Image 3">
+    <p>Columnar as you can handle Student Info as a column family.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#column-family-databases" target="_blank">Microsoft Learn - Column Family Databases</a></li>
+      <li><a href="https://www.kdnuggets.com/2021/02/understanding-nosql-database-types-column-oriented-databases.html" target="_blank">KDnuggets - Understanding NoSQL Database Types</a></li>
+    </ul>
+    <p id="correctAnswers_question6" style="display: none;">
+      <strong>Correct Answer:</strong> D. columnar
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>

@@ -1,0 +1,36 @@
+<div>
+  <h2>Question 3</h2>
+  <p>Which setting can only be configured during the creation of an Azure Cosmos DB account?</p>
+
+  <form>
+    <input type="radio" id="optionA" name="question3_radio" value="A">
+    <label for="optionA">A. geo-redundancy</label><br>
+
+    <input type="radio" id="optionB" name="question3_radio" value="B">
+    <label for="optionB">B. multi-region writes</label><br>
+
+    <input type="radio" id="optionC" name="question3_radio" value="C">
+    <label for="optionC">C. production or non-production account type</label><br>
+
+    <input type="radio" id="optionD" name="question3_radio" value="D">
+    <label for="optionD">D. API</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question3">Solution</button>
+
+  <div id="solutionInfo_question3" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>You must create a separate account for each API. The API cannot be changed after creation. Other settings such as geo-redundancy and multi-region writes can be modified after the account is created.</p>
+    <p>API is fixed during the creation process of the Cosmos DB account.</p>
+    
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-database-account" target="_blank">Managing Cosmos DB Accounts</a></li>
+    </ul>
+    <p id="correctAnswers_question3" style="display: none;">
+      <strong>Correct Answer:</strong> API
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer3.js"></script>

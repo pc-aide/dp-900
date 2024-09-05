@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 8</h2>
+  <p>You need to store data in Azure Blob storage for seven years to meet your company's compliance requirements. The retrieval time of the data is unimportant. The solution must minimize storage costs. Which storage tier should you use?</p>
+
+  <form>
+    <label><input type="radio" name="question8_radio" value="A"> A. Archive</label><br>
+    <label><input type="radio" name="question8_radio" value="B"> B. Hot</label><br>
+    <label><input type="radio" name="question8_radio" value="C"> C. Cool</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question8">Solution</button>
+
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Retrieval Rate:</p>
+    <ul>
+      <li>Hot - Frequent</li>
+      <li>Cool - every 30 days</li>
+      <li>Archive - every 180 days</li>
+    </ul>
+    <p>For data that needs to be stored for a long time and where retrieval time is not critical, the Archive tier is the most cost-effective option. It is designed for long-term storage and provides the lowest storage costs, though retrieval can take longer compared to the Hot and Cool tiers.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://cloud.netapp.com/blog/azure-blob-storage-pricing-the-complete-guide-azure-cvo-blg#H1_4" target="_blank">Azure Blob Storage Pricing Guide</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers?tabs=azure-portal" target="_blank">Azure Blob Storage Tiers</a></li>
+    </ul>
+    <p id="correctAnswers_question8" style="display: none;">
+      <strong>Correct Answer:</strong> A. Archive
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer8.js"></script>

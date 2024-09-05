@@ -1,0 +1,59 @@
+<div>
+  <h2>Question 4</h2>
+  <p>Match the types of data stores to the appropriate scenarios.</p>
+  <p>To answer, drag the appropriate data store type from the column on the left to its scenario on the right. Each data store type may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Data Store Types:</p>
+          <div class="draggable" id="item4-1" draggable="true" data-action="Graph">Graph</div>
+          <div class="draggable" id="item4-2" draggable="true" data-action="Object">Object</div>
+          <div class="draggable" id="item4-3" draggable="true" data-action="Key/value">Key/value</div>
+      </div>
+      <div class="answers">
+          <p>Scenarios:</p>
+          <div>
+              <label for="dropZone4-1">A list of application user names & for each, the default language:</label>
+              <div class="dropzone" id="dropZone4-1"></div>
+          </div>
+          <div>
+              <label for="dropZone4-2">A collection of medical images & their associated metadata:</label>
+              <div class="dropzone" id="dropZone4-2"></div>
+          </div>
+          <div>
+              <label for="dropZone4-3">Employee data that shows the relationships between employees:</label>
+              <div class="dropzone" id="dropZone4-3"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question4">Solution</button>
+
+  <div id="solutionInfo_question4" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q4.png">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q6/img/q4_2.png">
+      <ul>
+          <li><strong>Key/value:</strong> A key/value store associates each data value with a unique key.</li>
+          <li><strong>Object:</strong> Object storage is optimized for storing and retrieving large binary objects like images and files.</li>
+          <li><strong>Graph:</strong> A graph database stores nodes and edges, which specify relationships between entities.</li>
+      </ul>
+
+      <div id="correctAnswers_question4" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Key/value</li>
+              <li>Object</li>
+              <li>Graph</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/key-value-database" target="_blank">Key/Value Store - Azure Cosmos DB</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/object-storage-overview" target="_blank">Object Storage Overview</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction" target="_blank">Graph Database Introduction</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer4.js"></script>
