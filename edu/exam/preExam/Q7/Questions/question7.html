@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 7</h2>
+  <p>Your company is designing an application that will write a high volume of JSON data and will have an application-defined schema. Which type of data store should you use?</p>
+
+  <form>
+    <label><input type="radio" name="q7" value="A"> A. columnar</label><br>
+    <label><input type="radio" name="q7" value="B"> B. key/value</label><br>
+    <label><input type="radio" name="q7" value="C"> C. document</label><br>
+    <label><input type="radio" name="q7" value="D"> D. graph</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question7">Solution</button>
+
+  <div id="solutionInfo_question7" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q7.png" alt="Explanation Image"><br>
+    <p>Document databases are optimized for storing and querying structured or semi-structured data as JSON documents. They allow for flexible schema design, which is defined by the application rather than being enforced by the database itself.</p>
+    <p>Key/Value databases cannot query JSON objects effectively, requiring retrieval and processing, which means limited query capabilities.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#document-databases" target="_blank">Document Databases Overview</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#keyvalue-stores" target="_blank">Key/Value Stores Overview</a></li>
+    </ul>
+
+    <p id="correctAnswers_question7" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      C. document
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer7.js"></script>

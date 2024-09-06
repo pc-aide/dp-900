@@ -1,0 +1,34 @@
+<div>
+  <h2>Question 2</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+
+  <form>
+    <label for="question2_dropdown">To configure an Azure Storage account to support access control lists that have object-level permissions, you should:</label>
+    <select id="question2_dropdown" name="question2_dropdown">
+      <option value="enableHierarchicalNamespace">Enable the hierarchical namespace</option>
+      <option value="setBlobStorage">Set Account kind to BlobStorage</option>
+      <option value="setPerformancePremium">Set Performance to Premium</option>
+      <option value="setReplicationRAGRS">Set Replication to Read-access geo-redundant storage (RA-GRS)</option>
+    </select>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question2">Solution</button>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>A key mechanism that allows Azure Data Lake Storage Gen2 to provide file system performance at object storage scale and prices is the addition of a hierarchical namespace. This allows the collection of objects/files within an account to be organized into a hierarchy of directories and nested subdirectories in the same way that the file system on your computer is organized. With a hierarchical namespace enabled, a storage account becomes capable of providing the scalability and cost-effectiveness of object storage, with file system semantics that are familiar to analytics engines and frameworks.</p>
+
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q2.png" alt="Explanation Image">
+    
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace" target="_blank">Azure Data Lake Storage: Hierarchical Namespace</a></li>
+    </ul>
+
+    <p id="correctAnswers_question2" style="display: none;">
+      <strong>Correct Answer:</strong> Enable the hierarchical namespace
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

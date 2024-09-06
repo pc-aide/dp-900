@@ -1,0 +1,50 @@
+<div>
+  <h2>Question 01</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>Azure Table storage with a single Azure Storage account supports multiple concurrent reads in different Azure regions:</p>
+    <label><input type="radio" name="question1_1_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question1_1_radio" value="No"> No</label><br><br>
+
+    <p>Azure Table storage within a single Azure Storage account supports multiple concurrent writes in different Azure regions:</p>
+    <label><input type="radio" name="question1_2_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question1_2_radio" value="No"> No</label><br><br>
+
+    <p>An Azure Cosmos DB account that uses the Table API supports multiple concurrent reads in different Azure regions:</p>
+    <label><input type="radio" name="question1_3_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question1_3_radio" value="No"> No</label><br><br>
+
+    <p>An Azure Cosmos DB account that uses the Table API supports multiple concurrent writes in different Azure regions:</p>
+    <label><input type="radio" name="question1_4_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question1_4_radio" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question1">Solution</button>
+
+  <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Geo-redundant storage (with GRS or GZRS) replicates your data to another physical location in the secondary region to protect against regional outages. However, that data is available to be read only if the customer or Microsoft initiates a failover from the primary to the secondary region. When you enable read access to the secondary region, your data is available to be read <strong>at all times</strong>, including in a situation where the primary region becomes unavailable. For read access to the secondary region, enable read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).</p>
+    <p>Writes are always directed to the primary region, and reads are always directed to the nearest active region.</p>
+    
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q1_2.webp" alt="Image 1">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/a96b49131c3b9d0642ab96eb7596047487b019c7/edu/exam/preExam/Q7/img/q1.svg" alt="Image 2">
+    
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-au/azure/storage/common/storage-redundancy#read-access-to-data-in-the-secondary-region" target="_blank">Azure Storage Redundancy</a></li>
+      <li><a href="https://manojchoudhari.wordpress.com/2019/12/16/azure-cosmos-db-enable-multi-region-writes" target="_blank">Azure Cosmos DB Multi-Region Writes</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/multi-region-web-app-multi-writes-azure-table" target="_blank">Multi-Region Web App with Azure Table</a></li>
+    </ul>
+    
+    <p id="correctAnswers_question1" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Azure Table storage with a single Azure Storage account supports multiple concurrent reads in different Azure regions: Yes<br>
+      Azure Table storage within a single Azure Storage account supports multiple concurrent writes in different Azure regions: No<br>
+      An Azure Cosmos DB account that uses the Table API supports multiple concurrent reads in different Azure regions: Yes<br>
+      An Azure Cosmos DB account that uses the Table API supports multiple concurrent writes in different Azure regions: Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

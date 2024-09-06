@@ -1,0 +1,32 @@
+<div>
+  <h2>Question 9</h2>
+  <p>Your company is designing a data store for internet-connected temperature sensors. The collected data will be used to analyze temperature trends. Which type of data store should you use?</p>
+
+  <form>
+    <label><input type="radio" name="q9" value="A"> A. relational</label><br>
+    <label><input type="radio" name="q9" value="B"> B. time series</label><br>
+    <label><input type="radio" name="q9" value="C"> C. graph</label><br>
+    <label><input type="radio" name="q9" value="D"> D. columnar</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question9">Solution</button>
+
+  <div id="solutionInfo_question9" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q9.png" alt="Explanation Image"><br>
+    <p>Time series data is a set of values organized by time. Time series databases typically collect large amounts of data in real time from a large number of sources. Updates are rare, and deletes are often done as bulk operations. Although the records written to a time-series database are generally small, there are often a large number of records, and total data size can grow rapidly. Telemetry and time series databases are an append-only collection of objects. Telemetry databases efficiently index data in a variety of column stores and in-memory structures, making them the optimal choice for storing and analyzing vast quantities of telemetry and time series data.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#time-series-databases" target="_blank">Time Series Databases Overview</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/data-explorer/time-series-analysis" target="_blank">Time Series Analysis in Azure</a></li>
+    </ul>
+
+    <p id="correctAnswers_question9" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      B. time series
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer9.js"></script>

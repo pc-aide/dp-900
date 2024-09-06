@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 13</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>Azure Table storage supports multiple read replicas:</p>
+    <label><input type="radio" name="question13_table_storage_read" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_table_storage_read" value="No"> No</label><br>
+
+    <p>Azure Table storage supports multiple write regions:</p>
+    <label><input type="radio" name="question13_table_storage_write" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_table_storage_write" value="No"> No</label><br>
+
+    <p>The Azure Cosmos DB Table API supports multiple read replicas:</p>
+    <label><input type="radio" name="question13_cosmos_table_read" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_cosmos_table_read" value="No"> No</label><br>
+
+    <p>The Azure Cosmos DB Table API supports multiple write regions:</p>
+    <label><input type="radio" name="question13_cosmos_table_write" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_cosmos_table_write" value="No"> No</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q13.webp" alt="Explanation Image">
+    <p>Cause..Table storage-Single region with one optional readable secondary read region for high availability which supports automatic and manual account failover.
+      Azure Table Storage supports a single region with an optional read-only secondary region for availability</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/high-availability" target="_blank">Microsoft Learn - High Availability</a></li>
+      <li><a href="https://manojchoudhari.wordpress.com/2019/12/16/azure-cosmos-db-enable-multi-region-writes/#:~:text=Login%20to%20Azure%20Portal%20and,clicking%20on%20Add%20regions%20hyperlink" target="_blank">Manoj Choudhari - Enable Multi-Region Writes</a></li>
+      <li><a href="https://microsoft.github.io/AzureTipsAndTricks/blog/tip166.html" target="_blank">Azure Tips and Tricks</a></li>
+    </ul>
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answers:</strong> Yes, No, Yes, Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

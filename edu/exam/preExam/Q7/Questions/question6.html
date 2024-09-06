@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 6</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>The Azure Cosmos DB API is configured separately for each database in an Azure Cosmos DB account:</p>
+    <label><input type="radio" name="q6_statement1" value="Yes"> Yes</label>
+    <label><input type="radio" name="q6_statement1" value="No"> No</label><br>
+
+    <p>Partition keys are used in Azure Cosmos DB to optimize queries:</p>
+    <label><input type="radio" name="q6_statement2" value="Yes"> Yes</label>
+    <label><input type="radio" name="q6_statement2" value="No"> No</label><br>
+
+    <p>Items contained in the same Azure Cosmos DB logical partition can have different partition keys:</p>
+    <label><input type="radio" name="q6_statement3" value="Yes"> Yes</label>
+    <label><input type="radio" name="q6_statement3" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question6">Solution</button>
+
+  <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q6.png" alt="Explanation Image"><br>
+    <p>No for 1st because API configuration is done while provisioning the cosmos db account only. It is false because the API is only configured separately for every Cosmos DB Account, not the databases within the account.</p>
+    <p>2. Yes, Azure Cosmos DB uses partitioning to scale individual containers in a database to meet the performance needs of your application. In partitioning, the items in a container are divided into distinct subsets called logical partitions.</p>
+    <p>3. No, Logical partitions are formed based on the value of a partition key that is associated with each item in a container. Each item can only have one partition key.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cosmos-db/partitioning-overview" target="_blank">Azure Cosmos DB Partitioning Overview</a></li>
+    </ul>
+
+    <p id="correctAnswers_question6" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      1. No<br>
+      2. Yes<br>
+      3. No
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>

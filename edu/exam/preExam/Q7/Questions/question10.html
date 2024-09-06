@@ -1,0 +1,43 @@
+<div>
+  <h2>Question 10</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>1. Copying data to Azure Data Lake Storage from another Azure region results in extra cost:</p>
+    <label><input type="radio" name="q10_1" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="q10_1" value="No"> No</label><br>
+
+    <p>2. You can use blob, table, & file storage in the same Azure Storage account:</p>
+    <label><input type="radio" name="q10_2" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="q10_2" value="No"> No</label><br>
+
+    <p>3. You implement Azure Data Lake Storage by creating an Azure Storage account:</p>
+    <label><input type="radio" name="q10_3" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="q10_3" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question10">Solution</button>
+
+  <div id="solutionInfo_question10" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>You implement ADLS as a Storage Account. Azure Data Lake Storage is a type of storage account in Azure, specifically optimized for big data analytics workloads. When you create an Azure Data Lake Storage Gen2 account, you are essentially creating a specialized type of Storage Account with additional capabilities tailored for data lake scenarios. When you create an ADLS Gen2 account, it is provisioned under the hood as a hierarchical namespace on top of Blob storage, which is part of Azure Storage. This means that you can use your Azure Data Lake Storage account to store and analyze large amounts of structured and unstructured data, leveraging features such as fine-grained access control, hierarchical namespaces, and integration with big data analytics services like Azure Databricks, Azure HDInsight, and Azure Synapse Analytics. <br/><br/>
+
+    The question is asking of GEN1 or GEN2 as two different things. If we think of GEN1 it is a service in Azure, but if GEN 2 it sits on top of Blobs which is part of Azure Container so that would make sense for go with the YES in the last option.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-get-started-portal" target="_blank">Get Started with Data Lake Store</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview" target="_blank">Storage Account Overview</a></li>
+      <li><a href="https://azure.microsoft.com/en-us/pricing/details/bandwidth/" target="_blank">Azure Bandwidth Pricing</a></li>
+    </ul>
+
+    <p id="correctAnswers_question10" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      1. Yes<br>
+      2. Yes<br>
+      3. Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer10.js"></script>

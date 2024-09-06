@@ -1,0 +1,59 @@
+<div>
+  <h2>Question 20</h2>
+  <p>Match the types of activities to the appropriate Azure Data Factory activities.</p>
+  <p>To answer, drag the appropriate activity type from the column on the left to its Data Factory activity on the right. Each activity type may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Activity Types:</p>
+          <div class="draggable" id="item20-1" draggable="true" data-action="Control">Control</div>
+          <div class="draggable" id="item20-2" draggable="true" data-action="Data movement">Data movement</div>
+          <div class="draggable" id="item20-3" draggable="true" data-action="Data transformation">Data transformation</div>
+      </div>
+      <div class="answers">
+          <p>Data Factory Activities:</p>
+          <div>
+              <label for="dropZone20-1">Copy:</label>
+              <div class="dropzone" id="dropZone20-1"></div>
+          </div>
+          <div>
+              <label for="dropZone20-2">Mapping data flow:</label>
+              <div class="dropzone" id="dropZone20-2"></div>
+          </div>
+          <div>
+              <label for="dropZone20-3">Lookup:</label>
+              <div class="dropzone" id="dropZone20-3"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question20">Solution</button>
+
+  <div id="solutionInfo_question20" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q20.png">
+      <ul>
+          <li><strong>Data movement:</strong> Copy Activity in Data Factory copies data from a source data store to a sink data store. Data from any source can be written to any sink.</li>
+          <li><strong>Data transformation:</strong> Mapping data flows are visually designed data transformations in Azure Data Factory. Data flows allow data engineers to develop data transformation logic without writing code. The resulting data flows are executed as activities within Azure Data Factory pipelines that use scaled-out Apache Spark clusters.</li>
+          <li><strong>Control:</strong> Lookup Activity is a control flow activity used to read or look up a record/table name/value from any external source. This output can further be referenced by succeeding activities.</li>
+      </ul>
+      <p>For those who are interested, an easy explanation why 'mapping data flows' is 'transformation':</p>
+      <p>"In October 2018 Microsoft launched mapping data flows which allows ADF to also perform code-free transformations such as joining, splitting or aggregating the data."</p>
+
+      <div id="correctAnswers_question20" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Control</li>
+              <li>Data movement</li>
+              <li>Data transformation</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities" target="_blank">Azure Data Factory Activities</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/data-flow-transformation-overview" target="_blank">Data Flow Transformation Overview</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer20.js"></script>

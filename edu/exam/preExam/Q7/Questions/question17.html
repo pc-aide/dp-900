@@ -1,0 +1,28 @@
+<div>
+  <h2>Question 17</h2>
+  <p>You have a dedicated SQL pool in Azure Synapse Analytics that is only used actively every night for eight hours. You need to minimize the cost of the dedicated SQL pool as much as possible during idle times. The solution must ensure that the data remains intact. What should you do on the dedicated SQL pool?</p>
+
+  <form>
+    <label><input type="radio" name="question17_radio" value="A"> A. Scale down the data warehouse units (DWUs)</label><br>
+    <label><input type="radio" name="question17_radio" value="B"> B. Pause the pool</label><br>
+    <label><input type="radio" name="question17_radio" value="C"> C. Create a user-defined restore point</label><br>
+    <label><input type="radio" name="question17_radio" value="D"> D. Delete the pool</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question17">Solution</button>
+
+  <div id="solutionInfo_question17" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>You can control costs for a dedicated SQL pool by pausing the resource when it is not in use. For example, if you won't be using the database during the night and on weekends, you can pause it during those times and resume it during the day. For more information, see Pause and resume compute in dedicated SQL pool via the Azure portal.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview#pausing-and-resuming-compute" target="_blank">Pause and resume compute in dedicated SQL pool - Microsoft Docs</a></li>
+    </ul>
+
+    <p id="correctAnswers_question17" style="display: none;">
+      <strong>Correct Answer:</strong> B. Pause the pool
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer17.js"></script>

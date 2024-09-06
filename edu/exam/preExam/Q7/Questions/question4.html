@@ -1,0 +1,35 @@
+<div>
+  <h2>Question 4</h2>
+  <p>Your company is designing a database that will contain session data for a website. The data will include notifications, personalization attributes, and products that are added to a shopping cart. Which type of data store will provide the lowest latency to retrieve the data?</p>
+
+  <form>
+    <label><input type="radio" name="question4_radio" value="A"> A. key/value</label><br>
+    <label><input type="radio" name="question4_radio" value="B"> B. graph</label><br>
+    <label><input type="radio" name="question4_radio" value="C"> C. columnar</label><br>
+    <label><input type="radio" name="question4_radio" value="D"> D. document</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question4">Solution</button>
+
+  <div id="solutionInfo_question4" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Column-family database is the low latency store type. Examples include recommendations, personalization, sensor data, telemetry, messaging, social media analytics, web analytics, activity monitoring, weather, and other time-series data.</p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q7/img/q4.png" alt="Explanation Image for Question 4" width="600">
+    <p>The diffirence is:
+      - Key/value: in order to modify a value (either partially or completely), an application must overwrite the existing data for the entire value
+      - Columnar: columns are divided into groups known as column families, and Within a column family, new columns can be added dynamically, and rows can be sparse SO take less time for modification.
+      The answer is correct, C - columnar</p>
+      <p>It is not a key/value store as it stores data in hash tables, which is basically "unreadable" as it is a arbitrary set of values. K/V store is best for simple lookups using the value of a key, and is absolutely not suited for a commerce system,</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/analytical-data-stores" target="_blank">Analytical Data Stores - Azure Architecture Guide</a></li>
+    </ul>
+
+    <p id="correctAnswers_question4" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      C. columnar
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer4.js"></script>
