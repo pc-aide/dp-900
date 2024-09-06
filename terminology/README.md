@@ -43,8 +43,9 @@
 |36|Spark Structured Streaming|
 |37|Start Schema||<img src="https://i.imgur.com/bPK2fK9.png">|
 |38|Snowflake schema||<img src="https://i.imgur.com/PTQzCKn.png">|
-|39|transactional model||pending img to insert here ...|
-|40|Roles and responsibilities for data workloads|<ins>Database administrator (DBA)</ins><br/><br/><ins>Data engineer</ins><br/><br/><ins>Data analyst</ins>|
-|41|key-value database|no predefined schema, tables, or columns, & no relationships between the entities|<img src="https://i.imgur.com/k1x6Wnt.png">|
-|42|graph database|A graph database contains **nodes**(object information) & **edges**(object relationship information)|<img src="https://i.imgur.com/Lj1rvyt.png">|
-|43|unstructured data|such as **audio,videos,image, or binary records** without a defined organization<br/><br/>it's common, for example, for unstructured data such as **audio** to be **transcribed** using **artificial intelligence**, generating a mass of semi-structured data for processing|
+|39|transactional solutions||pending img to insert here ...|
+|40|analytical solutions|
+|41|Roles and responsibilities for data workloads|<ins>Database administrator (DBA)</ins><br/><br/><ins>Data engineer</ins><br/><br/><ins>Data analyst</ins>|
+|42|key-value database|no predefined schema, tables, or columns, & no relationships between the entities|<img src="https://i.imgur.com/k1x6Wnt.png">|
+|43|graph database|A graph database contains **nodes**(object information) & **edges**(object relationship information)|<img src="https://i.imgur.com/Lj1rvyt.png">|
+|44|unstructured data|such as **audio,videos,image, or binary records** without a defined organization<br/><br/>it's common, for example, for unstructured data such as **audio** to be **transcribed** using **artificial intelligence**, generating a mass of semi-structured data for processing|
