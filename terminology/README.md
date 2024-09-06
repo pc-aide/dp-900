@@ -50,3 +50,4 @@
 |43|key-value database|no predefined schema, tables, or columns, & no relationships between the entities|<img src="https://i.imgur.com/k1x6Wnt.png">|
 |44|graph database|A graph database contains **nodes**(object information) & **edges**(object relationship information)|<img src="https://i.imgur.com/Lj1rvyt.png">|
 |45|unstructured data|such as **audio,videos,image, or binary records** without a defined organization<br/><br/>it's common, for example, for unstructured data such as **audio** to be **transcribed** using **artificial intelligence**, generating a mass of semi-structured data for processing|
+|46|relational database|however, after setting up this table, you realize tha you have **clients** that have more **than one address** & zip code, & even more one mobile phone number. how can you solve this issues?|<img src="https://i.imgur.com/OLhFKhm.png">|
