@@ -43,7 +43,7 @@
 |36|Spark Structured Streaming|
 |37|Start Schema||<img src="https://i.imgur.com/bPK2fK9.png">|
 |38|Snowflake schema||<img src="https://i.imgur.com/PTQzCKn.png">|
-|39|transactional solutions||pending img to insert here ...|
+|39|transactional solutions|Transactional database are used by system for basic opeations :<br/>* creating<br/>* reading<br/>* updating<br/>* deleting|pending img to insert here ...|
 |40|analytical solutions|
 |41|Roles and responsibilities for data workloads|<ins>Database administrator (DBA)</ins><br/><br/><ins>Data engineer</ins><br/><br/><ins>Data analyst</ins>|
 |42|key-value database|no predefined schema, tables, or columns, & no relationships between the entities|<img src="https://i.imgur.com/k1x6Wnt.png">|
