@@ -47,3 +47,4 @@
 |40|Roles and responsibilities for data workloads|<ins>Database administrator (DBA)</ins><br/><br/><ins>Data engineer</ins><br/><br/><ins>Data analyst</ins>|
 |41|key-value database|no predefined schema, tables, or columns, & no relationships between the entities|<img src="https://i.imgur.com/k1x6Wnt.png">|
 |42|graph database|A graph database contains **nodes**(object information) & **edges**(object relationship information)|<img src="https://i.imgur.com/Lj1rvyt.png">|
+|43|unstructured data|such as **audio,videos,image, or binary records** without a defined organization|
