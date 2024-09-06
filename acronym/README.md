@@ -21,3 +21,4 @@
 |14|2NF|Second Normal Form|
 |15|3NF|Third Normal Form|
 |16|TDE|Transparent Data Encryption|
+|17|DMS|Data Movement Service|
