@@ -1,0 +1,41 @@
+<div>
+  <h2>Question 20</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>Azure Synapse Analytics scales storage & compute independently:</p>
+    <label><input type="radio" name="question20_statement1" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question20_statement1" value="No"> No</label><br>
+
+    <p>Azure Synapse Analytics can be paused to reduce compute costs:</p>
+    <label><input type="radio" name="question20_statement2" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question20_statement2" value="No"> No</label><br>
+
+    <p>An Azure Synapse Analytics data warehouse has a fixed storage capacity:</p>
+    <label><input type="radio" name="question20_statement3" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question20_statement3" value="No"> No</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question20">Solution</button>
+
+  <div id="solutionInfo_question20" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>1 - Yes - Compute is separate from storage, which enables you to scale compute independently of the data in your system.</p>
+    <p>2 - Yes - You can use the Azure portal to pause and resume the dedicated SQL pool compute resources. Pausing the data warehouse pauses compute. If your data warehouse was paused for the entire hour, you will not be charged compute during that hour.</p>
+    <p>3 - No - Storage is sold in 1 TB allocations. If you grow beyond 1 TB of storage, your storage account will automatically grow to 2 TBs.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/" target="_blank">Azure Synapse Analytics Pricing</a></li>
+    </ul>
+
+    <p id="correctAnswers_question20" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Statement 1: Yes<br>
+      Statement 2: Yes<br>
+      Statement 3: No
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer20.js"></script>

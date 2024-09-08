@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 01</h2>
+  <p>What are three characteristics of an Online Transaction Processing (OLTP) workload? Each correct answer presents a complete solution.</p>
+
+  <form>
+    <label><input type="checkbox" name="question1_checkbox" value="A"> A. denormalized data</label><br>
+    <label><input type="checkbox" name="question1_checkbox" value="B"> B. heavy writes and moderate reads</label><br>
+    <label><input type="checkbox" name="question1_checkbox" value="C"> C. light writes and heavy reads</label><br>
+    <label><input type="checkbox" name="question1_checkbox" value="D"> D. schema on write</label><br>
+    <label><input type="checkbox" name="question1_checkbox" value="E"> E. schema on read</label><br>
+    <label><input type="checkbox" name="question1_checkbox" value="F"> F. normalized data</label>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question1">Solution</button>
+
+  <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Transactional data tends to be heavy writes, moderate reads.</p>
+    <p>D: Typical traits of transactional data include: schema on write, strongly enforced</p>
+    <p>hat is Schema On Write
+      Schema on write is defined as creating a schema for data before writing into the database. If you have done any kind of development with a database you understand the structured nature of Relational Database(RDBMS) because you have used Structured Query Language (SQL) to read data from the database.</p>
+      <p>F: F: Transactional data tends to be highly normalized.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing" target="_blank">Microsoft Learn - OLTP Workload Characteristics</a></li>
+    </ul>
+    <p id="correctAnswers_question1" style="display: none;">
+      <strong>Correct Answers:</strong> B. heavy writes and moderate reads, D. schema on write, F. normalized data
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

@@ -1,0 +1,45 @@
+<div>
+  <h2>Question 13</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>You can copy a dashboard between Microsoft Power BI workspaces:</p>
+    <label><input type="radio" name="question13_statement1" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_statement1" value="No"> No</label><br>
+
+    <p>A Microsoft Power BI dashboard can only display visualizations from a single dataset:</p>
+    <label><input type="radio" name="question13_statement2" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_statement2" value="No"> No</label><br>
+
+    <p>A Microsoft Power BI dashboard can display visualizations from a Microsoft Excel workbook:</p>
+    <label><input type="radio" name="question13_statement3" value="Yes"> Yes</label><br>
+    <label><input type="radio" name="question13_statement3" value="No"> No</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>You can copy reports spanning more than one workspace. However, you can NOT copy dashboards across TWO different workspaces, as the two workspaces are comprised of two different sets of data and environments.</p>
+    <ul>
+      <li>1 - No - You can duplicate a dashboard. The duplicate ends up in the same Power BI workspace. There is no current functionality that allows you to move reports from one workspace to another. The new dashboard is saved in the same workspace as the original. The question has plural workspaces.</li>
+    </ul>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts" target="_blank">Microsoft Power BI - Service Basic Concepts</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-copy-reports" target="_blank">Microsoft Power BI - Copying Reports</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboard-copy" target="_blank">Microsoft Power BI - Copying Dashboards</a></li>
+      <li><a href="https://powerbi.microsoft.com/en-us/excel-and-power-bi/" target="_blank">Microsoft Power BI - Excel Integration</a></li>
+    </ul>
+
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Statement 1: No<br>
+      Statement 2: No<br>
+      Statement 3: Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

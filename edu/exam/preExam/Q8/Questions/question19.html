@@ -1,0 +1,55 @@
+<div>
+  <h2>Question 19</h2>
+  <p>Match the Azure services to the appropriate requirements.</p>
+  <p>To answer, drag the appropriate service from the column on the left to its requirement on the right. Each service may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+      <div class="actions">
+          <p>Services:</p>
+          <div class="draggable" id="item19-1" draggable="true" data-action="Azure Data Lake Storage">Azure Data Lake Storage</div>
+          <div class="draggable" id="item19-2" draggable="true" data-action="Azure SQL Database">Azure SQL Database</div>
+          <div class="draggable" id="item19-3" draggable="true" data-action="Azure Synapse Analytics">Azure Synapse Analytics</div>
+      </div>
+      <div class="answers">
+          <p>Requirements:</p>
+          <div>
+              <label for="dropZone19-1">Output data to Parquet format</label>
+              <div class="dropzone" id="dropZone19-1"></div>
+          </div>
+          <div>
+              <label for="dropZone19-2">Store data that is in Parquet format</label>
+              <div class="dropzone" id="dropZone19-2"></div>
+          </div>
+          <div>
+              <label for="dropZone19-3">Persist a tabular representation of data that is stored in Parquet format</label>
+              <div class="dropzone" id="dropZone19-3"></div>
+          </div>
+      </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question19">Solution</button>
+
+  <div id="solutionInfo_question19" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <ul>
+          <li><strong>Azure Synapse Analytics:</strong> Can convert CSV and other file types to Parquet files and query them.</li>
+          <li><strong>Azure Data Lake Storage:</strong> Used to store Parquet files produced by Azure Synapse Analytics.</li>
+          <li><strong>Azure SQL Database:</strong> Provides a tabular representation of data that is stored in Parquet format.</li>
+      </ul>
+
+      <div id="correctAnswers_question19" style="display: none;">
+          <p><strong>Correct Answers:</strong></p>
+          <ul>
+              <li>Output data to Parquet format: Azure Synapse Analytics</li>
+              <li>Store data that is in Parquet format: Azure Data Lake Storage</li>
+              <li>Persist a tabular representation of data that is stored in Parquet format: Azure SQL Database</li>
+          </ul>
+      </div>
+
+      <p><strong>References:</strong></p>
+      <ul>
+          <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/supported-file-formats-and-compression-codecs" target="_blank">Supported File Formats and Compression Codecs</a></li>
+      </ul>
+  </div>
+</div>
+<script src="../Scripts/answer19.js"></script>

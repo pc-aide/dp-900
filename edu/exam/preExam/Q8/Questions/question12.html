@@ -1,0 +1,33 @@
+<div>
+  <h2>Question 12</h2>
+  <p>You need to use Transact-SQL to query files in Azure Data Lake Storage Gen 2 from an Azure Synapse Analytics data warehouse. What should you use to query the files?</p>
+
+  <form>
+    <label><input type="radio" name="question12_radio" value="A"> A. Azure Functions</label><br>
+    <label><input type="radio" name="question12_radio" value="B"> B. Microsoft SQL Server Integration Services (SSIS)</label><br>
+    <label><input type="radio" name="question12_radio" value="C"> C. PolyBase</label><br>
+    <label><input type="radio" name="question12_radio" value="D"> D. Azure Data Factory</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q8/img/q12.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q8/img/q12_2.png">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q8/img/q12_3.png">
+    <p>Data ingestion. PolyBase enables you to retrieve data from many external sources and convert it into a tabular format. You can reformat this data and save it as tables and materialized views in Azure Synapse. PolyBase enables your SQL Server instance to process Transact-SQL queries that read data from external data sources. SQL Server 2016 and higher can access external data in Hadoop and Azure Blob Storage. Starting in SQL Server 2019, you can now use PolyBase to access external data in SQL Server, Oracle, Teradata, and MongoDB.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.databricks.com/en/connect/external-systems/synapse-analytics.html" target="_blank">Databricks Documentation on Connecting to External Systems</a></li>
+    </ul>
+
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      C. PolyBase
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>
