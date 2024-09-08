@@ -1,0 +1,30 @@
+<div>
+  <h2>Question 11</h2>
+  <p>Which Azure Blob Storage feature enables you to sync a Blob Storage account to an external cache?</p>
+
+  <form>
+    <label><input type="radio" name="question11" value="the Hot access tier"> A. the Hot access tier</label><br>
+    <label><input type="radio" name="question11" value="change feed"> B. change feed</label><br>
+    <label><input type="radio" name="question11" value="snapshots"> C. snapshots</label><br>
+    <label><input type="radio" name="question11" value="versioning"> D. versioning</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question11">Solution</button>
+
+  <div id="solutionInfo_question11" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q9/img/q11.png" alt="Explanation Image 1" style="max-width: 100%; height: auto;">
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q9/img/q11_2.png" alt="Explanation Image 2" style="max-width: 100%; height: auto;">
+    <p>Change feed support is well-suited for scenarios that process data based on objects that have changed. For example, applications can: Update a secondary index, synchronize with a cache, search-engine, or any other content-management scenarios. The purpose of the change feed is to provide transaction logs of all the changes that occur to the blobs and the blob metadata in your storage account. The change feed provides an ordered, guaranteed, durable, immutable, read-only log of these changes. Client applications can read these logs at any time, either in streaming or in batch mode. The change feed enables you to build efficient and scalable solutions that process change events that occur in your Blob Storage account at a low cost.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed" target="_blank">Azure Blob Storage Change Feed Documentation</a></li>
+    </ul>
+    <p id="correctAnswers_question11" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      B. change feed
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer11.js"></script>

@@ -1,0 +1,51 @@
+<div>
+  <h2>Question 2</h2>
+  <p>Match the Azure services to the appropriate locations in the architecture.</p>
+  <p>To answer, drag the appropriate service from the column on the left to its location on the right. Each service may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+    <div class="actions">
+      <p>Draggable Services:</p>
+      <div class="draggable" id="item2-1" draggable="true" data-action="Azure Analysis Services">Azure Analysis Services</div>
+      <div class="draggable" id="item2-2" draggable="true" data-action="Azure Data Factory">Azure Data Factory</div>
+      <div class="draggable" id="item2-3" draggable="true" data-action="Azure Table storage">Azure Table storage</div>
+      <div class="draggable" id="item2-4" draggable="true" data-action="Azure Cosmos DB">Azure Cosmos DB</div>
+      <div class="draggable" id="item2-5" draggable="true" data-action="Azure Synapse Analytics">Azure Synapse Analytics</div>
+    </div>
+    <div class="answers">
+      <p>Drop Zones:</p>
+      <div>
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q9/img/q2_0.png">
+        <label for="dropZone2-1">ETL:</label>
+        <div class="dropzone" id="dropZone2-1"></div>
+      </div>
+      <div>
+        <label for="dropZone2-2">Datawarehouse:</label>
+        <div class="dropzone" id="dropZone2-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question2">Solution</button>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q9/img/q2.png">
+    <p>Azure Data Factory - Relevant Azure service for the three ETL phases are Azure Data Factory and SQL Server Integration Services (SSIS).</p>
+    <p>Azure Synapse Analytics - You can copy and transform data in Azure Synapse Analytics by using Azure Data Factory.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl" target="_blank">Azure Data Factory - ETL Process</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-sql-data-warehouse" target="_blank">Azure Synapse Analytics - Connector for Data Integration</a></li>
+    </ul>
+    <div id="correctAnswers_question2" style="display: none;">
+      <p><strong>Correct Answers:</strong></p>
+      <ul>
+        <li>ETL: Azure Data Factory</li>
+        <li>Datawarehouse: Azure Synapse Analytics</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

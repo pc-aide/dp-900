@@ -1,0 +1,39 @@
+<div>
+  <h2>Question 8</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>Stream processing has access to the most recent data received or data within a rolling time window:</p>
+    <label><input type="radio" name="question8_1_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question8_1_radio" value="No"> No</label><br><br>
+
+    <p>Batch processing must occur immediately & have latency in the order of seconds or milliseconds:</p>
+    <label><input type="radio" name="question8_2_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question8_2_radio" value="No"> No</label><br><br>
+
+    <p>Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages:</p>
+    <label><input type="radio" name="question8_3_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question8_3_radio" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question8">Solution</button>
+
+  <div id="solutionInfo_question8" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Stream processing is used to handle real-time data and can access recent data or data within a rolling time window. Batch processing typically involves larger volumes of data and does not require immediate processing with low latency. Stream processing can be used for simple calculations like aggregates or rolling averages, but it can also handle more complex tasks in near real-time.</p>
+    <p>stream processing is often used for simple response functions, aggregates, or calculations such as rolling averages. Stream processing is a type of data processing that allows you to analyze, process and act on data as it is generated or received, in real-time. This type of processing is well-suited for use cases such as monitoring sensor data, analyzing log files, and running real-time analytics on financial or telemetry data, <strong>therefore</strong> it can be used to perform simple calculations like aggregates or rolling averages. Additionally, it also allows to perform complex calculations and machine learning models in near real-time.</p>
+    <p>4 - Yes - Yes - Stream processing is commonly used for simple response functions, aggregates, or calculations such as rolling averages. It enables real-time data analysis and enables quick calculations and aggregations on streaming data as it arrives.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/2-batch-stream" target="_blank">Explore fundamentals of stream processing</a></li>
+    </ul>
+    <p id="correctAnswers_question8" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Stream processing has access to the most recent data received or data within a rolling time window: Yes<br>
+      Batch processing must occur immediately & have latency in the order of seconds or milliseconds: No<br>
+      Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages: Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer8.js"></script>

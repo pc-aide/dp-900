@@ -1,0 +1,38 @@
+<div>
+  <h2>Question 6</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>Processing salary payments once a month is an example of a batch workload:</p>
+    <label><input type="radio" name="question6_1_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question6_1_radio" value="No"> No</label><br><br>
+
+    <p>A wind turbine that sends 50 sensor readings per second is an example of a streaming workload:</p>
+    <label><input type="radio" name="question6_2_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question6_2_radio" value="No"> No</label><br><br>
+
+    <p>A home electricity meter that sends readings once a day to an energy provider is an example of a streaming workload:</p>
+    <label><input type="radio" name="question6_3_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question6_3_radio" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question6">Solution</button>
+
+  <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Streaming is synonymous with low latency (usually fractions of a second). A 24-hour interval does not constitute streaming in this scenario.</p>
+    <p>For the home electricity meter, it does not send every change immediately but gives daily data, which might contain just one reading or several readings at specific intervals.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://atlan.com/batch-processing-vs-stream-processing/" target="_blank">Batch Processing vs Stream Processing - Atlan</a></li>
+    </ul>
+    <p id="correctAnswers_question6" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      Processing salary payments once a month is an example of a batch workload: Yes<br>
+      A wind turbine that sends 50 sensor readings per second is an example of a streaming workload: Yes<br>
+      A home electricity meter that sends readings once a day to an energy provider is an example of a streaming workload: No
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>

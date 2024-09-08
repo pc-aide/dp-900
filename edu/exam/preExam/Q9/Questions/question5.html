@@ -1,0 +1,31 @@
+<div>
+  <h2>Question 5</h2>
+  <p>To complete the sentence, select the appropriate option in the answer area.</p>
+
+  <form>
+    <label for="question5_dropdown">Batch workloads</label>
+    <select id="question5_dropdown" name="question5_dropdown">
+      <option value="process data in memory, row-by-row">process data in memory, row-by-row</option>
+      <option value="collect & process data at most once a day">collect & process data at most once a day</option>
+      <option value="process data as new data is received in near real-time">process data as new data is received in near real-time</option>
+      <option value="collect data & then process the data when a condition is met">collect data & then process the data when a condition is met</option>
+    </select><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question5">Solution</button>
+
+  <div id="solutionInfo_question5" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Batch workloads typically involve processing a large volume of data in discrete batches, as opposed to real-time or streaming processing.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing" target="_blank">Batch Processing - Microsoft Learn</a></li>
+    </ul>
+    <p id="correctAnswers_question5" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      collect data & then process the data when a condition is met
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer5.js"></script>
