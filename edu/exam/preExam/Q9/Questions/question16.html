@@ -1,0 +1,56 @@
+<div>
+  <h2>Question 16</h2>
+  <p>Match the ACID terms to the appropriate descriptions.</p>
+  <p>To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once, or not at all.</p>
+
+  <div class="container">
+    <div class="actions">
+      <p>Draggable Terms:</p>
+      <div class="draggable" id="item16-1" draggable="true" data-action="Atomicity">Atomicity</div>
+      <div class="draggable" id="item16-2" draggable="true" data-action="Consistency">Consistency</div>
+      <div class="draggable" id="item16-3" draggable="true" data-action="Isolation">Isolation</div>
+      <div class="draggable" id="item16-4" draggable="true" data-action="Durability">Durability</div>
+    </div>
+    <div class="answers">
+      <p>Drop Zones:</p>
+      <div>
+        <label for="dropZone16-1">Concurrent transactions can't interfere with one another & must result in a consistent database state:</label>
+        <div class="dropzone" id="dropZone16-1"></div>
+      </div>
+      <div>
+        <label for="dropZone16-2">Each Transaction is treated as a single unit that succeeds completely or fails completely:</label>
+        <div class="dropzone" id="dropZone16-2"></div>
+      </div>
+      <div>
+        <label for="dropZone16-3">Transactions can only take the data in a database from one valid state to another:</label>
+        <div class="dropzone" id="dropZone16-3"></div>
+      </div>
+      <div>
+        <label for="dropZone16-4">When a transaction is committed, it will remain committed:</label>
+        <div class="dropzone" id="dropZone16-4"></div>
+      </div>
+    </div>
+  </div>
+
+  <button class="solutionButton" data-answer-name="question16">Solution</button>
+
+  <div id="solutionInfo_question16" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q9/img/q16.jpg" alt="ACID Terms Matching"></p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/databricks/lakehouse/acid" target="_blank">ACID Transactions in Databricks</a></li>
+    </ul>
+    <div id="correctAnswers_question16" style="display: none;">
+      <p><strong>Correct Answers:</strong></p>
+      <ul>
+        <li>Concurrent transactions can't interfere with one another & must result in a consistent database state: Isolation</li>
+        <li>Each Transaction is treated as a single unit that succeeds completely or fails completely: Atomicity</li>
+        <li>Transactions can only take the data in a database from one valid state to another: Consistency</li>
+        <li>When a transaction is committed, it will remain committed: Durability</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer16.js"></script>

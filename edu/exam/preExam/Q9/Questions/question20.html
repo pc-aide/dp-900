@@ -1,0 +1,52 @@
+<div>
+  <h2>Question 20</h2>
+  <p>You have data saved in the following format:</p>
+  <pre><code>{
+	"firstName" : "John",
+	"lastName" : "Doe",
+	"age" : "23",
+	"hobbies" : [
+		{"type" : "sports", "value" : "Golf"},
+		{"type" : "Lesure", "value" : "Reading"},
+		{"type" : "Lesure", "value" : "Guitar"}
+	]
+}</code></pre>
+  <p>Which format was used?</p>
+  
+  <form id="question20Form">
+    <div>
+      <input type="radio" id="answer20A" name="dataFormat" value="A">
+      <label for="answer20A">A. XML</label>
+    </div>
+    <div>
+      <input type="radio" id="answer20B" name="dataFormat" value="B">
+      <label for="answer20B">B. HTML</label>
+    </div>
+    <div>
+      <input type="radio" id="answer20C" name="dataFormat" value="C">
+      <label for="answer20C">C. YAML</label>
+    </div>
+    <div>
+      <input type="radio" id="answer20D" name="dataFormat" value="D">
+      <label for="answer20D">D. JSON</label>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question20">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question20" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>JSON data is written as name/value pairs (aka key/value pairs). A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value. For example: "name":"John".</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.mongodb.com/resources/basics/databases/json-database#:~:text=A%20JSON%20database%20is%20a,implementing%20even%20small%20schema%20changes." target="_blank">JSON Database Basics - MongoDB</a></li>
+    </ul>
+    <div id="correctAnswers_question20" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>D. JSON</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer20.js"></script>

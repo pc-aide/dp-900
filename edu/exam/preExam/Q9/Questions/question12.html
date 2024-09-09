@@ -1,0 +1,36 @@
+<div>
+  <h2>Question 12</h2>
+  <p>You have an on-premises Microsoft SQL Server database. You need to migrate the database to the cloud. The solution must meet the following requirements:</p>
+  <ul>
+    <li>Minimize maintenance effort.</li>
+    <li>Support the Database Mail and Service Broker features.</li>
+  </ul>
+  <p>What should you include in the solution?</p>
+
+  <form>
+    <label><input type="radio" name="question12" value="Azure SQL Database single database"> A. Azure SQL Database single database</label><br>
+    <label><input type="radio" name="question12" value="an Azure SQL Database elastic pool"> B. an Azure SQL Database elastic pool</label><br>
+    <label><input type="radio" name="question12" value="Azure SQL Managed instance"> C. Azure SQL Managed instance</label><br>
+    <label><input type="radio" name="question12" value="SQL Server on Azure virtual machines"> D. SQL Server on Azure virtual machines</label><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+  <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <img src="https://github.com/pc-aide/dp-900/blob/main/edu/exam/preExam/Q9/img/q12.png?raw=true" alt="Explanation Image" style="max-width: 100%; height: auto;">
+    <p>Azure SQL Database does not support Service Broker and Database Mail. You need the Managed Instance.</p>
+
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql" target="_blank">Azure SQL Database Features Comparison</a></li>
+    </ul>
+
+    <p id="correctAnswers_question12" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      C. Azure SQL Managed instance
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

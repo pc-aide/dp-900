@@ -1,0 +1,43 @@
+<div>
+  <h2>Question 17</h2>
+  <p>What is a function of a modern data warehouse?</p>
+  
+  <form id="question17Form">
+    <div>
+      <input type="radio" id="answer17A" name="dataWarehouseFunction" value="A">
+      <label for="answer17A">A. supports batch processing only</label>
+    </div>
+    <div>
+      <input type="radio" id="answer17B" name="dataWarehouseFunction" value="B">
+      <label for="answer17B">B. supports real-time and batch processing</label>
+    </div>
+    <div>
+      <input type="radio" id="answer17C" name="dataWarehouseFunction" value="C">
+      <label for="answer17C">C. provides built-in or native online analytical processing</label>
+    </div>
+    <div>
+      <input type="radio" id="answer17D" name="dataWarehouseFunction" value="D">
+      <label for="answer17D">D. stores raw data only</label>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question17">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question17" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Large-scale data warehousing solutions combine conventional data warehousing used to support business intelligence (BI) with techniques used for so-called "big data" analytics. A conventional data warehousing solution typically involves copying data from transactional data stores into a relational database with a schema that's optimized for querying and building multidimensional models. Big Data processing solutions, on the other hand, are used with large volumes of data in multiple formats, which is batch loaded or captured in real-time streams and stored in a data lake from which distributed processing engines like Apache Spark are used to process it.</p>
+    <p>A modern data warehouse is designed to support both real-time and batch processing. It allows organizations to ingest, process, and analyze data in real-time as it's generated, while also supporting traditional batch processing for historical analysis. This flexibility enables businesses to gain insights from their data in a timely manner and make informed decisions based on both current and historical data.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/architecture/databases/" target="_blank">Azure Architecture: Databases</a></li>
+      <li><a href="https://www.enlighten.co.nz/en/Blog/2020/01/Understanding-the-Two-Main-Functions-of-the-Modern-Data-Warehouse#:~:text=The%20modern%20data%20warehouse%20has,don%27t%20have%20this%20functionality" target="_blank">Understanding the Two Main Functions of the Modern Data Warehouse - Enlighten</a></li>
+    </ul>
+    <div id="correctAnswers_question17" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>B. supports real-time and batch processing</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer17.js"></script>
