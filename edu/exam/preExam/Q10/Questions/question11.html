@@ -1,0 +1,37 @@
+<div>
+  <h2>Question 11</h2>
+  <p>Select the answer that correctly completes the sentence.</p>
+
+  <form id="question11Form">
+    <input type="radio" id="optionA" name="dataService" value="AzureBlobStorage">
+    <label for="optionA">Azure Blob storage</label><br>
+
+    <input type="radio" id="optionB" name="dataService" value="AzureFiles">
+    <label for="optionB">Azure Files</label><br>
+
+    <input type="radio" id="optionC" name="dataService" value="AzureTableStorage">
+    <label for="optionC">Azure Table storage</label><br>
+
+    <input type="radio" id="optionD" name="dataService" value="AzureCosmosDB">
+    <label for="optionD">Azure Cosmos DB</label><br>
+
+    <button type="button" class="solutionButton" data-answer-name="question11">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question11" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>The read latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average read latency, at the 50th percentile, is typically 4 milliseconds or less. The write latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average write latency, at the 50th percentile, is usually 5 milliseconds or less. Azure Cosmos DB accounts that span several regions and are configured with strong consistency are an exception to this guarantee.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels" target="_blank">Consistency Levels in Azure Cosmos DB - Microsoft Learn</a></li>
+    </ul>
+    <div id="correctAnswers_question11" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>Azure Cosmos DB</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer11.js"></script>

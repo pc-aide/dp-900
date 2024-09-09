@@ -1,0 +1,40 @@
+<div>
+  <h2>Question 13</h2>
+  <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+  <form>
+    <p>In a transactional database that guarantees atomicity, all statements in a transaction must complete successfully or the transaction must roll back:</p>
+    <label><input type="radio" name="question13_1_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question13_1_radio" value="No"> No</label><br><br>
+
+    <p>In a transactional database that guarantees consistency, all data changes will be logged & accounted for:</p>
+    <label><input type="radio" name="question13_2_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question13_2_radio" value="No"> No</label><br><br>
+
+    <p>In a transactional database that guarantees isolation, processes can see only data in a consistent state:</p>
+    <label><input type="radio" name="question13_3_radio" value="Yes"> Yes</label>
+    <label><input type="radio" name="question13_3_radio" value="No"> No</label><br><br>
+  </form>
+
+  <button class="solutionButton" data-answer-name="question13">Solution</button>
+
+  <div id="solutionInfo_question13" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>1 - Atomicity: Atomicity ensures that each transaction is treated as a single unit, which either succeeds completely or fails completely. Therefore, it is not correct to say that all statements in a transaction must complete successfully; the transaction may fail. Thus, the correct answer is No.</p>
+    <p>2 - Consistency: Consistency ensures that transactions take the database from one valid state to another. Data changes must be logged and accounted for as part of maintaining consistency. Hence, the correct answer is Yes.</p>
+    <p>3 - Isolation: Isolation guarantees that processes see only data in a consistent state during the transaction. Thus, the correct answer is Yes.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.databricks.com/glossary/acid-transactions#:~:text=ACID%20is%20an%20acronym%20that,operations%20are%20called%20transactional%20systems" target="_blank">ACID Transactions - Databricks</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing" target="_blank">Transactional Data Processing - Microsoft Learn</a></li>
+    </ul>
+    <p id="correctAnswers_question13" style="display: none;">
+      <strong>Correct Answers:</strong><br>
+      In a transactional database that guarantees atomicity, all statements in a transaction must complete successfully or the transaction must roll back: No<br>
+      In a transactional database that guarantees consistency, all data changes will be logged & accounted for: Yes<br>
+      In a transactional database that guarantees isolation, processes can see only data in a consistent state: Yes
+    </p>
+  </div>
+</div>
+
+<script src="../Scripts/answer13.js"></script>

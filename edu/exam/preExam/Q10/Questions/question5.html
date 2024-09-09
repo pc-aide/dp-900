@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 5</h2>
+  <p>Which database transaction property ensures that individual transactions are executed only once and either succeed in their entirety or roll back?</p>
+  
+  <form id="question5Form">
+    <div>
+      <input type="radio" id="answer5A" name="transactionProperty" value="A">
+      <label for="answer5A">A. Atomicity</label>
+    </div>
+    <div>
+      <input type="radio" id="answer5B" name="transactionProperty" value="B">
+      <label for="answer5B">B. Durability</label>
+    </div>
+    <div>
+      <input type="radio" id="answer5C" name="transactionProperty" value="C">
+      <label for="answer5C">C. Isolation</label>
+    </div>
+    <div>
+      <input type="radio" id="answer5D" name="transactionProperty" value="D">
+      <label for="answer5D">D. Consistency</label>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question5">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question5" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q10/img/q5.jpg" alt="Atomic Transaction"></p>
+    <p>An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or nothing occurs. A guarantee of atomicity prevents updates to the database occurring only partially, which can cause greater problems than rejecting the whole series outright. As a consequence, the transaction cannot be observed to be in progress by another database client.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.ibm.com/docs/en/cics-ts/5.4?topic=processing-acid-properties-transactions" target="_blank">ACID Properties of Transactions - IBM</a></li>
+    </ul>
+    <div id="correctAnswers_question5" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>A. Atomicity</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer5.js"></script>

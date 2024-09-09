@@ -1,0 +1,42 @@
+<div>
+  <h2>Question 2</h2>
+  <p>Which database transaction property ensures that transactional changes to a database are preserved during unexpected operating system restarts?</p>
+  
+  <form id="question2Form">
+    <div>
+      <input type="radio" id="answer2A" name="transactionProperty" value="A">
+      <label for="answer2A">A. consistency</label>
+    </div>
+    <div>
+      <input type="radio" id="answer2B" name="transactionProperty" value="B">
+      <label for="answer2B">B. atomicity</label>
+    </div>
+    <div>
+      <input type="radio" id="answer2C" name="transactionProperty" value="C">
+      <label for="answer2C">C. durability</label>
+    </div>
+    <div>
+      <input type="radio" id="answer2D" name="transactionProperty" value="D">
+      <label for="answer2D">D. isolation</label>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question2">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Durability - For example, in an application that transfers funds from one account to another, the durability property ensures that the changes made to each account will not be reversed.</p>
+    <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q10/img/q2.jpg" alt="Durability example">
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.ibm.com/docs/en/cics-ts/5.4?topic=processing-acid-properties-transactions" target="_blank">ACID Properties of Transactions - IBM</a></li>
+    </ul>
+    <div id="correctAnswers_question2" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>C. durability</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

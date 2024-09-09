@@ -1,0 +1,52 @@
+<div>
+  <h2>Question 01</h2>
+  <p>You have data saved in the following format:</p>
+  <pre><code>&lt;Person Age="23"&gt;
+  &lt;FirstName&gt;John&lt;/FirstName&gt;
+  &lt;LastName&gt;Smith&lt;/LastName&gt;
+  &lt;Hobbies&gt;
+    &lt;Hobby Type="Sports"&gt;Golf&lt;/Hobby&gt;
+    &lt;Hobby Type="Leisure"&gt;Reading&lt;/Hobby&gt;
+    &lt;Hobby Type="Leisure"&gt;Guitar&lt;/Hobby&gt;
+  &lt;/Hobbies&gt;
+&lt;/Person&gt;
+  </code></pre>
+  <p>Which format was used?</p>
+  
+  <form id="question1Form">
+    <div>
+      <input type="radio" id="answer1A" name="dataFormat1" value="A">
+      <label for="answer1A">A. JSON</label>
+    </div>
+    <div>
+      <input type="radio" id="answer1B" name="dataFormat1" value="B">
+      <label for="answer1B">B. YAML</label>
+    </div>
+    <div>
+      <input type="radio" id="answer1C" name="dataFormat1" value="C">
+      <label for="answer1C">C. HTML</label>
+    </div>
+    <div>
+      <input type="radio" id="answer1D" name="dataFormat1" value="D">
+      <label for="answer1D">D. XML</label>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question1">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>XML starts with a tag like &lt;tag&gt; and ends with a closing tag like &lt;/tag&gt;, making it easy to identify.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://www.w3schools.com/xml/xml_whatis.asp" target="_blank">What is XML? - W3Schools</a></li>
+    </ul>
+    <div id="correctAnswers_question1" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>D. XML</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

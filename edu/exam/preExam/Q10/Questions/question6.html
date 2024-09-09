@@ -1,0 +1,34 @@
+<div>
+  <h2>Question 6</h2>
+  <p>Select the answer that correctly completes the sentence.</p>
+
+  <form id="question6Form">
+    <div>
+      <select id="answer6" name="indexType">
+        <option value="A">A clustered index</option>
+        <option value="B">A FileTable</option>
+        <option value="C">A foreign key</option>
+        <option value="D">A stored procedure</option>
+      </select>
+      <span>is an object associated with a table that sorts on their key values.</span>
+    </div>
+    <button type="button" class="solutionButton" data-answer-name="question6">Solution</button>
+  </form>
+
+  <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+    <p><strong>Explanation:</strong></p>
+    <p>Clustered indexes sort and store the data rows in the table or view based on their key values. These key values are the columns included in the index definition. There can be only one clustered index per table, because the data rows themselves can be stored in only one order. The only time the data rows in a table are stored in sorted order is when the table contains a clustered index. When a table has a clustered index, the table is called a clustered table. If a table has no clustered index, its data rows are stored in an unordered structure called a heap.</p>
+    <p><strong>References:</strong></p>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver16" target="_blank">Clustered and Nonclustered Indexes - Microsoft Learn</a></li>
+    </ul>
+    <div id="correctAnswers_question6" style="display: none;">
+      <p><strong>Correct Answer:</strong></p>
+      <ul>
+        <li>A. A clustered index</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>
