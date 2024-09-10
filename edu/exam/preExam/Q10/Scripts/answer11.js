@@ -1,39 +1,41 @@
+// Function to attach event listeners to the solution button for question 11
 function attachSolutionButtonListeners_question11(button) {
   button.addEventListener('click', function() {
-    // Get the selected value
-    const selectedOption = document.querySelector('input[name="dataService"]:checked');
-
-    // Reset styles for all options
-    document.querySelectorAll('input[name="dataService"]').forEach(input => {
-      input.parentElement.classList.remove('incorrect', 'highlight');
+    // Reset styles for radio buttons
+    document.querySelectorAll('input[name="question11"]').forEach(input => {
+      const label = input.parentElement;
+      label.classList.remove('incorrect', 'highlight');
     });
 
-    // Check if an option is selected
-    if (selectedOption) {
-      const selectedValue = selectedOption.value;
-      const correctAnswer = 'AzureCosmosDB';
+    // Correct answer
+    const correctAnswer = 'D';
 
-      // Apply styles based on the selected value
-      if (selectedValue === correctAnswer) {
-        selectedOption.parentElement.classList.add('highlight');
-        document.getElementById('correctAnswers_question11').style.display = 'block';
-        score++; // Increment score if the answer is correct
-      } else {
-        selectedOption.parentElement.classList.add('incorrect');
-        document.getElementById('correctAnswers_question11').style.display = 'block';
-      }
+    // Check the selected answer
+    const selectedAnswer = document.querySelector('input[name="question11"]:checked')?.value;
+
+    // Highlight correct or incorrect answer
+    if (selectedAnswer === correctAnswer) {
+      document.querySelector(`input[name="question11"][value="${correctAnswer}"]`).parentElement.classList.add('highlight');
+      window.score++; // Increment score if the correct answer is selected
+    } else {
+      document.querySelector(`input[name="question11"][value="${selectedAnswer}"]`).parentElement.classList.add('incorrect');
     }
 
-    // Display solution info
+    // Show solution information
     const solutionInfoElement = document.getElementById('solutionInfo_question11');
     if (solutionInfoElement) {
       solutionInfoElement.style.display = 'block';
+      const correctAnswersElement = document.getElementById('correctAnswers_question11');
+      if (correctAnswersElement) {
+        correctAnswersElement.style.display = 'block';
+      }
     }
 
     showFinalScore(); // Display final score
   });
 }
 
+// Initialize functionality on page load
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.solutionButton').forEach(button => {
     attachSolutionButtonListeners_question11(button);
