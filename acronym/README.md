@@ -24,3 +24,4 @@
 |17|DMS|Data Movement Service|
 |18|CRUD|Create,Read,Update,Delete (basic storage operations)|
 |19|DBMS|Databae Management Systems|
+|20|POS|Retail Point of Sale|
