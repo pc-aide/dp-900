@@ -2,7 +2,7 @@
 function attachSolutionButtonListeners_question16(button) {
     button.addEventListener('click', function() {
       // Reset styles for radio buttons
-      document.querySelectorAll('input[name="question16_radio"]').forEach(input => {
+      document.querySelectorAll('input[name="question16"]').forEach(input => {
         const label = input.parentElement;
         label.classList.remove('incorrect', 'highlight');
       });
@@ -10,15 +10,15 @@ function attachSolutionButtonListeners_question16(button) {
       // Correct answer
       const correctAnswer = 'D';
   
-      // Check answer
-      const selectedAnswer = document.querySelector('input[name="question16_radio"]:checked');
-      
-      if (selectedAnswer) {
-        if (selectedAnswer.value === correctAnswer) {
-          selectedAnswer.parentElement.classList.add('highlight'); // Highlight correct answer
-        } else {
-          selectedAnswer.parentElement.classList.add('incorrect'); // Mark incorrect answer
-        }
+      // Check the selected answer
+      const selectedAnswer = document.querySelector('input[name="question16"]:checked')?.value;
+  
+      // Highlight correct or incorrect answer
+      if (selectedAnswer === correctAnswer) {
+        document.querySelector(`input[name="question16"][value="${correctAnswer}"]`).parentElement.classList.add('highlight');
+        window.score++; // Increment score if the correct answer is selected
+      } else {
+        document.querySelector(`input[name="question16"][value="${selectedAnswer}"]`).parentElement.classList.add('incorrect');
       }
   
       // Show solution information
@@ -33,12 +33,11 @@ function attachSolutionButtonListeners_question16(button) {
   
       showFinalScore(); // Display final score
     });
-  }
+}
   
-  // Initialize functionality on page load
-  document.addEventListener('DOMContentLoaded', function() {
+// Initialize functionality on page load
+document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.solutionButton').forEach(button => {
       attachSolutionButtonListeners_question16(button);
     });
-  });
-  
+});
