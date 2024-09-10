@@ -1,0 +1,30 @@
+<div>
+    <h2>Question 16</h2>
+    <p>A bank has a system that manages financial transactions. When transferring money between accounts, the system must never retrieve a value for the source account that reflects the balance before the transfer and a value for the destination account that reflects the balance after the transfer. Of which ACID semantic is this an example?</p>
+  
+    <form>
+      <label><input type="radio" name="question16_radio" value="A"> A. Atomicity</label><br>
+      <label><input type="radio" name="question16_radio" value="B"> B. Durability</label><br>
+      <label><input type="radio" name="question16_radio" value="C"> C. Consistency</label><br>
+      <label><input type="radio" name="question16_radio" value="D"> D. Isolation</label>
+    </form>
+  
+    <button class="solutionButton" data-answer-name="question16">Solution</button>
+  
+    <div id="solutionInfo_question16" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>Isolation is one of the four ACID semantic properties of a database management system that ensures different transactions do not interfere with each other. The isolation property guarantees that each transaction is executed in an isolated manner as if it is the only transaction taking place. This prevents situations where one transaction's results are visible to another transaction in an inconsistent way.</p>
+  
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing" target="_blank">Transactional Data Processing</a></li>
+      </ul>
+      <p id="correctAnswers_question16" style="display: none;">
+        <strong>Correct Answer:</strong><br>
+        D. Isolation
+      </p>
+    </div>
+  </div>
+  
+  <script src="../Scripts/answer16.js"></script>
+  

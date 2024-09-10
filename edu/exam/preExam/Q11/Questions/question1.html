@@ -1,0 +1,53 @@
+<div>
+    <h2>Question 01</h2>
+    <p>Match the processes to the appropriate scenarios.</p>
+    <p>To answer, drag the appropriate process from the column on the left to its scenario on the right. Each process may be used once, more than once, or not at all.</p>
+  
+    <div class="container">
+      <div class="actions">
+        <p>Draggable Processes:</p>
+        <div class="draggable" id="item1-1" draggable="true" data-action="ETL processing">ETL processing</div>
+        <div class="draggable" id="item1-2" draggable="true" data-action="ELT processing">ELT processing</div>
+        <div class="draggable" id="item1-3" draggable="true" data-action="Data ingestion">Data ingestion</div>
+      </div>
+      <div class="answers">
+        <p>Drop Zones:</p>
+        <div>
+          <label for="dropZone1-1">Data is retrieved & processed before being saved to a target system:</label>
+          <div class="dropzone" id="dropZone1-1"></div>
+        </div>
+        <div>
+          <label for="dropZone1-2">Data is saved to a target system, & then processed:</label>
+          <div class="dropzone" id="dropZone1-2"></div>
+        </div>
+        <div>
+          <label for="dropZone1-3">Data is extracted from a source system, & then saved to a target system:</label>
+          <div class="dropzone" id="dropZone1-3"></div>
+        </div>
+      </div>
+    </div>
+  
+    <button class="solutionButton" data-answer-name="question1">Solution</button>
+  
+    <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q11/img/q1.png">
+      <p>1. Data is Retrieved (Extract) and processed (Transformed) before being saved to a target system (Load). Answer is ETL</p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q11/img/q1_2.png">
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl" target="_blank">Azure ETL Processes</a></li>
+      </ul>
+      <div id="correctAnswers_question1" style="display: none;">
+        <p><strong>Correct Answers:</strong></p>
+        <ul>
+          <li>Data is retrieved & processed before being saved to a target system: ETL processing</li>
+          <li>Data is saved to a target system, & then processed: ELT processing</li>
+          <li>Data is extracted from a source system, & then saved to a target system: Data ingestion</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script src="../Scripts/answer1.js"></script>
+  
