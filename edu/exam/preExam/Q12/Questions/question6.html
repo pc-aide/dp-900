@@ -1,0 +1,45 @@
+<div>
+    <h2>Question 6</h2>
+    <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+    <form>
+      <p>OLTP relies on a database system where data storage is optimized for both read & write operations:</p>
+      <label><input type="radio" name="question6_1_radio" value="Yes"> Yes</label>
+      <label><input type="radio" name="question6_1_radio" value="No"> No</label><br><br>
+
+      <p>OLAP relies on a database system where data storage is optimized for both read & write operations:</p>
+      <label><input type="radio" name="question6_2_radio" value="Yes"> Yes</label>
+      <label><input type="radio" name="question6_2_radio" value="No"> No</label><br><br>
+
+      <p>Data warehouses are optimized for read operations:</p>
+      <label><input type="radio" name="question6_3_radio" value="Yes"> Yes</label>
+      <label><input type="radio" name="question6_3_radio" value="No"> No</label>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question6">Solution</button>
+
+    <div id="solutionInfo_question6" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q6.webp">
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q6_2.webp">
+      <p><strong>Y</strong> - OLTP systems are designed to efficiently process and store transactions, as well as query transactional data. They handle a large number of short online transaction processing requests.</p>
+      <p><strong>N</strong> - OLAP systems are optimized for querying and reporting large datasets, typically using less normalized data, making them highly efficient for reads but less efficient for writes.</p>
+      <p><strong>Y</strong> - Data warehouses are optimized for read operations, designed to store large amounts of historical data for analysis, often using OLAP technologies.</p>
+
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://www.snowflake.com/guides/olap-vs-oltp/#:~:text=Online%20analytical%20processing%20(OLAP)%20and,of%20online%20transactions%20at%20scale" target="_blank">OLAP vs OLTP Overview</a></li>
+        <li><a href="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q6.webp" target="_blank">OLTP and OLAP Systems Diagram</a></li>
+        <li><a href="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q6_2.webp" target="_blank">OLTP vs OLAP Diagram</a></li>
+      </ul>
+
+      <p id="correctAnswers_question6" style="display: none;">
+        <strong>Correct Answers:</strong><br>
+        OLTP relies on a database system where data storage is optimized for both read & write operations: Yes<br>
+        OLAP relies on a database system where data storage is optimized for both read & write operations: No<br>
+        Data warehouses are optimized for read operations: Yes
+      </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer6.js"></script>

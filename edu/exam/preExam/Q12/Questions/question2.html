@@ -1,0 +1,35 @@
+<div>
+    <h2>Question 2</h2>
+    <p>Select the answer that correctly completes the sentence.</p>
+  
+    <form>
+      <label>In Microsoft Power BI, you can create</label>
+      <select id="question2_dropdown" name="question2_dropdown">
+        <option value="a dashboard">a dashboard</option>
+        <option value="a fact table">a fact table</option>
+        <option value="a unique key">a unique key</option>
+        <option value="an attribute hierarchy">an attribute hierarchy</option>
+      </select>
+      <label>to quickly drill-up or drill-down to find aggreagated values at different levels of a dimensions</label>
+    </form>
+  
+    <button class="solutionButton" data-answer-name="question2">Solution</button>
+  
+    <div id="solutionInfo_question2" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q2.png" alt="Explanation" style="max-width: 100%; height: auto;">
+      <p>By default, attribute members are organized into two-level hierarchies, consisting of a leaf level and an All level. The All level contains the aggregated value of the attribute's members across the measures in each measure group to which the dimension of which the attribute is related is a member. However, if the IsAggregatable property is set to False, the All level is not created.</p>
+  
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://learn.microsoft.com/en-us/analysis-services/multidimensional-models-olap-logical-dimension-objects/attributes-and-attribute-hierarchies?view=asallproducts-allversions#attribute-hierarchies" target="_blank">Attribute Hierarchies - Microsoft Learn</a></li>
+      </ul>
+  
+      <p id="correctAnswers_question2" style="display: none;">
+        <strong>Correct Answer:</strong><br>
+        an attribute hierarchy
+      </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer2.js"></script>

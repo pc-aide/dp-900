@@ -1,0 +1,32 @@
+<div>
+    <h2>Question 4</h2>
+    <p>In a fully denormalized database, how is data read and written for a single entity?</p>
+  
+    <form>
+      <label><input type="radio" name="question4" value="A"> A. Data is read from a single table and written to a single table.</label><br>
+      <label><input type="radio" name="question4" value="B"> B. Data is read from multiple tables and written to a single table.</label><br>
+      <label><input type="radio" name="question4" value="C"> C. Data is read from a single table and written to multiple tables.</label><br>
+      <label><input type="radio" name="question4" value="D"> D. Data is read from multiple tables and written to multiple tables.</label><br>
+    </form>
+  
+    <button class="solutionButton" data-answer-name="question4">Solution</button>
+  
+    <div id="solutionInfo_question4" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/edu/exam/preExam/Q12/img/q4.png">
+      <p>Denormalization involves consolidating data into a single table to reduce the need for joins and simplify querying. This results in improved read performance as all the necessary data for a single entity can be retrieved from a single table without requiring joins with other tables. Similarly, when writing data, it is written to a single table without the need to update multiple tables. This approach is commonly used in data warehousing and reporting scenarios where read performance is prioritized over storage efficiency and data modification speed.</p>
+      <p>The question says, "...for a single entity", which means for a SINGLE object. In a highly normalized table, say a PRODUCT table, info pertaining to the Product (ID, Description, Make, Model, Color, Manufacturing Date) would all be read from a single table, and written to a single table. When you have to join the querying with another entity (say, Product Sales or Orders), then a Join would be required (to aggregate information for the other entities, like SALES, ORDER, LOCATION, etc).</p>
+  
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://www.geeksforgeeks.org/denormalization-in-databases/" target="_blank">Denormalization in Databases - GeeksforGeeks</a></li>
+      </ul>
+  
+      <p id="correctAnswers_question4" style="display: none;">
+        <strong>Correct Answer:</strong><br>
+        A. Data is read from a single table and written to a single table.
+      </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer4.js"></script>
