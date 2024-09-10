@@ -1,36 +1,29 @@
 <div>
   <h2>Question 11</h2>
-  <p>Select the answer that correctly completes the sentence.</p>
+  <p>You plan to deploy an app. The app requires a nonrelational data service that will provide latency guarantees of less than 10-ms for reads and writes. What should you include in the solution?</p>
 
-  <form id="question11Form">
-    <input type="radio" id="optionA" name="dataService" value="AzureBlobStorage">
-    <label for="optionA">Azure Blob storage</label><br>
-
-    <input type="radio" id="optionB" name="dataService" value="AzureFiles">
-    <label for="optionB">Azure Files</label><br>
-
-    <input type="radio" id="optionC" name="dataService" value="AzureTableStorage">
-    <label for="optionC">Azure Table storage</label><br>
-
-    <input type="radio" id="optionD" name="dataService" value="AzureCosmosDB">
-    <label for="optionD">Azure Cosmos DB</label><br>
-
-    <button type="button" class="solutionButton" data-answer-name="question11">Solution</button>
+  <form>
+    <label><input type="radio" name="question11" value="A"> A. Azure SQL Database</label><br>
+    <label><input type="radio" name="question11" value="B"> B. Azure Blob Storage</label><br>
+    <label><input type="radio" name="question11" value="C"> C. Azure Table Storage</label><br>
+    <label><input type="radio" name="question11" value="D"> D. Azure Cosmos DB</label><br>
   </form>
+
+  <button class="solutionButton" data-answer-name="question11">Solution</button>
 
   <div id="solutionInfo_question11" class="solutionInfo" style="display: none;">
     <p><strong>Explanation:</strong></p>
-    <p>The read latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average read latency, at the 50th percentile, is typically 4 milliseconds or less. The write latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average write latency, at the 50th percentile, is usually 5 milliseconds or less. Azure Cosmos DB accounts that span several regions and are configured with strong consistency are an exception to this guarantee.</p>
+    <p>Azure Cosmos DB: The read latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average read latency, at the 50th percentile, is typically 4 milliseconds or less. The write latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average write latency, at the 50th percentile, is usually 5 milliseconds or less. Azure Cosmos DB accounts that span several regions and are configured with strong consistency are an exception to this guarantee.</p>
+    
     <p><strong>References:</strong></p>
     <ul>
-      <li><a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels" target="_blank">Consistency Levels in Azure Cosmos DB - Microsoft Learn</a></li>
+      <li><a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels" target="_blank">Azure Cosmos DB Consistency Levels</a></li>
     </ul>
-    <div id="correctAnswers_question11" style="display: none;">
-      <p><strong>Correct Answer:</strong></p>
-      <ul>
-        <li>Azure Cosmos DB</li>
-      </ul>
-    </div>
+
+    <p id="correctAnswers_question11" style="display: none;">
+      <strong>Correct Answer:</strong><br>
+      D. Azure Cosmos DB
+    </p>
   </div>
 </div>
 
