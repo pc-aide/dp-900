@@ -1,0 +1,42 @@
+<div>
+    <h2>Question 16</h2>
+    <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+    <form>
+        <p>The Cool access tier is the default tier of an Azure Storage account:</p>
+        <label><input type="radio" name="question16_1_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question16_1_radio" value="No"> No</label><br><br>
+
+        <p>Append blobs are optimized for random read & write operations:</p>
+        <label><input type="radio" name="question16_2_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question16_2_radio" value="No"> No</label><br><br>
+
+        <p>Retrieving data from the Archive access tier takes hours to complete:</p>
+        <label><input type="radio" name="question16_3_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question16_3_radio" value="No"> No</label>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question16">Solution</button>
+
+    <div id="solutionInfo_question16" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p><strong>N</strong> - The default access tier for a new general-purpose v2 storage account is set to the hot tier by default.</p>
+        <p><strong>N</strong> - Append blobs are optimized for append operations, not random read & write.</p>
+        <p><strong>Y</strong> - Retrieving data from the Archive tier can take several hours to complete (rehydration process).</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview" target="_blank">Azure Blob Storage Archive Tier Overview</a></li>
+            <li><a href="https://learn.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs--append-blobs--and-page-blobs" target="_blank">Understanding Blobs</a></li>
+        </ul>
+
+        <p id="correctAnswers_question16" style="display: none;">
+            <strong>Correct Answers:</strong><br>
+            The Cool access tier is the default tier of an Azure Storage account: No<br>
+            Append blobs are optimized for random read & write operations: No<br>
+            Retrieving data from the Archive access tier takes hours to complete: Yes
+        </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer16.js"></script>

@@ -1,0 +1,41 @@
+<div>
+    <h2>Question 18</h2>
+    <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+    <form>
+        <p>You create Azure File Storage in a storage account:</p>
+        <label><input type="radio" name="question18_1_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question18_1_radio" value="No"> No</label><br><br>
+
+        <p>The Premium tier of Azure File Storage uses HDD-based hardware in a datacenter:</p>
+        <label><input type="radio" name="question18_2_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question18_2_radio" value="No"> No</label><br><br>
+
+        <p>The Standard tier of Azure File Storage uses SSDs:</p>
+        <label><input type="radio" name="question18_3_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question18_3_radio" value="No"> No</label>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question18">Solution</button>
+
+    <div id="solutionInfo_question18" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p>Yes. Azure File Storage can be created in a storage account in Azure.</p>
+        <p>No. The Premium tier of Azure File Storage uses SSD-based hardware in a datacenter, not HDD-based.</p>
+        <p>No. The Standard tier of Azure File Storage also uses HDD-based hardware in a datacenter, not SSD-based. However, it is worth noting that both tiers of Azure File Storage offer a combination of SSDs and HDDs to optimize performance and cost.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/azure/storage/files/" target="_blank">Azure File Storage Overview</a></li>
+        </ul>
+
+        <p id="correctAnswers_question18" style="display: none;">
+            <strong>Correct Answers:</strong><br>
+            You create Azure File Storage in a storage account: Yes<br>
+            The Premium tier of Azure File Storage uses HDD-based hardware in a datacenter: No<br>
+            The Standard tier of Azure File Storage uses SSDs: No
+        </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer18.js"></script>
