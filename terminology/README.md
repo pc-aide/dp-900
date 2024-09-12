@@ -57,3 +57,4 @@
 |50|SQL Server Management Studio|
 |51|Azure Synapse Analytics Studio||<img src="https://i.imgur.com/RGBG70M.png">|
 |52|data masks|help standardize your data in columns<br/>eg : email:<br/>text+@+an extension|
+|53|Database schema|Database schema is a **table** and **column model** that is **designed** and **implemented** before we start using a relational database|
