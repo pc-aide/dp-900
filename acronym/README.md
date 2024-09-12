@@ -27,3 +27,4 @@
 |20|POS|Retail Point of Sale|
 |21|OAP|Online Analytical Processing|
 |22|ANSI|American National Standards Institute|
+|23|RDBMSs|Relational Database Management Systems|
