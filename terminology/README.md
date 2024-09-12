@@ -58,4 +58,4 @@
 |51|Azure Synapse Analytics Studio||<img src="https://i.imgur.com/RGBG70M.png">|
 |52|data masks|help standardize your data in columns<br/>eg : email:<br/>text+@+an extension|
 |53|Database schema|Database schema is a **table** and **column model** that is **designed** and **implemented** before we start using a relational database|
-|54|Data normalization|to troubleshoot **data duplication**, a process called normalization|
+|54|Data normalization|to troubleshoot **data duplication**, a process called normalization|A sales table example:<br/><img src="https://i.imgur.com/8tHBQRs.png">|
