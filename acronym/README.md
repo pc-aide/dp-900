@@ -26,3 +26,4 @@
 |19|DBMS|Databae Management Systems|
 |20|POS|Retail Point of Sale|
 |21|OAP|Online Analytical Processing|
+|22|ANSI|American National Standards Institute|
