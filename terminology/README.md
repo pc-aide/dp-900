@@ -56,4 +56,4 @@
 |49|Azure Data studio||<img src="https://i.imgur.com/k8dvC4C.png">|
 |50|SQL Server Management Studio|
 |51|Azure Synapse Analytics Studio||<img src="https://i.imgur.com/RGBG70M.png">|
-|52|data masks|help standardize your data in columns<br/>eg : email:<br/>text@+an extension|
+|52|data masks|help standardize your data in columns<br/>eg : email:<br/>text+@+an extension|
