@@ -37,7 +37,7 @@
 |30|ELT||<img src="https://i.imgur.com/lRKSOpl.png">|
 |31|Data Pipeline|
 |32|Microsoft Fabric|SaaS|
-|33|Batch data||Batch processing vs Streaming processing:<br/><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/terminology/batch%20prcessing%20vs%20stream%20processing.png">|
+|33|Batch data|Data ingestion is the process of **copying operational data** from data sources to organize it in an **analytical database**.<br/><br/>When batching the data, the operation is offline|Batch processing vs Streaming processing:<br/><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/terminology/batch%20prcessing%20vs%20stream%20processing.png">|
 |34|Streaming data|
 |35|Azure Data Explorer (ADX) Cluster|
 |36|Spark Structured Streaming|
