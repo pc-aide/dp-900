@@ -1,0 +1,41 @@
+<div>
+    <h2>Question 01</h2>
+    <p>Which activity is most common for transactional workloads?</p>
+
+    <form>
+        <div>
+            <input type="radio" id="answer1a" name="question1" value="A">
+            <label for="answer1a">A. recording small units of work events in real time</label>
+        </div>
+        <div>
+            <input type="radio" id="answer1b" name="question1" value="B">
+            <label for="answer1b">B. aggregating massive amounts of data</label>
+        </div>
+        <div>
+            <input type="radio" id="answer1c" name="question1" value="C">
+            <label for="answer1c">C. producing complex reports</label>
+        </div>
+        <div>
+            <input type="radio" id="answer1d" name="question1" value="D">
+            <label for="answer1d">D. performing self-service data exploration</label>
+        </div>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question1">Solution</button>
+
+    <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p>A transactional workload means that over time, the database is getting requests for data and various changes to that data from different users. The modifications that are made are known as transactions. For example, a transactional workload is built to aid in transactions such as in banking or accounting systems.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://aerospike.com/glossary/transactional-workload/#:~:text=A%20transactional%20workload%20means%20that,in%20banking%20or%20accounting%20systems." target="_blank">Transactional Workload Overview</a></li>
+        </ul>
+
+        <div id="correctAnswers_question1" style="display: none;">
+            <p><strong>Correct Answer:</strong> A. recording small units of work events in real time</p>
+        </div>
+    </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

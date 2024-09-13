@@ -1,0 +1,35 @@
+<div>
+    <h2>Question 12</h2>
+    <p>Select the answer that correctly completes the sentence.</p>
+
+    <form>
+        <label for="question12_dropdown">An OLAP model stores</label>
+        <select id="question12_dropdown" name="question12_dropdown">
+            <option value="aggregated">Aggregated</option>
+            <option value="normalized">Normalized</option>
+            <option value="semi-structured">Semi-structured</option>
+            <option value="unstructured">Unstructured</option>
+        </select>
+        data that is optimized for analytical workloads.
+    </form>
+
+    <button class="solutionButton" data-answer-name="question12">Solution</button>
+
+    <div id="solutionInfo_question12" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/refs/heads/main/edu/exam/preExam/Q14/img/q12.png">
+        <p>OLAP databases are designed to facilitate complex analytical and ad-hoc queries on large datasets. In OLAP, data is typically pre-aggregated and organized into multidimensional structures such as cubes or star schemas to enable fast querying and analysis. Aggregated data allows for efficient processing of analytical queries, including operations such as slice-and-dice, drill-down, and roll-up, which are commonly performed in OLAP environments to gain insights from data.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing" target="_blank">Online Analytical Processing (OLAP) - Microsoft</a></li>
+        </ul>
+
+        <p id="correctAnswers_question12" style="display: none;">
+            <strong>Correct Answer:</strong><br>
+            Aggregated
+        </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer12.js"></script>

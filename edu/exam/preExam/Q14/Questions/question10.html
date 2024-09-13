@@ -1,0 +1,41 @@
+<div>
+    <h2>Question 10</h2>
+    <p>For each of the following statements, select Yes if the statement is true. Otherwise, select No.</p>
+
+    <form>
+        <p>The pgAdmin tool can be used to manage Azure Database for PostgreSQL:</p>
+        <label><input type="radio" name="question10_1_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question10_1_radio" value="No"> No</label><br><br>
+
+        <p>Azure Database for MariaDB offers point-in-time restore for up to 365 days:</p>
+        <label><input type="radio" name="question10_2_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question10_2_radio" value="No"> No</label><br><br>
+
+        <p>Azure Database for MySQL always requires SSL connections:</p>
+        <label><input type="radio" name="question10_3_radio" value="Yes"> Yes</label>
+        <label><input type="radio" name="question10_3_radio" value="No"> No</label>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question10">Solution</button>
+
+    <div id="solutionInfo_question10" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p><strong>Yes</strong> - The pgAdmin tool can indeed be used to manage Azure Database for PostgreSQL.</p>
+        <p><strong>No</strong> - Azure Database for MariaDB offers point-in-time restore, but the backup retention period can be configured up to 35 days, not 365 days.</p>
+        <p><strong>Yes</strong> - By default, Azure Database for MySQL enforces SSL connections between your server and your client applications to protect against “man in the middle” attacks.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source" target="_blank">Explore Provisioning and Deployment of Relational Database Offerings in Azure - Microsoft Learn</a></li>
+        </ul>
+
+        <p id="correctAnswers_question10" style="display: none;">
+            <strong>Correct Answers:</strong><br>
+            The pgAdmin tool can be used to manage Azure Database for PostgreSQL: Yes<br>
+            Azure Database for MariaDB offers point-in-time restore for up to 365 days: No<br>
+            Azure Database for MySQL always requires SSL connections: Yes
+        </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer10.js"></script>
