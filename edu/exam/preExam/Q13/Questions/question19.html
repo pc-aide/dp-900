@@ -1,0 +1,45 @@
+<div>
+    <h2>Question 19</h2>
+    <p>A bank needs to ensure that a transaction involving debiting funds from a source account and crediting the same funds to a destination account must complete both actions. If either action fails to complete, the other action must fail.</p>
+    <p>Of which ACID semantic is this an example?</p>
+
+    <form>
+        <div>
+            <input type="radio" id="answer19a" name="question19" value="A">
+            <label for="answer19a">A. consistency</label>
+        </div>
+        <div>
+            <input type="radio" id="answer19b" name="question19" value="B">
+            <label for="answer19b">B. durability</label>
+        </div>
+        <div>
+            <input type="radio" id="answer19c" name="question19" value="C">
+            <label for="answer19c">C. atomicity</label>
+        </div>
+        <div>
+            <input type="radio" id="answer19d" name="question19" value="D">
+            <label for="answer19d">D. isolation</label>
+        </div>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question19">Solution</button>
+
+    <div id="solutionInfo_question19" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/refs/heads/main/edu/exam/preExam/Q13/img/q19.jpg">
+        <p>Atomicity guarantees that each transaction is treated as a single "unit", which either succeeds completely or fails completely: if any of the statements constituting a transaction fails to complete, the entire transaction fails and the database is left unchanged</p>
+        <p>Consistency ensures that a transaction can only bring the database from one consistent state to another, preserving database invariants: any data written to the database must be valid according to all defined rules</p>
+        <p>Isolation ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially</p>
+        <p>Durability guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure (e.g., power outage or crash).</p>
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/windows/win32/cossdk/acid-properties" target="_blank">ACID Properties</a></li>
+        </ul>
+
+        <div id="correctAnswers_question19" style="display: none;">
+            <p><strong>Correct Answer:</strong> C. atomicity</p>
+        </div>
+    </div>
+</div>
+
+<script src="../Scripts/answer19.js"></script>

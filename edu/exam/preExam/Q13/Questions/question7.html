@@ -1,0 +1,31 @@
+<div>
+    <h2>Question 7</h2>
+    <p>A bank needs to ensure that after an account transfer transaction completes, the revised account balances persist even if the database system hosting the transaction becomes temporarily unavailable.</p>
+    <p>Of which ACID semantic is this an example?</p>
+
+    <form>
+        <label><input type="radio" name="question7_radio" value="A"> A. Durability</label><br>
+        <label><input type="radio" name="question7_radio" value="B"> B. Isolation</label><br>
+        <label><input type="radio" name="question7_radio" value="C"> C. Atomicity</label><br>
+        <label><input type="radio" name="question7_radio" value="D"> D. Consistency</label><br><br>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question7">Solution</button>
+
+    <div id="solutionInfo_question7" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p>A. Durability - When a transaction has been committed, it will remain committed. After the account transfer transaction has completed, the revised account balances are persisted so that even if the database system were to be switched off, the committed transaction would be reflected when it is switched on again.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing" target="_blank">ACID Semantics - Microsoft Learn</a></li>
+        </ul>
+
+        <p id="correctAnswers_question7" style="display: none;">
+            <strong>Correct Answer:</strong><br>
+            A. Durability
+        </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer7.js"></script>

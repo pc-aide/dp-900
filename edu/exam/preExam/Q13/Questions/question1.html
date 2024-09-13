@@ -1,0 +1,30 @@
+<div>
+    <h2>Question 01</h2>
+    <p>Which type of Azure resource supports the serverless configuration of an Azure SQL database?</p>
+  
+    <form>
+      <label><input type="radio" name="question1" value="A"> A. SQL Server on Azure Virtual Machines</label><br>
+      <label><input type="radio" name="question1" value="B"> B. an Azure SQL Database elastic pool</label><br>
+      <label><input type="radio" name="question1" value="C"> C. a single database in Azure SQL Database</label><br>
+      <label><input type="radio" name="question1" value="D"> D. Azure SQL Managed Instance</label><br>
+    </form>
+  
+    <button class="solutionButton" data-answer-name="question1">Solution</button>
+  
+    <div id="solutionInfo_question1" class="solutionInfo" style="display: none;">
+      <p><strong>Explanation:</strong></p>
+      <p>Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier also automatically pauses databases during inactive periods when only storage is billed and automatically resumes databases when activity returns.</p>
+  
+      <p><strong>References:</strong></p>
+      <ul>
+        <li><a href="https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview?view=azuresql&tabs=general-purpose" target="_blank">Serverless Tier Overview - Microsoft Learn</a></li>
+      </ul>
+  
+      <p id="correctAnswers_question1" style="display: none;">
+        <strong>Correct Answer:</strong><br>
+        C. a single database in Azure SQL Database
+      </p>
+    </div>
+</div>
+
+<script src="../Scripts/answer1.js"></script>

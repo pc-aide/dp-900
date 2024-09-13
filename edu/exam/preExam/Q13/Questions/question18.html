@@ -1,0 +1,53 @@
+<div>
+    <h2>Question 18</h2>
+    <p>Match the cloud service model to the appropriate Azure relational database service.</p>
+    <p>To answer, drag the appropriate cloud service model from the column on the left to its service on the right. Each model may be used once, more than once, or not at all.</p>
+
+    <div class="container">
+        <div class="actions">
+            <p>Draggable Cloud Service Models:</p>
+            <div class="draggable" id="model1" draggable="true" data-action="IaaS">IaaS</div>
+            <div class="draggable" id="model2" draggable="true" data-action="PaaS">PaaS</div>
+            <div class="draggable" id="model3" draggable="true" data-action="SaaS">SaaS</div>
+        </div>
+        <div class="answers">
+            <p>Drop Zones:</p>
+            <div>
+                <label for="dropZone18-1">Azure SQL Database:</label>
+                <div class="dropzone" id="dropZone18-1"></div>
+            </div>
+            <div>
+                <label for="dropZone18-2">Azure SQL Managed Instance:</label>
+                <div class="dropzone" id="dropZone18-2"></div>
+            </div>
+            <div>
+                <label for="dropZone18-3">SQL Server on Azure VMs:</label>
+                <div class="dropzone" id="dropZone18-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="solutionButton" data-answer-name="question18">Solution</button>
+
+    <div id="solutionInfo_question18" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <img src="https://raw.githubusercontent.com/pc-aide/dp-900/refs/heads/main/edu/exam/preExam/Q13/img/q18.png">
+        <p>PaaS is used for both Azure SQL Database and Azure SQL Managed Instance. IaaS is used for SQL Server on Azure VMs.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql" target="_blank">Azure Relational Database Services</a></li>
+        </ul>
+
+        <div id="correctAnswers_question18" style="display: none;">
+            <p><strong>Correct Answers:</strong></p>
+            <ul>
+                <li>Azure SQL Database: PaaS</li>
+                <li>Azure SQL Managed Instance: PaaS</li>
+                <li>SQL Server on Azure VMs: IaaS</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="../Scripts/answer18.js"></script>

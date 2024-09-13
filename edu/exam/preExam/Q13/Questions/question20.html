@@ -1,0 +1,41 @@
+<div>
+    <h2>Question 20</h2>
+    <p>Blob rehydration occurs in Azure Blob storage when a blob moves between which access tiers?</p>
+
+    <form>
+        <div>
+            <input type="radio" id="answer20a" name="question20" value="A">
+            <label for="answer20a">A. Hot to Cool</label>
+        </div>
+        <div>
+            <input type="radio" id="answer20b" name="question20" value="B">
+            <label for="answer20b">B. Hot to Archive</label>
+        </div>
+        <div>
+            <input type="radio" id="answer20c" name="question20" value="C">
+            <label for="answer20c">C. Cool to Archive</label>
+        </div>
+        <div>
+            <input type="radio" id="answer20d" name="question20" value="D">
+            <label for="answer20d">D. Archive to Cool</label>
+        </div>
+    </form>
+
+    <button class="solutionButton" data-answer-name="question20">Solution</button>
+
+    <div id="solutionInfo_question20" class="solutionInfo" style="display: none;">
+        <p><strong>Explanation:</strong></p>
+        <p>While a blob is in the archive access tier, it's considered to be offline, and can't be read or modified. In order to read or modify data in an archived blob, you must first rehydrate the blob to an online tier, either the hot or cool tier.</p>
+
+        <p><strong>References:</strong></p>
+        <ul>
+            <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/archive-rehydrate-overview" target="_blank">Archive Rehydrate Overview</a></li>
+        </ul>
+
+        <div id="correctAnswers_question20" style="display: none;">
+            <p><strong>Correct Answer:</strong> D. Archive to Cool</p>
+        </div>
+    </div>
+</div>
+
+<script src="../Scripts/answer20.js"></script>
