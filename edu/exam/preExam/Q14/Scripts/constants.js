@@ -92,16 +92,14 @@ document.addEventListener('DOMContentLoaded', function() {
     loadScripts([
         'answer1.js', 'answer2.js', 'answer3.js', 'answer4.js', 'answer5.js',
         'answer6.js', 'answer7.js', 'answer8.js', 'answer9.js', 'answer10.js',
-        'answer11.js', 'answer12.js', 'answer13.js', 'answer14.js', 'answer15.js',
-        'answer16.js', 'answer17.js', 'answer18.js', 'answer19.js', 'answer20.js'
+        'answer11.js', 'answer12.js', 'answer13.js'
     ])
     .then(() => {
         // Charger toutes les questions après que tous les scripts de réponse sont chargés
         loadQuestions([
             'question1.html', 'question2.html', 'question3.html', 'question4.html', 'question5.html',
             'question6.html', 'question7.html', 'question8.html', 'question9.html', 'question10.html',
-            'question11.html', 'question12.html', 'question13.html', 'question14.html', 'question15.html',
-            'question16.html', 'question17.html', 'question18.html', 'question19.html', 'question20.html'
+            'question11.html', 'question12.html', 'question13.html'
         ]);
     })
     .catch(error => console.error('Error loading scripts:', error));
