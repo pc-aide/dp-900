@@ -23,8 +23,8 @@ function enableDragAndDrop() {
             const data = e.dataTransfer.getData('text/plain');
             const draggedElement = document.getElementById(data);
             if (draggedElement) {
-                e.target.textContent = draggedElement.dataset.role;
-                e.target.dataset.role = draggedElement.dataset.role;
+                e.target.textContent = draggedElement.dataset.action;
+                e.target.dataset.action = draggedElement.dataset.action;
                 e.target.dataset.itemId = draggedElement.id;
                 dropzone.classList.remove('highlight');
             }
@@ -77,7 +77,7 @@ function attachSolutionButtonListeners_question3(button) {
             solutionInfoElement.style.display = 'block';
         }
 
-        showFinalScore(); // Function to display the final score
+        showFinalScore();
     });
 }
 
