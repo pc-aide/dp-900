@@ -1,6 +1,6 @@
 // Constants
 var score = 0; // Initialiser le score à 0
-var totalQuestions = 20; // Nombre total de questions
+var totalQuestions = 13; // Nombre total de questions
 
 // Functions
 function showFinalScore() {
