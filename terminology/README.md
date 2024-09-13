@@ -59,4 +59,4 @@
 |52|data masks|help standardize your data in columns<br/>eg : email:<br/>text+@+an extension|
 |53|Database schema|Database schema is a **table** and **column model** that is **designed** and **implemented** before we start using a relational database|
 |54|Data normalization|to troubleshoot **data duplication**, a process called normalization|A sales table example:<br/><img src="https://i.imgur.com/8tHBQRs.png"><br/><br/>An example of a relational database (relation many tables) with normalization applied:<br/><img src="https://i.imgur.com/ZF2wETO.png">|
-|55|Fact vs Dimension Table||Fact Table (eg : Sales Tables)<br/><img src="https://i.imgur.com/yrdQC3l.png"><br/><br/>Dimensions Table (attributes)<br/><img src="https://i.imgur.com/vbs6aSN.png">
+|55|Fact vs Dimension Table||Fact Table (eg : Sales Tables)<br/><img src="https://i.imgur.com/yrdQC3l.png"><br/><br/>Dimensions Table (attributes)<br/><img src="https://i.imgur.com/vbs6aSN.png"><br/><img src="https://i.imgur.com/SVV20Gh.png">
