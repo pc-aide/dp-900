@@ -30,7 +30,7 @@
 |23|MongoDB API|
 |24|Table API|
 |25|Turnkey Global Distribution|
-|26|Power BI||Data journey from Azure data sources to visualization to Power BI:<br/><img src="https://i.imgur.com/gUPpfVh.png">Power BI Web:<br/><img src="https://i0.wp.com/radacad.com/wp-content/uploads/2015/08/35.png">|
+|26|Power BI||Data journey from Azure data sources to visualization to Power BI:<br/><img src="https://i.imgur.com/gUPpfVh.png">Power BI Web:<br/><img src="https://i0.wp.com/radacad.com/wp-content/uploads/2015/08/35.png"><br/>Power BI Desktop vs Power BI Service<br/><img src="https://i.imgur.com/wmtGjKu.png">|
 |27|Azure Analysis Services|
 |28|data types||<img src="https://i.imgur.com/PkCsvSR.png">|
 |29|ETL||<img src="https://i.imgur.com/lB45r9y.png">|
