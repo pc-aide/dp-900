@@ -62,3 +62,4 @@
 |55|Fact vs Dimension Table||Fact Table (eg : Sales Tables)<br/><img src="https://i.imgur.com/yrdQC3l.png"><br/><br/>Dimensions Table (attributes)<br/><img src="https://i.imgur.com/vbs6aSN.png"><br/><img src="https://i.imgur.com/SVV20Gh.png">
 |56|database components|<ins>Views</ins><br/><br/><ins>stored procedures</ins><br/><br/><ins>triggers</ins><br/><br/><ins>indexes</ins>|
 |57|document database||<img src="https://i.imgur.com/SYQdVFs.png">|
+|58|column family database||<img src="https://i.imgur.com/hKOQJvx.png">|
