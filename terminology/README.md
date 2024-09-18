@@ -61,3 +61,4 @@
 |54|Data normalization|to troubleshoot **data duplication**, a process called normalization|A sales table example:<br/><img src="https://i.imgur.com/8tHBQRs.png"><br/><br/>An example of a relational database (relation many tables) with normalization applied:<br/><img src="https://i.imgur.com/ZF2wETO.png">|
 |55|Fact vs Dimension Table||Fact Table (eg : Sales Tables)<br/><img src="https://i.imgur.com/yrdQC3l.png"><br/><br/>Dimensions Table (attributes)<br/><img src="https://i.imgur.com/vbs6aSN.png"><br/><img src="https://i.imgur.com/SVV20Gh.png">
 |56|database components|<ins>Views</ins><br/><br/><ins>stored procedures</ins><br/><br/><ins>triggers</ins><br/><br/><ins>indexes</ins>|
+|57|document database||<img src="https://i.imgur.com/SYQdVFs.png">|
