@@ -74,3 +74,4 @@
 |67|Delta Lake|
 |68|Elastic pool|An Azure SQL Database elastic pool is a **service** where you can have **multiple databases, sharing the same resources** sunch as **memory,data storage space, & computing power**<br/><br/> Pool is a term used to describe a collection of resources, in this context, a collection of databases that share the same Azure SQL Database cluster|
 |69|pgAdmin|
+|70|SQL language categories||<img src="https://i.imgur.com/3UAXZjd.png">|
