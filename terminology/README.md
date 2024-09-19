@@ -69,3 +69,4 @@
 |62|data analysts|Often, these models are called **data cubes** because they demonstate a particular subject (called a **fact**) in various perspectives (called **dimensions**), thus allowing data analysts to consume this data & drill down to understand the details of the information.|
 |63|Data ingestion type|<ins>Batch processing</ins><br/><br/><ins>Stream processing</ins>|
 |64|Azure Synapse Pipelines||<img src="https://i.imgur.com/hgCCtIG.png">|
+|65|Data warehouse|
