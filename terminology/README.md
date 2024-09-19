@@ -65,4 +65,4 @@
 |58|column family database|<ins>Cassandra</ins><br/><br/><ins>HBase</ins>|<img src="https://i.imgur.com/hKOQJvx.png">|
 |59|microservices|Modern software architecture (microservices)|
 |60|data pipeline|for example, use **Azure SQL Database** to run a store procedure that searches for data values, & then run a processing **routine** with Azure **Databricks** by applying a custom data model. All of these are steps in a data pipeline|
-|61|Data flow in an analytical env||<img sc="https://i.imgur.com/9rbPD9D.png">|
+|61|Data flow in an analytical env||<img src="https://i.imgur.com/9rbPD9D.png">|
