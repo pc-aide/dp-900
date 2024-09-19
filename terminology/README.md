@@ -66,7 +66,7 @@
 |59|microservices|Modern software architecture (microservices)|
 |60|data pipeline|for example, use **Azure SQL Database** to run a store procedure that searches for data values, & then run a processing **routine** with Azure **Databricks** by applying a custom data model. All of these are steps in a data pipeline|
 |61|Data flow in an analytical env||<img src="https://i.imgur.com/9rbPD9D.png">|
-|62|data analysts|Often, these models are called **data cubes** because they demonstate a particular subject (called a **fact**) in various perspectives (called **dimensions**), thus allowing data analysts to consume this data & drill down to understand the details of the information.<br/><br/>Models are defined by the quantitative values that you want to analyze or report (known as **measures**) & the entities by which you want to aggregate them & are based on connec data tables (known as **dimensions**)|
+|62|data analysts|Often, these models are called **data cubes** because they demonstate a particular subject (called a **fact**) in various perspectives (called **dimensions**), thus allowing data analysts to consume this data & drill down to understand the details of the information.<br/><br/>Models are defined by the quantitative values that you want to analyze or report (known as **measures**) & the entities by which you want to aggregate them & are based on connec data tables (known as **dimensions**)<br/><br/>The model is conceptually a **multidimensional** structure known as a **cube**|
 |63|Data ingestion type|<ins>Batch processing</ins><br/><br/><ins>Stream processing</ins>|
 |64|Azure Synapse Pipelines||<img src="https://i.imgur.com/hgCCtIG.png">|
 |65|Data warehouse|
