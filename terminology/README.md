@@ -76,3 +76,4 @@
 |69|pgAdmin|
 |70|SQL language categories||<img src="https://i.imgur.com/3UAXZjd.png">|
 |71|Notebook||<img src="https://i.imgur.com/030vaZV.png">|
+|72|Azure Cosmos DB|The format that Azure Cosmos DB can configure are as follows:<br/>* Documents<br/>* Graphs<br/>* Key-valu table|<img src="https://i.imgur.com/FybEOqL.png">|
