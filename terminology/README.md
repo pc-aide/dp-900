@@ -71,3 +71,4 @@
 |64|Azure Synapse Pipelines||<img src="https://i.imgur.com/hgCCtIG.png">|
 |65|Data warehouse|
 |66|Data Lake|<ins>Spark</ins><br/><br/><ins>Hadoop</ins>
+|67|Delta Lake|
