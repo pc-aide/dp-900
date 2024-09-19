@@ -24,7 +24,7 @@
 |17|Azure Databricks|
 |18|Azure Data Factory|
 |19|Azure File Sync|
-|20|Cassandra API|
+|20|Cassandra API|one of the most widely used **open source** projects in the world|
 |21|Gremlin API|
 |22|Azure HDInsight|
 |23|MongoDB API|
