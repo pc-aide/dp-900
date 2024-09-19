@@ -64,3 +64,4 @@
 |57|document database||<img src="https://i.imgur.com/SYQdVFs.png">|
 |58|column family database|<ins>Cassandra</ins><br/><br/><ins>HBase</ins>|<img src="https://i.imgur.com/hKOQJvx.png">|
 |59|microservices|Modern software architecture (microservices)|
+|60|data pipeline|
