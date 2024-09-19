@@ -31,3 +31,4 @@
 |24|OCR|Optical Character Recognition|
 |25|STT|Speech-to-Text|
 |26|KPIs|Key Performance Indicators|
+|27|SLA|Service-Level Agreement|
