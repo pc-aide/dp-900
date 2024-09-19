@@ -34,7 +34,7 @@
 |27|Azure Analysis Services|
 |28|data types||<img src="https://i.imgur.com/PkCsvSR.png">|
 |29|ETL||<img src="https://i.imgur.com/lB45r9y.png">|
-|30|ELT||<img src="https://i.imgur.com/lRKSOpl.png">|
+|30|ELT|the **data** will be copied in its **raw format** to the **data lake**, & then modeling **routine** are performed so that this data is prepared for **consumption**|<img src="https://i.imgur.com/lRKSOpl.png">|
 |31|Data Pipeline|
 |32|Microsoft Fabric|SaaS|
 |33|Batch data|Data ingestion is the process of **copying operational data** from data sources to organize it in an **analytical database**.<br/><br/>When batching the data, the operation is offline|Batch processing vs Streaming processing:<br/><img src="https://raw.githubusercontent.com/pc-aide/dp-900/main/terminology/batch%20prcessing%20vs%20stream%20processing.png">|
