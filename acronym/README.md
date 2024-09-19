@@ -29,4 +29,5 @@
 |22|ANSI|American National Standards Institute|
 |23|RDBMSs|Relational Database Management Systems|
 |24|OCR|Optical Character Recognition|
-|STT|Speech-to-Text|
+|25|STT|Speech-to-Text|
+|26|KPIs|Key Performance Indicators|
