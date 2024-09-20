@@ -35,3 +35,4 @@
 |28|TCO|Total Cost of Ownership|
 |29|HDFS|Hadoop Distributed File System (Hadoop)|
 |30|SSIS|Server Integration Services|
+|31|MLOps|Machine Learning Operations|
