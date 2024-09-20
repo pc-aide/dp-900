@@ -33,3 +33,4 @@
 |26|KPIs|Key Performance Indicators|
 |27|SLA|Service-Level Agreement|
 |28|TCO|Total Cost of Ownership|
+|29|HDFS|Hadoop Distributed File System (Hadoop)|
