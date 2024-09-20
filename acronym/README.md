@@ -32,3 +32,4 @@
 |25|STT|Speech-to-Text|
 |26|KPIs|Key Performance Indicators|
 |27|SLA|Service-Level Agreement|
+|28|TCO|Total Cost of Ownership|
