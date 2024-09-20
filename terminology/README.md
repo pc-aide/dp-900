@@ -80,3 +80,4 @@
 |73|Azure Stream Analytics||<img src="https://i.imgur.com/mUzCZrD.png">|
 |74|Azure Synapse Studio||<img src="https://i.imgur.com/YvZ2IBX.png">|
 |75|Azure Synapse Link|
+|76|Power BI Report Builder|
