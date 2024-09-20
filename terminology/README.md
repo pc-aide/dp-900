@@ -21,7 +21,7 @@
 |14|azure data lake storage gen2|To configure Azure Blob storage as **Azure Data Lake** Storage, we **need to activate the Hierarchical Namespace** feature on the Azure blob sotrage configuration page|
 |15|storage account||options:<br/><img src="https://i.imgur.com/bp1A4bv.png"><br/>flowchart of the security features:<br/><img src="https://i.imgur.com/6cZFcpx.png"><br/>Scalability potential of azure storage account:<br/><img src="https://i.imgur.com/ZrJ5eKq.png"><br/> Hierarchical Namespace:<br/><img src="https://i.imgur.com/6gdGZmD.png">|
 |16|POSIX-compliant ACLs|
-|17|Azure Databricks|
+|17|Azure Databricks||<img src="https://i.imgur.com/uqf52Xl.png">|
 |18|Azure Data Factory|
 |19|Azure File Sync|
 |20|Cassandra API|one of the most widely used **open source** projects in the world|
