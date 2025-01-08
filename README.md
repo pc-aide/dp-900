@@ -1,29 +1,3 @@
 # dp-900
 
-https://i.imgur.com/Lzoxmrv.png
-https://i.imgur.com/LKT4jY9.png
-https://i.imgur.com/rkyQJr7.png
-https://i.imgur.com/GfaFw6F.png
-https://i.imgur.com/dnGXPmd.png
-https://i.imgur.com/vgaF63y.png
-https://i.imgur.com/m6Migyc.png
-https://i.imgur.com/ykQhKsf.png
-https://i.imgur.com/sZdUQ4C.png
-https://i.imgur.com/4ntW1Ua.png
-https://i.imgur.com/NSyMbaJ.png
-https://i.imgur.com/u2RcflD.png
-https://i.imgur.com/V9nRYZT.png
-https://i.imgur.com/02440aR.png
-https://i.imgur.com/EWIr3KM.png
-https://i.imgur.com/6rd8YFS.png
-https://i.imgur.com/TAawxXb.png
-https://i.imgur.com/PQQOzwW.png
-https://i.imgur.com/V790w0f.png
-https://i.imgur.com/h5mgXf6.png
-https://i.imgur.com/KBpTcTn.png
-https://i.imgur.com/tsWkG7n.png
-https://i.imgur.com/aNbuFxk.png
-https://i.imgur.com/bIlkOdP.png
-https://i.imgur.com/looeKYK.png
-https://i.imgur.com/xa03yy7.png
-https://i.imgur.com/O2nYCfo.png
+
