@@ -21,3 +21,5 @@ https://i.imgur.com/MkoW3rL.png
 https://i.imgur.com/S8WnBAT.png
 https://i.imgur.com/L62JtyU.png
 https://i.imgur.com/X5psPwE.png
+https://i.imgur.com/6shznY8.png
+https://i.imgur.com/pz6ll95.png
