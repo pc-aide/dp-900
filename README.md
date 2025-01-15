@@ -10,6 +10,9 @@ https://i.imgur.com/a4i9r29.png
 https://i.imgur.com/ApiaAZ0.png
 https://i.imgur.com/GvlkDVk.png
 
+https://i.imgur.com/twf200G.png 
+maven vs gradle which is better ?
+
 
 @rem
 @rem Copyright 2015 the original author or authors.
