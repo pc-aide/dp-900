@@ -2,17 +2,7 @@
 
 ---
 LLVM
-https://i.imgur.com/zOpdpDB.png
-https://i.imgur.com/99jzekY.png
-https://i.imgur.com/21S7Kst.png
-https://i.imgur.com/PCKyz8i.png
-https://i.imgur.com/WmOshaN.png
-https://i.imgur.com/h7jH71D.png
-https://i.imgur.com/X46ZLTV.png
-https://i.imgur.com/wqac12N.png
-https://i.imgur.com/U0oqHJH.png
-https://i.imgur.com/FfcOFik.png
-https://i.imgur.com/Iy4Ex2L.png
+https://i.imgur.com/o17d0xc.png
 
 ---
 msbuild.exe
