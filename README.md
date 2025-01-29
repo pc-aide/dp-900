@@ -1,10 +1,6 @@
 # dp-900
 
 ---
-dotpeek
-https://i.imgur.com/evKlrAq.png
-
----
 msbuild.exe
 https://i.imgur.com/Z2zOyoR.png
 https://i.imgur.com/5rgR71W.png
