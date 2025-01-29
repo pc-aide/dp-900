@@ -1,11 +1,6 @@
 # dp-900
 
 ---
-LLVM
-https://i.imgur.com/VNeaQlD.png
-https://i.imgur.com/wxRHvlB.png
-
----
 msbuild.exe
 https://i.imgur.com/Z2zOyoR.png
 https://i.imgur.com/5rgR71W.png
