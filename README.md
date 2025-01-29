@@ -3,11 +3,7 @@
 
 ---
 beyondCompare
-https://i.imgur.com/kLR2dB1.png
-https://i.imgur.com/90NkXRC.png
-https://i.imgur.com/D0XBtQA.png
-https://i.imgur.com/0S7hjrr.png
-https://i.imgur.com/xCT3SZZ.png
+https://i.imgur.com/ifdVBhD.png
 
 ---
 msbuild.exe
