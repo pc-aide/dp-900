@@ -1,5 +1,27 @@
 # dp-900
 
+------START-LICENSE-KEY------
+
+Registration_Name=facture . dufour @ gmail . com
+
+Company=fort
+
+Category=Enterprise
+
+Component=XML-Editor, XSLT-Debugger, Saxon-SA
+
+Version=27
+
+Number_of_Licenses=1
+
+Date=01-31-2025
+
+Trial=30
+
+SGN=MCwCFEwX0XNxF0+0X655p9W4A/ZJmamfAhQhOiqirSpmEid3PUAV2IL+k70jdQ\=\=
+
+
+-------END-LICENSE-KEY-------
 
 ---
 beyondCompare
