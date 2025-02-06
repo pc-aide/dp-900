@@ -1,10 +1,6 @@
 # dp-900
 
 ---
-beyondCompare
-https://i.imgur.com/ifdVBhD.png
-
----
 https://raw.githubusercontent.com/pc-aide/dp-900/refs/heads/main/README.md
 
 PropertyOfSoftwareIdentity : PropertyOfSoftwareIdentity
