@@ -5,6 +5,9 @@ beyondCompare
 https://i.imgur.com/ifdVBhD.png
 
 ---
+https://i.imgur.com/olX1SbL.png
+https://i.imgur.com/LaewWZV.png
+
 PropertyOfSoftwareIdentity : PropertyOfSoftwareIdentity
 FastPackageReference       : hklm32\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5451d67a-bba3-400d-9
                              705-96fb24f27192}
