@@ -1,21 +1,6 @@
 # dp-900
 
 ---
-iceCap
-https://i.imgur.com/Rbec5AB.png
-https://i.imgur.com/wPZgKUl.png
-https://i.imgur.com/jY5qK0H.png
-https://i.imgur.com/9ZsyayY.png
-https://i.imgur.com/lN4fl2H.png
-https://i.imgur.com/JUrl2QZ.png
-https://i.imgur.com/Obbukln.png
-https://i.imgur.com/daCXgH6.png
-https://i.imgur.com/Tq8VtUf.png
-https://i.imgur.com/0VvKekV.png
-https://i.imgur.com/QtDEDVr.png
-
-
----
 https://i.imgur.com/aAi6jyy.png
 https://i.imgur.com/8oknZQZ.png
 https://i.imgur.com/madDztP.png
