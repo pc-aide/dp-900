@@ -46,6 +46,7 @@ Oui, il y a des frais fixes à payer pour la soumission d’une demande d’auto
 Selon la page « Tarifs » de la CPTAQ, les frais pour le dépôt d’une demande d’autorisation sont actuellement de :
 
 347 $ 
+https://www.cptaq.gouv.qc.ca/tarifs
 st-hyacinthe.ca
 +14
 cptaq.gouv.qc.ca
