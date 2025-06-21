@@ -18,7 +18,23 @@ demander une autorisation (usage non agricole, aliénation, lotissement, inclusi
 
 faire reconnaître un droit ou obtenir une décision formelle
 
+la différence essentielle entre les deux façons de remplir la demande d’autorisation / demande introductive d’instance à la CPTAQ. Voici une explication claire :
 
+📄 Formulaire PDF public (téléchargé sur le site de la CPTAQ)
+✅ Tu imprimes et remplis à la main ou sur ton ordinateur.
+✅ Tu dois toi-même transmettre ta demande à ta municipalité.
+✅ La municipalité complète sa partie (résolution, commentaires), signe et te retourne ou transmet directement le tout à la CPTAQ.
+✅ Tu dois suivre les étapes administratives et t’assurer que tout est envoyé correctement (par la poste ou par courriel selon le cas).
+
+👉 Responsabilité manuelle : tu gères le dépôt, les copies et l’envoi.
+
+💻 Formulaire via l’espace client en ligne
+✅ Tu remplis le formulaire directement dans ton espace sécurisé.
+✅ La plateforme t’aide à compléter les sections (ex. menus déroulants, validations automatiques).
+✅ Une fois soumis, la municipalité reçoit la demande automatiquement via le système (tu n’as pas à imprimer ni envoyer par la poste).
+✅ Tu peux suivre l’avancement de ta demande dans ton espace client.
+
+👉 Responsabilité réduite : le système gère la transmission aux bonnes instances.
 
 
 <img src="https://i.imgur.com/FLZTj2Z.png">
