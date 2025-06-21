@@ -38,3 +38,27 @@ la différence essentielle entre les deux façons de remplir la demande d’auto
 
 
 <img src="https://i.imgur.com/FLZTj2Z.png">
+
+
+Oui, il y a des frais fixes à payer pour la soumission d’une demande d’autorisation (demande introductive d’instance) à la CPTAQ, même via l’espace client.
+
+💰 Montant des frais officiels
+Selon la page « Tarifs » de la CPTAQ, les frais pour le dépôt d’une demande d’autorisation sont actuellement de :
+
+347 $ 
+st-hyacinthe.ca
++14
+cptaq.gouv.qc.ca
++14
+cptaq.gouv.qc.ca
++14
+
+Ces frais sont mis à jour annuellement (en janvier) 
+cptaq.gouv.qc.ca
++3
+cptaq.gouv.qc.ca
++3
+cptaq.gouv.qc.ca
++3
+.
+
