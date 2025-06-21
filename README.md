@@ -4,3 +4,6 @@ Oui, tout à fait : dans le contexte de la CPTAQ, une demande d’autorisation
 
 https://www.cptaq.gouv.qc.ca/fileadmin/autorisation/formulaire-demande-autorisation-lptaa.pdf
 
+https://www.cptaq.gouv.qc.ca/espace-en-ligne/formulaires/formulaire-lptaa
+
+<img src="https://i.imgur.com/FLZTj2Z.png">
