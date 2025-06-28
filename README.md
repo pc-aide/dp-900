@@ -64,3 +64,5 @@ cptaq.gouv.qc.ca
 .
 
 https://appli.foncier.gouv.qc.ca/Infolot/CarteInteractive/Bureau?g=1c444dc6-8e52-46b0-9dcf-2916473dbd73
+
+<img src="https://i.imgur.com/Wl04oBE.jpeg">
